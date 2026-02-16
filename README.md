@@ -35,3 +35,11 @@ Repo → Settings → Pages
 ### 5. Done 🎉
 Your app will be live at:
 https://<username>.github.io/sitecore-changelog-reels/
+
+## Automation Details
+
+- Changelog updates run every 12 hours via GitHub Actions
+- AI summaries are generated **only for new items**
+- Existing summaries are reused to save cost
+- `meta.json` tracks last update time
+- Failures trigger GitHub Action alerts

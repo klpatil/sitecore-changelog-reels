@@ -27,3 +27,9 @@ jobs:
           git add docs/changelog.json
           git commit -m "Update changelog (AI summaries)" || echo "No changes"
           git push
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Changelog update failed"
+

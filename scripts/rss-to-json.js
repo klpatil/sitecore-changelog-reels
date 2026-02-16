@@ -7,13 +7,36 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-const feed = await parser.parseURL(
-  "https://developers.sitecore.com/changelog/rss"
+const RSS_URL = "https://developers.sitecore.com/changelog/rss";
+const OUTPUT = "docs/changelog.json";
+const META = "docs/meta.json";
+
+// Load existing changelog (if any)
+let existing = [];
+if (fs.existsSync(OUTPUT)) {
+  existing = JSON.parse(fs.readFileSync(OUTPUT));
+}
+
+// Index existing items by link
+const existingMap = Object.fromEntries(
+  existing.map(i => [i.link, i])
 );
 
-const items = [];
+const feed = await parser.parseURL(RSS_URL);
 
-for (const item of feed.items.slice(0, 25)) {
+const results = [];
+let aiCalls = 0;
+
+for (const item of feed.items.slice(0, 30)) {
+  // Already summarized → reuse
+  if (existingMap[item.link]) {
+    results.push(existingMap[item.link]);
+    continue;
+  }
+
+  // New item → AI summary
+  aiCalls++;
+
   const prompt = `
 Summarize this Sitecore changelog update in 2 short lines:
 1. Summary
@@ -32,7 +55,7 @@ Description: ${item.contentSnippet}
     .split("\n")
     .filter(Boolean);
 
-  items.push({
+  results.push({
     date: item.pubDate,
     product: item.categories?.[0] || "Sitecore",
     title: item.title,
@@ -42,7 +65,23 @@ Description: ${item.contentSnippet}
   });
 }
 
+// Sort newest first
+results.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+// Save changelog
+fs.writeFileSync(OUTPUT, JSON.stringify(results, null, 2));
+
+// Save meta info
 fs.writeFileSync(
-  "docs/changelog.json",
-  JSON.stringify(items, null, 2)
+  META,
+  JSON.stringify(
+    {
+      lastUpdated: new Date().toISOString(),
+      aiCalls
+    },
+    null,
+    2
+  )
 );
+
+console.log(`AI calls this run: ${aiCalls}`);

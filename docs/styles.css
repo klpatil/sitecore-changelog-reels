@@ -24,3 +24,13 @@
 .card {
   padding-top: 110px;
 }
+
+.last-updated {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.5;
+  z-index: 10;
+}

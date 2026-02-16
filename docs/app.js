@@ -12,6 +12,7 @@ localStorage.setItem(LAST_VISIT, Date.now());
 let allItems = [];
 let bookmarks = JSON.parse(localStorage.getItem(BOOKMARKS) || "[]");
 
+
 fetch("./changelog.json")
   .then(res => res.json())
   .then(data => {
@@ -121,3 +122,12 @@ function render(items) {
 }
 
 window.toggleBookmark = toggleBookmark;
+
+
+fetch("./meta.json")
+  .then(res => res.json())
+  .then(meta => {
+    const el = document.getElementById("lastUpdated");
+    const date = new Date(meta.lastUpdated);
+    el.textContent = `Last updated: ${date.toLocaleString()}`;
+  });
