@@ -9,33 +9,40 @@ let changelog = [];
 let bookmarks = JSON.parse(localStorage.getItem("bookmarks") || "{}");
 
 function getAiIcon() {
-  return `<span class="ai-icon">🤖</span>`;
+    return `<span class="ai-icon">🤖</span>`;
 }
 
 function toggleBookmark(id) {
-  bookmarks[id] = !bookmarks[id];
-  localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
-  render();
+    bookmarks[id] = !bookmarks[id];
+    localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+    render();
 }
 
+// Expose function globally for inline onclick handlers
+window.toggleBookmark = toggleBookmark;
+
 async function fetchChangelog() {
-  try {
-    const res = await fetch(RSS_URL);
-    changelog = await res.json();
-    render();
-    metaEl.textContent = "Last updated: " + new Date().toLocaleString();
-  } catch (err) {
-    metaEl.textContent = "❌ Failed to load changelog";
-    console.error(err);
-  }
+    try {
+        const res = await fetch(RSS_URL);
+        changelog = await res.json();
+        render();
+        metaEl.textContent = "Last updated: " + new Date().toLocaleString();
+    } catch (err) {
+        metaEl.textContent = "❌ Failed to load changelog";
+        console.error(err);
+    }
 }
 
 function render() {
-  feedEl.innerHTML = "";
-  for (let item of changelog) {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
+    feedEl.innerHTML = "";
+    for (let item of changelog) {
+        const card = document.createElement("div");
+        card.className = "card";
+        card.innerHTML = `
+    <!-- Default image at top of card -->
+      <div class="card-image">
+        <img src="https://placehold.co/600x400?text=Smart+Sitecore+Changelog" alt="Changelog image">
+      </div>
       <div class="overlay-top">
         <span class="product">${item.product}</span>
         <span class="date">${new Date(item.date).toLocaleDateString()}</span>
@@ -52,8 +59,8 @@ function render() {
         <div class="open-link" onclick="window.open('${item.link}','_blank')">🔗</div>
       </div>
     `;
-    feedEl.appendChild(card);
-  }
+        feedEl.appendChild(card);
+    }
 }
 
 fetchChangelog();

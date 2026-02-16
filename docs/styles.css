@@ -6,7 +6,7 @@ html, body {
   padding: 0;
   height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background-color: whitesmoke;
+  background-color: whitesmoke; /* updated from black */
   overflow-x: hidden;
 }
 
@@ -22,18 +22,19 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(0,0,0,0.9);
+  background: rgba(255,255,255,0.95);
   padding: 10px 16px;
   display: flex;
   gap: 10px;
   align-items: center;
   z-index: 10;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 select {
-  background: #111827;
-  color: white;
-  border: 1px solid #334155;
+  background: #f3f4f6;
+  color: #111827;
+  border: 1px solid #d1d5db;
   padding: 8px 12px;
   border-radius: 8px;
   font-size: 14px;
@@ -87,9 +88,10 @@ select {
   flex-direction: column;
   justify-content: flex-end;
   padding: 20px;
-  background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, #000 100%);
-  color: #fff;
+  background: linear-gradient(180deg, rgba(255,255,255,0.6) 0%, whitesmoke 100%);
+  color: #111827;
   box-sizing: border-box;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 /* ===============================
@@ -117,7 +119,7 @@ select {
    Title, Summary, Impact
    =============================== */
 .card .overlay-bottom {
-  margin-bottom: 80px; /* space for buttons */
+  margin-bottom: 140px; /* leave space for floating buttons */
 }
 
 .card .title {
@@ -145,14 +147,15 @@ select {
    =============================== */
 .card .buttons {
   position: absolute;
-  right: 20px;
-  bottom: 40px;
+  right: 16px;
+  bottom: 100px; /* bring heart icon up on mobile */
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: center;
   font-size: 22px;
   cursor: pointer;
+  z-index: 10;
 }
 
 .card .buttons div:hover {
@@ -183,8 +186,27 @@ select {
     font-size: 14px;
   }
   .card .buttons {
-    right: 16px;
-    bottom: 30px;
+    right: 12px;
+    bottom: 90px; /* higher on small screens */
     font-size: 20px;
   }
+  .card .overlay-bottom {
+    margin-bottom: 120px;
+  }
+}
+
+/* Card image at top */
+.card .card-image {
+  width: 100%;
+  height: 400px;           /* height of the image container */
+  overflow: hidden;
+  border-radius: 12px;     /* rounded corners */
+  margin-bottom: 10px;     /* spacing below image */
+}
+
+.card .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* crop image nicely */
+  display: block;
 }
