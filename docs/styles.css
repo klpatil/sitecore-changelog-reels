@@ -145,17 +145,18 @@ select {
 /* ===============================
    Floating Buttons
    =============================== */
+/* Floating Buttons - fixed relative to viewport bottom */
 .card .buttons {
-  position: absolute;
+  position: fixed;      /* change from absolute -> fixed */
   right: 16px;
-  bottom: 100px; /* bring heart icon up on mobile */
+  bottom: 120px;        /* height above bottom hint */
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: center;
   font-size: 22px;
   cursor: pointer;
-  z-index: 10;
+  z-index: 20;          /* ensure above everything */
 }
 
 .card .buttons div:hover {
@@ -187,11 +188,11 @@ select {
   }
   .card .buttons {
     right: 12px;
-    bottom: 90px; /* higher on small screens */
+    bottom: 100px; /* higher on small screens */
     font-size: 20px;
   }
   .card .overlay-bottom {
-    margin-bottom: 120px;
+    margin-bottom: 60px;
   }
 }
 
