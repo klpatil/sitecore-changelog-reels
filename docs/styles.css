@@ -16,7 +16,7 @@ a {
 }
 
 /* ===============================
-   Topbar + Filters + Toggle
+   Topbar + Filters
    =============================== */
 .topbar {
   position: fixed;
@@ -37,18 +37,6 @@ select {
   padding: 8px 12px;
   border-radius: 8px;
   font-size: 14px;
-}
-
-.toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 14px;
-  opacity: 0.85;
-}
-
-.toggle input {
-  accent-color: #22c55e;
 }
 
 /* ===============================
@@ -147,12 +135,9 @@ select {
   gap: 6px;
 }
 
-/* AI icon */
+/* Emoji AI icon */
 .ai-icon {
-  width: 20px;
-  height: 20px;
-  vertical-align: middle;
-  color: #38bdf8;
+  font-size: 18px;
 }
 
 /* ===============================
