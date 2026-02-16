@@ -12,10 +12,26 @@ const OUTPUT = "docs/changelog.json";
 const META = "docs/meta.json";
 
 // Load existing changelog (if any)
-let existing = [];
+/*let existing = [];
 if (fs.existsSync(OUTPUT)) {
   existing = JSON.parse(fs.readFileSync(OUTPUT));
+}*/
+
+
+let existing = [];
+
+if (fs.existsSync(OUTPUT)) {
+  try {
+    const raw = fs.readFileSync(OUTPUT, "utf-8").trim();
+    if (raw) {
+      existing = JSON.parse(raw);
+    }
+  } catch (e) {
+    console.warn("⚠️ Failed to parse existing changelog.json, recreating it");
+    existing = [];
+  }
 }
+
 
 // Index existing items by link
 const existingMap = Object.fromEntries(
