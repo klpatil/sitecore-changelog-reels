@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sitecore Changelog Reels</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header class="topbar"> 
+<header class="topbar">
   <select id="monthFilter"></select>
   <select id="productFilter">
     <option value="all">All Products</option>
   </select>
+  <label class="toggle">
+    <input type="checkbox" id="summaryToggle" />
+    <span>AI Summary</span>
+  </label>
 </header>
 
 <div id="lastUpdated" class="last-updated"></div>
-
 <div id="toast" class="toast"></div>
 
 <div id="feed"></div>
 <div class="hint">Swipe ↑ ↓</div>
 
-<script src="app.js"></script>
+<script type="module" src="app.js"></script>
 </body>
 </html>

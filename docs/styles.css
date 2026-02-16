@@ -1,20 +1,18 @@
 /* ===============================
-   General Styles
+   Global
    =============================== */
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background-color: #0b1220;
-  color: #ffffff;
+  background-color: #000;
+  overflow-x: hidden;
 }
 
 a {
   color: #38bdf8;
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 /* ===============================
@@ -24,7 +22,7 @@ a:hover {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(11, 18, 32, 0.95);
+  background: rgba(0,0,0,0.9);
   padding: 10px 16px;
   display: flex;
   gap: 10px;
@@ -33,7 +31,7 @@ a:hover {
 }
 
 select {
-  background: #020617;
+  background: #111827;
   color: white;
   border: 1px solid #334155;
   padding: 8px 12px;
@@ -71,7 +69,7 @@ select {
    =============================== */
 .toast {
   position: fixed;
-  top: 70px;
+  top: 80px;
   left: 50%;
   transform: translateX(-50%);
   background: #22c55e;
@@ -81,90 +79,110 @@ select {
   font-weight: 600;
   display: none;
   z-index: 20;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
 /* ===============================
-   Feed Cards
+   Feed Container (TikTok style)
    =============================== */
 #feed {
-  padding-top: 110px; /* space for fixed topbar + last updated */
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 .card {
-  background: #111827;
-  border-radius: 12px;
-  padding: 16px;
-  margin: 0 16px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  scroll-snap-align: start;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, #000 100%);
+  color: #fff;
+  box-sizing: border-box;
 }
 
-.card .product {
-  font-weight: 600;
+/* ===============================
+   Overlay Info
+   =============================== */
+.card .overlay-top {
+  position: absolute;
+  top: 20px;
+  left: 20px;
   font-size: 14px;
-  margin-bottom: 4px;
+  opacity: 0.7;
 }
 
-.card .new {
-  background: #facc15;
-  color: black;
-  padding: 4px 8px;
-  border-radius: 6px;
-  font-size: 12px;
-  margin-left: 8px;
+.card .overlay-top .product {
+  font-weight: 600;
 }
 
-.card .date {
+.card .overlay-top .date {
+  display: block;
+  margin-top: 2px;
   font-size: 12px;
-  opacity: 0.6;
-  margin-bottom: 8px;
+}
+
+/* ===============================
+   Title, Summary, Impact
+   =============================== */
+.card .overlay-bottom {
+  margin-bottom: 80px; /* space for buttons */
 }
 
 .card .title {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
-.card .summary {
-  font-size: 14px;
-  margin-bottom: 6px;
-  color: #d1d5db;
-}
-
+.card .summary,
 .card .impact {
-  font-size: 13px;
-  color: #fbbf24;
-  margin-bottom: 8px;
+  font-size: 16px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
-.card .open-link {
-  display: inline-block;
-  font-size: 13px;
-  margin-top: 8px;
-  font-weight: 600;
+/* AI icon */
+.ai-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
   color: #38bdf8;
 }
 
 /* ===============================
-   Bookmark Heart
+   Floating Buttons
    =============================== */
-.bookmark {
+.card .buttons {
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
   font-size: 22px;
   cursor: pointer;
-  margin-top: 12px;
-  display: inline-block;
+}
+
+.card .buttons div:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
 }
 
 /* ===============================
    Scroll Hint
    =============================== */
 .hint {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
   text-align: center;
-  margin: 24px 0;
   font-size: 14px;
   opacity: 0.5;
 }
@@ -173,18 +191,15 @@ select {
    Responsive
    =============================== */
 @media (max-width: 600px) {
-  .topbar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
+  .card .title {
+    font-size: 20px;
   }
-
-  #feed {
-    padding-top: 130px;
+  .card .summary, .card .impact {
+    font-size: 14px;
   }
-
-  .card {
-    margin: 0 12px;
-    padding: 12px;
+  .card .buttons {
+    right: 16px;
+    bottom: 30px;
+    font-size: 20px;
   }
 }
