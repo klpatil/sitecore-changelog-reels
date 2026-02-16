@@ -46,7 +46,7 @@ function render() {
         <div class="summary">${getAiIcon()}${item.summary}</div>
         <div class="impact">${getAiIcon()}${item.impact}</div>
       </div>
-
+      
       <div class="buttons">
         <div class="bookmark" onclick="toggleBookmark('${item.id}')">${bookmarks[item.id] ? "❤️" : "🤍"}</div>
         <div class="open-link" onclick="window.open('${item.link}','_blank')">🔗</div>
