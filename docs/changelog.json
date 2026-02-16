@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "date": "Wed, 11 Feb 2026 00:00:00 GMT",
+    "product": "Sitecore",
+    "title": "Introducing search experiences in SitecoreAI",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/11022026/introducing-search-experiences-in-sitecoreai",
+    "summary": "1. SitecoreAI introduces a new configurable search component that allows users to create dynamic search experiences on their websites.  ",
+    "impact": "2. This feature enhances content discoverability and presentation, enabling better user engagement and more tailored search results."
+  },
+  {
+    "date": "Wed, 11 Feb 2026 00:00:00 GMT",
+    "product": "Sitecore",
+    "title": "New features for Conversion optimization",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/11022026/new-features-for-conversion-optimization",
+    "summary": "1. Sitecore's latest update introduces enhancements for conversion optimization, including tailored search experiences, audience targeting through affinities, and new analytics dashboards.  ",
+    "impact": "2. These features empower organizations to deliver personalized content, improve user engagement, and gain actionable insights into visitor behavior, ultimately boosting business outcomes."
+  },
+  {
+    "date": "Wed, 11 Feb 2026 00:00:00 GMT",
+    "product": "Sitecore",
+    "title": "Understand your audience with identity resolution and affinities",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/11022026/understand-your-audience-with-identity-resolution-and-affinities",
+    "summary": "1. SitecoreAI introduces identity resolution and affinities, enabling better audience understanding and more personalized content delivery.  ",
+    "impact": "2. This matters because it allows organizations to engage visitors more effectively by leveraging real-time insights into their preferences and behaviors."
+  },
+  {
+    "date": "Wed, 11 Feb 2026 00:00:00 GMT",
+    "product": "Sitecore",
+    "title": "New Top affinity condition for Personalize audiences",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/11022026/new-top-affinity-condition-for-personalize-audiences",
+    "summary": "1. Sitecore introduces a new Top affinity condition in the AI Page builder for more precise audience targeting based on visitors' strongest interests.  ",
+    "impact": "2. This enhancement allows campaigns to activate content when visitor intent is highest, improving engagement through focused and relevant targeting."
+  },
+  {
+    "date": "Wed, 11 Feb 2026 00:00:00 GMT",
+    "product": "Sitecore",
+    "title": "Marketplace - Support for the Search Configuration REST API and other API changes in the SDK",
+    "link": "https://developers.sitecore.com//changelog/marketplace/11022026/marketplace---support-for-the-search-configuration-rest-api-and-other-api-changes-in-the-sdk",
+    "summary": "1. Sitecore has added support for the Search Configuration REST API in Marketplace SDK version 0.4, enabling apps to manage search source configurations effectively.  ",
+    "impact": "2. This update enhances the functionality of SitecoreAI APIs, improving how content is indexed and searched, which is crucial for optimizing user search experiences."
+  },
+  {
+    "date": "Tue, 10 Feb 2026 00:00:00 GMT",
+    "product": "Sitecore",
+    "title": "SitecoreAI base image 1.6.1376 release",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/10022026/sitecoreai-base-image-1.6.1376-release",
+    "summary": "1. SitecoreAI base image 1.6.1376 introduces Allowed Renderings at the Styles parent item level, simplifying style management and ensuring consistency across components while also addressing various bugs.  ",
+    "impact": "2. This update enhances user experience by reducing configuration effort and minimizing errors, thereby improving the overall reliability and performance of the Sitecore platform."
+  },
+  {
+    "date": "Fri, 06 Feb 2026 00:00:00 GMT",
+    "product": "Sitecore",
+    "title": "Upcoming change to CI Hub asset upload configuration",
+    "link": "https://developers.sitecore.com//changelog/content-hub/06022026/upcoming-change-to-ci-hub-asset-upload-configuration",
+    "summary": "1. Sitecore is transitioning asset upload configuration from AssetUploadConfiguration to CiHubAssetUploadConfiguration and will copy current settings to the new entity.  ",
+    "impact": "2. This change is important to prevent disruption in asset uploads, but users must update both configurations during the transition period to ensure proper functionality."
+  },
+  {
+    "date": "Fri, 06 Feb 2026 00:00:00 GMT",
+    "product": "Sitecore",
+    "title": "Introducing the Sitecore Content Hub DAM Connector for Contentful",
+    "link": "https://developers.sitecore.com//changelog/content-hub/06022026/introducing-the-sitecore-content-hub-dam-connector-for-contentful",
+    "summary": "1. Sitecore has launched the Content Hub DAM Connector for Contentful, allowing seamless access to approved assets from Content Hub within Contentful.  ",
+    "impact": "2. This integration enhances content management by centralizing assets, improving efficiency for authors and editors in their workflow."
+  },
+  {
+    "date": "Fri, 06 Feb 2026 00:00:00 GMT",
+    "product": "Sitecore",
+    "title": "In-app notifications are now available for more events",
+    "link": "https://developers.sitecore.com//changelog/content-hub/06022026/in-app-notifications-are-now-available-for-more-events",
+    "summary": "1. In-app notifications are now expanded to include events such as completed/failed background jobs and task-related updates for greater flexibility.  ",
+    "impact": "2. This enhancement allows users to customize notification preferences, enabling real-time awareness while facilitating later reviews of important events."
+  },
+  {
+    "date": "Fri, 06 Feb 2026 00:00:00 GMT",
+    "product": "Sitecore",
+    "title": "AI-assisted smart brief generation is now generally available",
+    "link": "https://developers.sitecore.com//changelog/content-hub/06022026/ai-assisted-smart-brief-generation-is-now-generally-available",
+    "summary": "1. The AI-assisted smart brief feature has transitioned from beta to general availability, enabling marketers to efficiently create briefs with AI support.  ",
+    "impact": "2. This update enhances productivity by allowing for quicker brief creation and improved content relevance, streamlining the marketing process."
+  }
+]
