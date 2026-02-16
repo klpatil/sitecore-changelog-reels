@@ -2,7 +2,14 @@ import Parser from "rss-parser";
 import fs from "fs";
 import OpenAI from "openai";
 
-const parser = new Parser();
+//const parser = new Parser();
+
+const parser = new Parser({
+  headers: {
+    "User-Agent": "Mozilla/5.0 (Sitecore Changelog Reels)"
+  }
+});
+
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
@@ -38,7 +45,17 @@ const existingMap = Object.fromEntries(
   existing.map(i => [i.link, i])
 );
 
-const feed = await parser.parseURL(RSS_URL);
+//const feed = await parser.parseURL(RSS_URL);
+
+let feed;
+
+try {
+  feed = await parser.parseURL(RSS_URL);
+} catch (err) {
+  console.error("❌ Failed to fetch RSS:", err.message);
+  process.exit(1); // fail fast so notification triggers
+}
+
 
 const results = [];
 let aiCalls = 0;
