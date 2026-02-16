@@ -83,7 +83,7 @@ select {
 .card {
   scroll-snap-align: start;
   position: relative;
-  height: 92vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
