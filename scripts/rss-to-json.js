@@ -14,7 +14,7 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-const RSS_URL = "https://developers.sitecore.com/changelog/rss";
+const RSS_URL = "https://developers.sitecore.com/changelog/rss.xml";
 const OUTPUT = "docs/changelog.json";
 const META = "docs/meta.json";
 
