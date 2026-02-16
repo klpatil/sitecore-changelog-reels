@@ -8,8 +8,6 @@ A reels-style, mobile-first changelog viewer for Sitecore updates.
 - Vertical swipe UI (TikTok-style)
 - 🔔 New updates toast
 - ❤️ Bookmark favorites
-- 📊 Product filtering
-- 📅 Month-based navigation
 - 🔗 Open original changelog
 - 100% static (GitHub Pages)
 
