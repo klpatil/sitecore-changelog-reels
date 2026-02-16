@@ -1,4 +1,74 @@
-/* Toast */
+/* ===============================
+   General Styles
+   =============================== */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #0b1220;
+  color: #ffffff;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   Topbar + Filters + Toggle
+   =============================== */
+.topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(11, 18, 32, 0.95);
+  padding: 10px 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 10;
+}
+
+select {
+  background: #020617;
+  color: white;
+  border: 1px solid #334155;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.toggle input {
+  accent-color: #22c55e;
+}
+
+/* ===============================
+   Last Updated
+   =============================== */
+.last-updated {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+/* ===============================
+   Toast Notification
+   =============================== */
 .toast {
   position: fixed;
   top: 70px;
@@ -11,26 +81,110 @@
   font-weight: 600;
   display: none;
   z-index: 20;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Bookmark */
+/* ===============================
+   Feed Cards
+   =============================== */
+#feed {
+  padding-top: 110px; /* space for fixed topbar + last updated */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background: #111827;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 0 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.card .product {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.card .new {
+  background: #facc15;
+  color: black;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.card .date {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+
+.card .title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.card .summary {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #d1d5db;
+}
+
+.card .impact {
+  font-size: 13px;
+  color: #fbbf24;
+  margin-bottom: 8px;
+}
+
+.card .open-link {
+  display: inline-block;
+  font-size: 13px;
+  margin-top: 8px;
+  font-weight: 600;
+  color: #38bdf8;
+}
+
+/* ===============================
+   Bookmark Heart
+   =============================== */
 .bookmark {
   font-size: 22px;
   cursor: pointer;
-  margin-top: 16px;
+  margin-top: 12px;
+  display: inline-block;
 }
 
-/* Month filter spacing */
-.card {
-  padding-top: 110px;
-}
-
-.last-updated {
-  position: fixed;
-  top: 50px;
-  width: 100%;
+/* ===============================
+   Scroll Hint
+   =============================== */
+.hint {
   text-align: center;
-  font-size: 12px;
+  margin: 24px 0;
+  font-size: 14px;
   opacity: 0.5;
-  z-index: 10;
+}
+
+/* ===============================
+   Responsive
+   =============================== */
+@media (max-width: 600px) {
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  #feed {
+    padding-top: 130px;
+  }
+
+  .card {
+    margin: 0 12px;
+    padding: 12px;
+  }
 }
