@@ -1,6 +1,6 @@
 // TikTok-style Changelog Reels
 
-const RSS_URL = "docs/changelog.json"; // fetch pre-generated JSON for GitHub Pages
+const RSS_URL = "./changelog.json"; // fetch pre-generated JSON for GitHub Pages
 const feedEl = document.getElementById("feed");
 const metaEl = document.getElementById("lastUpdated");
 const toastEl = document.getElementById("toast");
