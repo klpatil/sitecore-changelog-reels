@@ -2,42 +2,80 @@
 
 const RSS_URL = "./changelog.json"; // fetch pre-generated JSON for GitHub Pages
 const feedEl = document.getElementById("feed");
-const metaEl = document.getElementById("lastUpdated");
-const toastEl = document.getElementById("toast");
+const bookmarkBtn = document.getElementById("bookmarkBtn");
+const openLinkBtn = document.getElementById("openLinkBtn");
 
 let changelog = [];
 let bookmarks = JSON.parse(localStorage.getItem("bookmarks") || "{}");
+let currentVisibleId = null; // Track currently visible card
 
 function getAiIcon() {
     return `<span class="ai-icon">🤖</span>`;
 }
 
-function toggleBookmark(id) {
-    bookmarks[id] = !bookmarks[id];
-    localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
-    render();
+// Generate a unique ID from link (since JSON doesn't have id field)
+function generateId(item) {
+    // Use the last part of the link (the unique slug) as the ID
+    if (item.link) {
+        const parts = item.link.split('/');
+        return parts[parts.length - 1]; // e.g. "introducing-search-experiences-in-sitecoreai"
+    }
+    return item.title;
 }
 
-// Expose function globally for inline onclick handlers
-window.toggleBookmark = toggleBookmark;
+function updateBookmarkButton() {
+    if (currentVisibleId !== null) {
+        bookmarkBtn.textContent = bookmarks[currentVisibleId] ? "❤️" : "🤍";
+    }
+}
+
+function toggleBookmark() {
+    if (currentVisibleId === null) return;
+    bookmarks[currentVisibleId] = !bookmarks[currentVisibleId];
+    localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+    updateBookmarkButton();
+}
+
+function openCurrentLink() {
+    if (currentVisibleId === null) return;
+    const item = changelog.find(c => generateId(c) === currentVisibleId);
+    if (item && item.link) {
+        window.open(item.link, '_blank');
+    }
+}
+
+// Attach click handlers to floating buttons
+bookmarkBtn.addEventListener('click', toggleBookmark);
+openLinkBtn.addEventListener('click', openCurrentLink);
 
 async function fetchChangelog() {
     try {
         const res = await fetch(RSS_URL);
         changelog = await res.json();
         render();
-        metaEl.textContent = "Last updated: " + new Date().toLocaleString();
     } catch (err) {
-        metaEl.textContent = "❌ Failed to load changelog";
-        console.error(err);
+        console.error("Failed to load changelog:", err);
     }
 }
 
 function render() {
     feedEl.innerHTML = "";
+    
+    // IntersectionObserver to track which card is visible
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                currentVisibleId = entry.target.dataset.id;
+                updateBookmarkButton();
+            }
+        });
+    }, { threshold: 0.5 });
+
     for (let item of changelog) {
         const card = document.createElement("div");
         card.className = "card";
+        const itemId = generateId(item);
+        card.dataset.id = itemId; // Store generated ID for observer
         card.innerHTML = `
     <!-- Default image at top of card -->
       <div class="card-image">
@@ -53,13 +91,15 @@ function render() {
         <div class="summary">${getAiIcon()}${item.summary}</div>
         <div class="impact">${getAiIcon()}${item.impact}</div>
       </div>
-      
-      <div class="buttons">
-        <div class="bookmark" onclick="toggleBookmark('${item.id}')">${bookmarks[item.id] ? "❤️" : "🤍"}</div>
-        <div class="open-link" onclick="window.open('${item.link}','_blank')">🔗</div>
-      </div>
     `;
         feedEl.appendChild(card);
+        observer.observe(card); // Observe each card
+    }
+    
+    // Set initial visible card
+    if (changelog.length > 0) {
+        currentVisibleId = generateId(changelog[0]);
+        updateBookmarkButton();
     }
 }
 

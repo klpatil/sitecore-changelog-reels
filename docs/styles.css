@@ -143,23 +143,22 @@ select {
 }
 
 /* ===============================
-   Floating Buttons
+   Floating Buttons (single fixed bar)
    =============================== */
-/* Floating Buttons - fixed relative to viewport bottom */
-.card .buttons {
-  position: fixed;      /* change from absolute -> fixed */
+.floating-buttons {
+  position: fixed;
   right: 16px;
-  bottom: 120px;        /* height above bottom hint */
+  bottom: 120px;
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: center;
   font-size: 22px;
   cursor: pointer;
-  z-index: 20;          /* ensure above everything */
+  z-index: 20;
 }
 
-.card .buttons div:hover {
+.floating-buttons div:hover {
   transform: scale(1.2);
   transition: transform 0.2s ease;
 }
@@ -186,7 +185,7 @@ select {
   .card .summary, .card .impact {
     font-size: 14px;
   }
-  .card .buttons {
+  .floating-buttons {
     right: 12px;
     bottom: 100px; /* higher on small screens */
     font-size: 20px;
