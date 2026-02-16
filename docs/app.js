@@ -79,7 +79,8 @@ function render() {
         card.innerHTML = `
     <!-- Default image at top of card -->
       <div class="card-image">
-        <img src="https://placehold.co/600x400?text=Smart+Sitecore+Changelog" alt="Changelog image">
+        <img src="https://placehold.co/600x400/334155/F8FAFC?text=AI-Powered+Summary&font=roboto" />
+        <!-- https://delivery-sitecore.sitecorecontenthub.cloud/api/public/content/5514f6f44c964cf5a14a3149d86ac629?v=b8024c77 -->
       </div>
       <div class="overlay-top">
         <span class="product">${item.product}</span>

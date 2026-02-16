@@ -90,7 +90,7 @@ Description: ${item.contentSnippet}
 
   results.push({
     date: item.pubDate,
-    product: item.categories?.[0] || "Sitecore",
+    product: item.categories?.[0] || "SitecoreAI",
     title: item.title,
     link: item.link,
     summary: lines[0],
