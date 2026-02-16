@@ -1,0 +1,26 @@
+/* Toast */
+.toast {
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #22c55e;
+  color: #052e16;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 600;
+  display: none;
+  z-index: 20;
+}
+
+/* Bookmark */
+.bookmark {
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+/* Month filter spacing */
+.card {
+  padding-top: 110px;
+}
