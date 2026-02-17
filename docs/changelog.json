@@ -4,8 +4,8 @@
     "product": "SitecoreAI",
     "title": "Page builder usability improvements and solved issues",
     "link": "https://developers.sitecore.com//changelog/sitecoreai/16022026/page-builder-usability-improvements-and-solved-issues",
-    "summary": "1. The Sitecore Page builder update enhances usability by displaying the number of available page versions per language and resolves various issues related to permissions, item duplication, and usage counts.  ",
-    "impact": "2. These improvements streamline content management, ensuring accurate version tracking and user access while maintaining consistency in displaying content item usage."
+    "summary": "1. The Page builder update enhances usability by displaying available page versions per language and resolves several issues related to permissions and item duplication.  ",
+    "impact": "2. These improvements streamline content management for users, ensuring accurate item representation and effective collaboration by maintaining consistent permissions."
   },
   {
     "date": "Wed, 11 Feb 2026 00:00:00 GMT",
@@ -78,5 +78,13 @@
     "link": "https://developers.sitecore.com//changelog/content-hub/06022026/in-app-notifications-are-now-available-for-more-events",
     "summary": "1. In-app notifications are now expanded to include events such as completed/failed background jobs and task-related updates for greater flexibility.  ",
     "impact": "2. This enhancement allows users to customize notification preferences, enabling real-time awareness while facilitating later reviews of important events."
+  },
+  {
+    "date": "Fri, 06 Feb 2026 00:00:00 GMT",
+    "product": "Sitecore",
+    "title": "AI-assisted smart brief generation is now generally available",
+    "link": "https://developers.sitecore.com//changelog/content-hub/06022026/ai-assisted-smart-brief-generation-is-now-generally-available",
+    "summary": "1. The AI-assisted smart brief feature has transitioned from beta to general availability, enabling marketers to efficiently create briefs with AI support.  ",
+    "impact": "2. This update enhances productivity by allowing for quicker brief creation and improved content relevance, streamlining the marketing process."
   }
 ]
