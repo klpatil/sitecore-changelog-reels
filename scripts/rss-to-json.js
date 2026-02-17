@@ -98,6 +98,14 @@ Description: ${item.contentSnippet}
   });
 }
 
+// Merge with old entries that are no longer in the RSS feed
+const currentLinks = new Set(results.map(r => r.link));
+for (const oldEntry of existing) {
+  if (!currentLinks.has(oldEntry.link)) {
+    results.push(oldEntry);
+  }
+}
+
 // Sort newest first
 results.sort((a, b) => new Date(b.date) - new Date(a.date));
 
