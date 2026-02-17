@@ -1,5 +1,13 @@
 [
   {
+    "date": "Mon, 16 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Page builder usability improvements and solved issues",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/16022026/page-builder-usability-improvements-and-solved-issues",
+    "summary": "1. The Page builder update enhances usability by displaying available page versions per language and resolves several issues related to permissions and item duplication.  ",
+    "impact": "2. These improvements streamline content management for users, ensuring accurate item representation and effective collaboration by maintaining consistent permissions."
+  },
+  {
     "date": "Wed, 11 Feb 2026 00:00:00 GMT",
     "product": "Sitecore",
     "title": "Introducing search experiences in SitecoreAI",
