@@ -9,6 +9,14 @@
   },
   {
     "date": "Wed, 11 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub for February 11, 2026",
+    "link": "https://developers.sitecore.com//changelog/content-hub/11022026/resolved-issue-in-content-hub-for-february-11%2c-2026",
+    "summary": "1. Sitecore improved stability and performance of Content Hub search indexing in the February 11, 2026 update.  ",
+    "impact": "2. This enhancement ensures faster and more reliable content retrieval, benefiting overall user experience and efficiency."
+  },
+  {
+    "date": "Wed, 11 Feb 2026 00:00:00 GMT",
     "product": "Sitecore",
     "title": "Introducing search experiences in SitecoreAI",
     "link": "https://developers.sitecore.com//changelog/sitecoreai/11022026/introducing-search-experiences-in-sitecoreai",
@@ -54,6 +62,14 @@
     "link": "https://developers.sitecore.com//changelog/sitecoreai/10022026/sitecoreai-base-image-1.6.1376-release",
     "summary": "1. SitecoreAI base image 1.6.1376 introduces Allowed Renderings at the Styles parent item level, simplifying style management and ensuring consistency across components while also addressing various bugs.  ",
     "impact": "2. This update enhances user experience by reducing configuration effort and minimizing errors, thereby improving the overall reliability and performance of the Sitecore platform."
+  },
+  {
+    "date": "Mon, 09 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub for February 9, 2026",
+    "link": "https://developers.sitecore.com//changelog/content-hub/09022026/resolved-issue-in-content-hub-for-february-9%2c-2026",
+    "summary": "1. Sitecore has improved the stability and performance of search indexing in Content Hub as of February 9, 2026.  ",
+    "impact": "2. This update enhances user experience by ensuring faster and more reliable search functionality within the Content Hub."
   },
   {
     "date": "Fri, 06 Feb 2026 00:00:00 GMT",
