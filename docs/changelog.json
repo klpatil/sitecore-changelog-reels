@@ -1,5 +1,13 @@
 [
   {
+    "date": "Wed, 18 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Enhanced visibility and control for page items and publishing",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/18022026/enhanced-visibility-and-control-for-page-items-and-publishing",
+    "summary": "1. Sitecore has enhanced the content tree by allowing users to view and manage referenced items connected to pages, along with offering flexible publishing options.  ",
+    "impact": "2. This update improves content oversight and auditing processes while providing greater control over the publishing of related items, streamlining workflow management for users."
+  },
+  {
     "date": "Mon, 16 Feb 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Page builder usability improvements and solved issues",
