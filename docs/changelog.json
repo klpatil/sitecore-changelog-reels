@@ -1,5 +1,13 @@
 [
   {
+    "date": "Thu, 19 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Saving AI generated variants is now easier",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/19022026/saving-ai-generated-variants-is-now-easier",
+    "summary": "1. Sitecore has streamlined the process of saving AI-generated variants by allowing users to install them directly into their repository using the Sitecore CLI.  ",
+    "impact": "2. This enhancement simplifies and speeds up the workflow, making it more efficient for users to reuse AI-generated content in SitecoreAI."
+  },
+  {
     "date": "Wed, 18 Feb 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Enhanced visibility and control for page items and publishing",
