@@ -1,5 +1,29 @@
 [
   {
+    "date": "Fri, 20 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Introducing the external asset picker for content",
+    "link": "https://developers.sitecore.com//changelog/content-hub/20022026/introducing-the-external-asset-picker-for-content",
+    "summary": "1. Sitecore has introduced an external asset picker for the rich text editor, allowing users to insert media from external digital asset management systems (DAM) like Bynder.  ",
+    "impact": "2. This enhancement improves content flexibility and accessibility by enabling users to reference and manage assets from various external sources, streamlining content creation processes."
+  },
+  {
+    "date": "Fri, 20 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Analytics is now generally available",
+    "link": "https://developers.sitecore.com//changelog/content-hub/20022026/analytics-is-now-generally-available",
+    "summary": "1. The Analytics feature has transitioned to general availability, offering insights through the System insights and Content effectiveness pages to track entity performance and link engagement.  ",
+    "impact": "2. This update allows users to gain valuable metrics on content performance and entity management, enhancing data-driven decisions and optimizing user engagement strategies."
+  },
+  {
+    "date": "Fri, 20 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for 20 Feb 2026",
+    "link": "https://developers.sitecore.com//changelog/content-hub/20022026/resolved-issues-in-content-hub-for-20-feb-2026",
+    "summary": "1. Sitecore's Content Hub update resolves several issues, including enhancements to validation logic, mass edit functionality, and interface display settings.  ",
+    "impact": "2. These fixes improve user experience by ensuring accurate data handling, a consistent layout, and proper rendering, ultimately leading to more efficient content management."
+  },
+  {
     "date": "Thu, 19 Feb 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Saving AI generated variants is now easier",
