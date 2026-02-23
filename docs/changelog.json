@@ -1,5 +1,13 @@
 [
   {
+    "date": "Mon, 23 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Introducing support for AI skills APIs in Marketplace apps",
+    "link": "https://developers.sitecore.com//changelog/marketplace/23022026/introducing-support-for-ai-skills-apis-in-marketplace-apps",
+    "summary": "**Summary:** Marketplace apps now support the Brand Review REST API, enabling AI-powered content evaluation for on-brand media through SitecoreAI data. ",
+    "impact": "**Why it matters:** This feature enhances content consistency for authors, allowing them to ensure compliance with brand guidelines efficiently, ultimately improving the quality of digital assets."
+  },
+  {
     "date": "Fri, 20 Feb 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Introducing the external asset picker for content",
