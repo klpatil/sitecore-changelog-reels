@@ -1,5 +1,13 @@
 [
   {
+    "date": "Tue, 24 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Dedicated web search tool now available in Brand Assistant",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/24022026/dedicated-web-search-tool-now-available-in-brand-assistant",
+    "summary": "1. Sitecore's Brand Assistant now features a dedicated web search tool for quick access to targeted information within conversations.",
+    "impact": "2. This enhancement improves user efficiency by allowing focused searches without navigating away from the chat interface, streamlining content creation and management."
+  },
+  {
     "date": "Mon, 23 Feb 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Introducing support for AI skills APIs in Marketplace apps",
