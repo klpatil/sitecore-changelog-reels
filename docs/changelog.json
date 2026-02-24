@@ -8,6 +8,14 @@
     "impact": "**Why it matters:** This feature enhances content consistency for authors, allowing them to ensure compliance with brand guidelines efficiently, ultimately improving the quality of digital assets."
   },
   {
+    "date": "Mon, 23 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image 1.6.1405 release",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/23022026/sitecoreai-base-image-1.6.1405-release",
+    "summary": "1. The SitecoreAI base image 1.6.1405 release addresses various issues, including personalization in Edge Preview and media file migration errors.  ",
+    "impact": "2. This update enhances system performance and reliability, ensuring improved user experience and smoother project transitions."
+  },
+  {
     "date": "Fri, 20 Feb 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Introducing the external asset picker for content",
