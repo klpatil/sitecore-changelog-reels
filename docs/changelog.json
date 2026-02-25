@@ -1,5 +1,13 @@
 [
   {
+    "date": "Wed, 25 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Content SDK 1.5.0 adds support for Design Studio in App Router–based applications",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/25022026/content-sdk-1.5.0-adds-support-for-design-studio-in-app-router%e2%80%93based-applications",
+    "summary": "1. Content SDK 1.5.0 enhances Design Studio support in App Router applications, introducing a secure preview for server components.  ",
+    "impact": "2. This update is significant as it resolves recent rendering issues for AI-generated variants, improving the development experience in Design Studio."
+  },
+  {
     "date": "Tue, 24 Feb 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "JSS 22.11 released with Preview support in Pages for Angular applications",
