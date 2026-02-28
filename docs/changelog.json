@@ -1,5 +1,13 @@
 [
   {
+    "date": "Fri, 27 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Strengthening Agentic studio with configuration, collaboration, and control",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/27022026/strengthening-agentic-studio-with-configuration%2c-collaboration%2c-and-control",
+    "summary": "1. The February update of Agentic studio enhances usability with improved signals, chat functionalities, collaborative spaces, and agent management capabilities, focusing on clearer workflows and better collaboration tools.  ",
+    "impact": "2. These improvements are vital for increasing transparency, reliability, and efficiency in daily operations, ultimately empowering teams to work more effectively and manage workflows with greater clarity."
+  },
+  {
     "date": "Wed, 25 Feb 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Content SDK 1.5.0 adds support for Design Studio in App Router–based applications",
