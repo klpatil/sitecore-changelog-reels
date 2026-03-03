@@ -1,5 +1,13 @@
 [
   {
+    "date": "Tue, 03 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Page builder improvements and solved issues",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/03032026/page-builder-improvements-and-solved-issues",
+    "summary": "1. The Page builder update enhances usability with new features for easier path access and language editing, alongside several issue resolutions for improved functionality.  ",
+    "impact": "2. These improvements streamline the editing process for content editors, minimizing the need to switch between tools and ensuring better content presentation and resource loading."
+  },
+  {
     "date": "Fri, 27 Feb 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Strengthening Agentic studio with configuration, collaboration, and control",
@@ -26,14 +34,6 @@
   {
     "date": "Tue, 24 Feb 2026 00:00:00 GMT",
     "product": "SitecoreAI",
-    "title": "Resolved issue in Content Hub for February 24, 2026",
-    "link": "https://developers.sitecore.com//changelog/content-hub/24022026/resolved-issue-in-content-hub-for-february-24%2c-2026",
-    "summary": "1. Sitecore resolved an issue in Content Hub related to forced script cache updates upon relation changes (MONE-55868).  ",
-    "impact": "2. This update enhances the system's efficiency and reliability, ensuring that changes are promptly reflected in the script cache."
-  },
-  {
-    "date": "Tue, 24 Feb 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
     "title": "Dedicated web search tool now available in Brand Assistant",
     "link": "https://developers.sitecore.com//changelog/sitecoreai/24022026/dedicated-web-search-tool-now-available-in-brand-assistant",
     "summary": "1. Sitecore's Brand Assistant now features a dedicated web search tool for quick access to targeted information within conversations.",
@@ -48,12 +48,28 @@
     "impact": "2. This enhancement empowers users with greater control over content generation, ensuring that outputs are relevant and consistent across different contexts and audiences."
   },
   {
+    "date": "Tue, 24 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub for February 24, 2026",
+    "link": "https://developers.sitecore.com//changelog/content-hub/24022026/resolved-issue-in-content-hub-for-february-24%2c-2026",
+    "summary": "1. Sitecore resolved an issue in Content Hub related to forced script cache updates upon relation changes (MONE-55868).  ",
+    "impact": "2. This update enhances the system's efficiency and reliability, ensuring that changes are promptly reflected in the script cache."
+  },
+  {
     "date": "Mon, 23 Feb 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Introducing support for AI skills APIs in Marketplace apps",
     "link": "https://developers.sitecore.com//changelog/marketplace/23022026/introducing-support-for-ai-skills-apis-in-marketplace-apps",
     "summary": "**Summary:** Marketplace apps now support the Brand Review REST API, enabling AI-powered content evaluation for on-brand media through SitecoreAI data. ",
     "impact": "**Why it matters:** This feature enhances content consistency for authors, allowing them to ensure compliance with brand guidelines efficiently, ultimately improving the quality of digital assets."
+  },
+  {
+    "date": "Mon, 23 Feb 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub for February 23, 2026",
+    "link": "https://developers.sitecore.com//changelog/content-hub/23022026/resolved-issue-in-content-hub-for-february-23%2c-2026",
+    "summary": "1. The update resolves a script cache issue in Content Hub related to relation changes.  ",
+    "impact": "2. This fix ensures smoother content management and improved performance when updating relationships in Sitecore."
   },
   {
     "date": "Mon, 23 Feb 2026 00:00:00 GMT",
