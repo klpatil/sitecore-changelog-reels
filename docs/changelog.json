@@ -1,5 +1,13 @@
 [
   {
+    "date": "Mon, 09 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Build agentic Marketplace apps by integrating the Marketer MCP",
+    "link": "https://developers.sitecore.com//changelog/marketplace/09032026/build-agentic-marketplace-apps-by-integrating-the-marketer-mcp",
+    "summary": "1. Summary: Developers can now integrate the Sitecore Marketer MCP into full-stack Marketplace apps, allowing marketers to execute marketing actions via natural language prompts.  ",
+    "impact": "2. Why it matters: This feature empowers marketers to efficiently manage and create content using intuitive language-based interactions, enhancing productivity and creativity in content creation."
+  },
+  {
     "date": "Fri, 06 Mar 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Import/Export V2 now includes M.Project.Block definition changes in packages",
