@@ -1,5 +1,13 @@
 [
   {
+    "date": "Thu, 12 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New Marketer MCP tools for brand kits and brief management\n",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/12032026/new-marketer-mcp-tools-for-brand-kits-and-brief-management%0a",
+    "summary": "**Summary:** Sitecore's new Marketer MCP tools streamline campaign brief creation by guiding marketers through a conversational flow, integrating brand kits and brief management. ",
+    "impact": "**Why it matters:** This enhancement improves efficiency and consistency in campaign planning, enabling faster movement from ideas to actionable briefs while leveraging AI capabilities."
+  },
+  {
     "date": "Tue, 10 Mar 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Changes to Message Sender Configuration",
