@@ -1,5 +1,13 @@
 [
   {
+    "date": "Fri, 13 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "PDF file upload support now available in Brand Assistant",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/13032026/pdf-file-upload-support-now-available-in-brand-assistant",
+    "summary": "1. Brand Assistant now supports PDF file uploads alongside images for enhanced content analysis and generation.  ",
+    "impact": "2. This update broadens users' ability to leverage diverse source documents, improving workflows in general queries, brainstorming, and brief generation."
+  },
+  {
     "date": "Thu, 12 Mar 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "New Marketer MCP tools for brand kits and brief management\n",
