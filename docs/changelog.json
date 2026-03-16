@@ -1,5 +1,21 @@
 [
   {
+    "date": "Mon, 16 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Page builder solved issues",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/16032026/page-builder-solved-issues",
+    "summary": "1. The Page builder update addresses issues with the rich text editor's formatting, eliminates duplicate search results in Editor mode, and clarifies language and field-level fallback values.  ",
+    "impact": "2. These enhancements improve usability for content authors, streamline content management, and ensure clearer communication of content origins."
+  },
+  {
+    "date": "Mon, 16 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Unpublish pages to quickly take content offline",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/16032026/unpublish-pages-to-quickly-take-content-offline",
+    "summary": "1. Sitecore's Page builder now features an Unpublish option, allowing authors to swiftly take pages offline without deletion while preserving all content versions for future use.  ",
+    "impact": "2. This enhancement streamlines content management, enabling quicker campaign adjustments and reducing the risk of unintended publishing actions."
+  },
+  {
     "date": "Fri, 13 Mar 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "PDF file upload support now available in Brand Assistant",
