@@ -1,5 +1,13 @@
 [
   {
+    "date": "Tue, 17 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Enhanced security for public Marketplace apps",
+    "link": "https://developers.sitecore.com//changelog/marketplace/17032026/enhanced-security-for-public-marketplace-apps",
+    "summary": "1. Sitecore has introduced enhanced security measures that allow the suspension of public Marketplace apps if they violate policy, with immediate removal from the Marketplace and all associated organizations.  ",
+    "impact": "2. This change is significant as it strengthens security and compliance for users and organizations, promoting safer app usage and accountability among developers."
+  },
+  {
     "date": "Mon, 16 Mar 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Faster and more accessible site management in Page builder",
