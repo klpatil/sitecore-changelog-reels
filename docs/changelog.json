@@ -8,6 +8,14 @@
     "impact": "2. This change is significant as it strengthens security and compliance for users and organizations, promoting safer app usage and accountability among developers."
   },
   {
+    "date": "Tue, 17 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Sitecore AI base image 1.6.1437 (hotfix)",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/17032026/sitecore-ai-base-image-1.6.1437-(hotfix)",
+    "summary": "1. The Sitecore AI base image 1.6.1437 hotfix resolves issues with datasource workflow actions and reverts changes that caused unnecessary publishing of all pages.  ",
+    "impact": "2. This update is crucial as it restores proper functionality in the Content Editor, ensuring efficient content management without unintended page publications."
+  },
+  {
     "date": "Mon, 16 Mar 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Faster and more accessible site management in Page builder",
