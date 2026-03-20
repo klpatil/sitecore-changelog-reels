@@ -1,5 +1,13 @@
 [
   {
+    "date": "Thu, 19 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Content SDK v2.0 released - Next.js 16, agent skills, events, tracking, personalization, and more",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/19032026/content-sdk-v2.0-released---next.js-16%2c-agent-skills%2c-events%2c-tracking%2c-personalization%2c-and-more",
+    "summary": "1. Sitecore's Content SDK v2.0 introduces enhancements like AI integration, a new search package, and upgraded frameworks for better performance and developer experience.  ",
+    "impact": "2. These updates empower developers to create more efficient, data-driven applications while simplifying analytics and search functionalities, ultimately enhancing user personalization and engagement."
+  },
+  {
     "date": "Tue, 17 Mar 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Enhanced security for public Marketplace apps",
@@ -38,6 +46,14 @@
     "link": "https://developers.sitecore.com//changelog/sitecoreai/16032026/page-builder-solved-issues",
     "summary": "1. The Page builder update addresses issues with the rich text editor's formatting, eliminates duplicate search results in Editor mode, and clarifies language and field-level fallback values.  ",
     "impact": "2. These enhancements improve usability for content authors, streamline content management, and ensure clearer communication of content origins."
+  },
+  {
+    "date": "Fri, 13 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Solved issues in Design Studio",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/13032026/solved-issues-in-design-studio",
+    "summary": "1. The latest Design Studio update resolves issues regarding decimal precision, image visibility in incognito mode, component variant display, and improves reCAPTCHA functionality in Sitecore Forms.  ",
+    "impact": "2. These fixes enhance user experience and ensure consistent data presentation, reducing errors and improving form submission reliability."
   },
   {
     "date": "Fri, 13 Mar 2026 00:00:00 GMT",
