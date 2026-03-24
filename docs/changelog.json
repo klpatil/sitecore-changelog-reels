@@ -48,6 +48,14 @@
     "impact": "2. These updates empower developers to create more efficient, data-driven applications while simplifying analytics and search functionalities, ultimately enhancing user personalization and engagement."
   },
   {
+    "date": "Wed, 18 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Solved issues in Design Studio",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/18032026/solved-issues-in-design-studio",
+    "summary": "1. The latest Design Studio release resolves issues related to component generation prompts and duplicates in chat history.  ",
+    "impact": "2. These fixes enhance user experience by ensuring efficient functionality and reducing confusion in AI interactions."
+  },
+  {
     "date": "Tue, 17 Mar 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Enhanced security for public Marketplace apps",
