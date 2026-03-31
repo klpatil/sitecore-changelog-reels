@@ -1,5 +1,29 @@
 [
   {
+    "date": "Tue, 31 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Introducing profiles",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/31032026/introducing-profiles",
+    "summary": "1. SitecoreAI now introduces Profiles, allowing users to explore site visitor data with detailed insights like heatmaps and session analytics.  ",
+    "impact": "2. This feature enhances audience understanding and personalization efforts by providing actionable insights from visitor data, aiding marketing analysts and administrators in optimizing customer journeys."
+  },
+  {
+    "date": "Tue, 31 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "JSS 22.12 released with Next.js 16, agent skills, and more",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/31032026/jss-22.12-released-with-next.js-16%2c-agent-skills%2c-and-more",
+    "summary": "1. JSS 22.12 introduces Next.js 16, agent skills, and significant updates including ESLint v9 and AI coding assistance, along with important bug fixes and breaking changes.  ",
+    "impact": "2. This release enhances functionality and modernizes the framework, making it essential for developers to follow upgrade guides for a smooth transition."
+  },
+  {
+    "date": "Tue, 31 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.6.1483",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/31032026/sitecoreai-base-image-release-1.6.1483",
+    "summary": "**Summary**: SitecoreAI base image 1.6.1483 optimizes memory usage, enhances CMP import performance, and improves cache clearing logging, addressing several defects and inefficiencies in prior versions.",
+    "impact": "**Why it matters**: These updates enhance overall system efficiency, reduce latency, and improve troubleshooting capabilities, leading to a more reliable and performant Sitecore experience for users."
+  },
+  {
     "date": "Mon, 30 Mar 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Marketer MCP tool name updates",
