@@ -2,10 +2,10 @@
   {
     "date": "Mon, 30 Mar 2026 00:00:00 GMT",
     "product": "SitecoreAI",
-    "title": "Marketer MCP tool name updates\n",
-    "link": "https://developers.sitecore.com//changelog/sitecoreai/30032026/marketer-mcp-tool-name-updates%0a",
-    "summary": "**Summary:** Sitecore has updated several Marketer MCP tool names to meet the 60-character limit, ensuring they remain accessible and functional across MCP environments.  ",
-    "impact": "**Why it matters:** These changes prevent potential errors from longer tool names being filtered out, ensuring reliable references and consistent usage in prompts."
+    "title": "Marketer MCP tool name updates",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/30032026/marketer-mcp-tool-name-updates",
+    "summary": "1. Sitecore has updated Marketer MCP tool names to 60 characters or fewer to enhance visibility and usability across MCP clients.  ",
+    "impact": "2. This change prevents potential errors from long names and ensures consistent referencing of tools in prompts, improving overall user experience."
   },
   {
     "date": "Mon, 30 Mar 2026 00:00:00 GMT",
@@ -14,6 +14,14 @@
     "link": "https://developers.sitecore.com//changelog/sitecoreai/30032026/more-customizable-agents%2c-spaces%2c-and-content-workflows",
     "summary": "1. The March release of Agentic Studio enhances customization and scalability of content workflows with improved agent functionality, enabling users to build and configure agents for complex tasks and datasets.  ",
     "impact": "2. This update matters as it empowers users to work more efficiently with content, facilitating bulk operations and integration of various tools and APIs, ultimately improving productivity and flexibility in content management."
+  },
+  {
+    "date": "Mon, 30 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Marketer MCP tool name updates\n",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/30032026/marketer-mcp-tool-name-updates%0a",
+    "summary": "**Summary:** Sitecore has updated several Marketer MCP tool names to meet the 60-character limit, ensuring they remain accessible and functional across MCP environments.  ",
+    "impact": "**Why it matters:** These changes prevent potential errors from longer tool names being filtered out, ensuring reliable references and consistent usage in prompts."
   },
   {
     "date": "Wed, 25 Mar 2026 00:00:00 GMT",
