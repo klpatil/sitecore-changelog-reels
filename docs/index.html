@@ -1,44 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Sitecore Changelog Reels</title>
-  <link rel="stylesheet" href="styles.css">
-  
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD80PPRRP8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VD80PPRRP8');
-</script>
-
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD80PPRRP8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VD80PPRRP8');
+  </script>
 </head>
 <body>
 
-<!-- <header class="topbar">
-  <select id="monthFilter"></select>
-  <select id="productFilter">
-    <option value="all">All Products</option>
-  </select>
-</header> -->
+  <!-- ── Top bar ── -->
+  <header id="topbar">
+    <div id="progress-bar"></div>
+    <div id="topbar-inner">
+      <!-- Mobile/tablet: horizontal filter pills -->
+      <nav id="product-filter">
+        <button class="filter-pill active" data-product="all">All</button>
+      </nav>
+      <span id="card-counter">— / —</span>
+    </div>
+  </header>
 
-<!-- <div id="lastUpdated" class="last-updated"></div> -->
-<!-- <div id="toast" class="toast"></div> -->
+  <!-- ── Desktop sidebar (hidden on mobile/tablet) ── -->
+  <aside id="sidebar">
+    <div class="sb-brand">
+      <strong class="sb-title">Sitecore<br>Reels</strong>
+      <p class="sb-tagline">Every scroll = value</p>
+    </div>
 
-<div id="feed"></div>
+    <div class="sb-divider"></div>
 
-<!-- Single fixed button bar -->
-<div id="floatingButtons" class="floating-buttons">
-  <div class="bookmark" id="bookmarkBtn">🤍</div>
-  <div class="open-link" id="openLinkBtn">🔗</div>
-</div>
+    <div class="sb-section">
+      <p class="sb-label">Categories</p>
+      <nav id="sidebar-filter"></nav>
+    </div>
 
-<!-- <div class="hint">Swipe ↑ ↓</div> -->
+    <div class="sb-section sb-section--push">
+      <p class="sb-label">Keyboard</p>
+      <div class="sb-keys">
+        <kbd class="sb-key">↑</kbd>
+        <kbd class="sb-key">↓</kbd>
+        <span class="sb-key-hint">to navigate</span>
+      </div>
+    </div>
+  </aside>
 
-<script type="module" src="app.js"></script>
+  <!-- ── App column ── -->
+  <div id="app">
+
+    <!-- Skeleton loader -->
+    <div id="skeleton">
+      <div class="sk-visual"></div>
+      <div class="sk-body">
+        <div class="sk-row">
+          <div class="sk sk-badge"></div>
+          <div class="sk sk-date"></div>
+        </div>
+        <div class="sk sk-title"></div>
+        <div class="sk sk-title sk-short"></div>
+        <div class="sk-block">
+          <div class="sk sk-tag"></div>
+          <div class="sk sk-line"></div>
+          <div class="sk sk-line sk-med"></div>
+        </div>
+        <div class="sk-block">
+          <div class="sk sk-tag"></div>
+          <div class="sk sk-line"></div>
+          <div class="sk sk-line sk-med"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main feed -->
+    <div id="feed" hidden></div>
+
+  </div>
+
+  <!-- ── Floating action buttons (mobile/tablet only) ── -->
+  <aside id="floatingButtons" class="fabs" hidden>
+
+    <button class="fab" id="bookmarkBtn" aria-label="Bookmark">
+      <svg class="fab-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+      </svg>
+      <span class="fab-lbl">Save</span>
+    </button>
+
+    <button class="fab" id="shareBtn" aria-label="Share">
+      <svg class="fab-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
+        <polyline points="16 6 12 2 8 6"/>
+        <line x1="12" y1="2" x2="12" y2="15"/>
+      </svg>
+      <span class="fab-lbl">Share</span>
+    </button>
+
+    <button class="fab" id="openLinkBtn" aria-label="Open article">
+      <svg class="fab-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+        <polyline points="15 3 21 3 21 9"/>
+        <line x1="10" y1="14" x2="21" y2="3"/>
+      </svg>
+      <span class="fab-lbl">Open</span>
+    </button>
+
+  </aside>
+
+  <!-- ── Toast ── -->
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <!-- ── Branding (mobile only) ── -->
+  <p id="branding">Every scroll = value</p>
+
+  <script type="module" src="app.js"></script>
 </body>
 </html>
