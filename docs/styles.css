@@ -21,10 +21,32 @@
   --fg2:     rgba(255,255,255,.5);
   --fg3:     rgba(255,255,255,.08);
   --ac:      #5C5CE0;
+
+  /* Semantic tokens (adapt to theme) */
+  --text-body:    rgba(255,255,255,.82);
+  --watermark:    rgba(255,255,255,.05);
+  --border-hover: rgba(255,255,255,.25);
+  --flank-bg:     #080808;
+
   --topbar-h: 44px;
   --col-w:    430px;
   --sb-w:     260px;
   --cx:       600px;
+}
+
+/* ── Light theme overrides ──────────────────── */
+[data-theme="light"] {
+  --bg:      #F5F5F5;
+  --bg2:     #FFFFFF;
+  --bg3:     #E2E2E2;
+  --fg:      #111111;
+  --fg2:     rgba(0,0,0,.5);
+  --fg3:     rgba(0,0,0,.06);
+
+  --text-body:    rgba(0,0,0,.82);
+  --watermark:    rgba(0,0,0,.04);
+  --border-hover: rgba(0,0,0,.2);
+  --flank-bg:     #EBEBEB;
 }
 
 /* ── Reset ─────────────────────────────── */
@@ -89,8 +111,34 @@ img    { display: block; }
   flex-shrink: 0;
   transition: color .15s, border-color .15s, background .15s;
 }
-.filter-pill:hover  { color: var(--fg); border-color: rgba(255,255,255,.25); }
+.filter-pill:hover  { color: var(--fg); border-color: var(--border-hover); }
 .filter-pill.active { background: var(--ac); border-color: var(--ac); color: var(--fg); }
+
+/* ── Theme toggle button */
+.theme-toggle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--fg2);
+  flex-shrink: 0;
+  transition: color .15s, background .15s;
+}
+.theme-toggle:hover {
+  color: var(--fg);
+  background: var(--fg3);
+}
+.theme-toggle svg {
+  width: 15px;
+  height: 15px;
+  pointer-events: none;
+}
+
+/* Sun shown in dark mode (to switch to light), moon shown in light mode (to switch to dark) */
+[data-theme="dark"]  .theme-toggle .icon-moon { display: none; }
+[data-theme="light"] .theme-toggle .icon-sun  { display: none; }
 
 /* ── Card counter */
 #card-counter {
@@ -226,7 +274,7 @@ img    { display: block; }
   justify-content: center;
   font-size: clamp(24px, 9vw, 52px);
   font-weight: 900;
-  color: rgba(255,255,255,.05);
+  color: var(--watermark);
   text-transform: uppercase;
   letter-spacing: .04em;
   pointer-events: none;
@@ -318,7 +366,7 @@ img    { display: block; }
 .info-text {
   font-size: 13px;
   line-height: 1.6;
-  color: rgba(255,255,255,.82);
+  color: var(--text-body);
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 4;
@@ -430,7 +478,8 @@ img    { display: block; }
   bottom: 8px;
   left: 14px;
   font-size: 11px;
-  color: rgba(255,255,255,.14);
+  color: var(--fg);
+  opacity: 0.28;
   pointer-events: none;
   white-space: nowrap;
   z-index: 10;
@@ -741,7 +790,7 @@ img    { display: block; }
    (dark flanks appear outside 1200px content)
 ══════════════════════════════════════════ */
 @media (min-width: 1440px) {
-  body { background: #080808; }
+  body { background: var(--flank-bg); }
   #sidebar { border-left: 1px solid var(--bg3); }
   #app     { border-right: 1px solid var(--bg3); }
 }
