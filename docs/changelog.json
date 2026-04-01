@@ -1,5 +1,14 @@
 [
   {
+    "date": "Wed, 01 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improvements and resolved issues in the Page builder",
+    "link": "https://developers.sitecore.com//changelog/sitecoreai/01042026/improvements-and-resolved-issues-in-the-page-builder",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/5e226c0e-a398-4391-9043-f58ccc790242?transform=true",
+    "summary": "1. The Page builder update enhances user experience with direct content item renaming, a quick link to SitecoreAI changelog, improved editing options, and faster creation from templates, alongside several fixes.  ",
+    "impact": "2. These improvements streamline content management for authors, enhance usability, and boost performance, ultimately leading to a more efficient workflow within Sitecore."
+  },
+  {
     "date": "Tue, 31 Mar 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Introducing profiles",
