@@ -18,19 +18,39 @@ let bookmarks     = JSON.parse(localStorage.getItem('sc-bookmarks') || '{}');
 let toastTimer    = null;
 let hintDismissed = false;
 
+// ── Theme ─────────────────────────────────────
+const THEME_KEY = 'sc-theme';
+
+function initTheme() {
+  // Already set by inline script in <head> — this is the JS-side source of truth
+  const saved = localStorage.getItem(THEME_KEY) || 'dark';
+  document.documentElement.dataset.theme = saved;
+}
+
+function toggleTheme() {
+  const html = document.documentElement;
+  const next = html.dataset.theme === 'dark' ? 'light' : 'dark';
+  html.dataset.theme = next;
+  localStorage.setItem(THEME_KEY, next);
+}
+
+// Run immediately so theme is set before any rendering
+initTheme();
+
 // ── DOM refs ──────────────────────────────────
 const $  = id => document.getElementById(id);
-const feedEl       = $('feed');
-const skeletonEl   = $('skeleton');
-const fabsEl       = $('floatingButtons');
-const bookmarkBtn  = $('bookmarkBtn');
-const shareBtn     = $('shareBtn');
-const openBtn      = $('openLinkBtn');
-const toastEl      = $('toast');
-const progressEl   = $('progress-bar');
-const counterEl    = $('card-counter');
-const filterNav    = $('product-filter');      // topbar (mobile)
-const sidebarFilter= $('sidebar-filter');      // sidebar (desktop)
+const feedEl        = $('feed');
+const skeletonEl    = $('skeleton');
+const fabsEl        = $('floatingButtons');
+const bookmarkBtn   = $('bookmarkBtn');
+const shareBtn      = $('shareBtn');
+const openBtn       = $('openLinkBtn');
+const toastEl       = $('toast');
+const progressEl    = $('progress-bar');
+const counterEl     = $('card-counter');
+const filterNav     = $('product-filter');      // topbar (mobile)
+const sidebarFilter = $('sidebar-filter');      // sidebar (desktop)
+const themeToggleBtn = $('themeToggle');
 
 // ─────────────────────────────────────────────
 //  Text cleaning
@@ -407,6 +427,11 @@ function activateFilter(slug) {
   observer.disconnect();
   render(changelog);
 }
+
+// ─────────────────────────────────────────────
+//  Theme toggle
+// ─────────────────────────────────────────────
+themeToggleBtn.addEventListener('click', toggleTheme);
 
 // ─────────────────────────────────────────────
 //  Mobile floating button events
