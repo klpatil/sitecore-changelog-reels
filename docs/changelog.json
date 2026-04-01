@@ -5,7 +5,8 @@
     "title": "Introducing profiles",
     "link": "https://developers.sitecore.com//changelog/sitecoreai/31032026/introducing-profiles",
     "summary": "1. SitecoreAI now introduces Profiles, allowing users to explore site visitor data with detailed insights like heatmaps and session analytics.  ",
-    "impact": "2. This feature enhances audience understanding and personalization efforts by providing actionable insights from visitor data, aiding marketing analysts and administrators in optimizing customer journeys."
+    "impact": "2. This feature enhances audience understanding and personalization efforts by providing actionable insights from visitor data, aiding marketing analysts and administrators in optimizing customer journeys.",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/0b3ab37e-4614-4754-b6f8-0ad82377bf66?transform=true"
   },
   {
     "date": "Tue, 31 Mar 2026 00:00:00 GMT",
@@ -29,7 +30,8 @@
     "title": "Marketer MCP tool name updates",
     "link": "https://developers.sitecore.com//changelog/sitecoreai/30032026/marketer-mcp-tool-name-updates",
     "summary": "1. Sitecore has updated Marketer MCP tool names to 60 characters or fewer to enhance visibility and usability across MCP clients.  ",
-    "impact": "2. This change prevents potential errors from long names and ensures consistent referencing of tools in prompts, improving overall user experience."
+    "impact": "2. This change prevents potential errors from long names and ensures consistent referencing of tools in prompts, improving overall user experience.",
+    "enclosure": null
   },
   {
     "date": "Mon, 30 Mar 2026 00:00:00 GMT",
@@ -53,7 +55,8 @@
     "title": "Major update to Sitecore documentation: new platform and improved experience",
     "link": "https://developers.sitecore.com//changelog/sitecoreai/25032026/major-update-to-sitecore-documentation%3a-new-platform-and-improved-experience",
     "summary": "1. Sitecore has launched a major update to its documentation, featuring a Markdown-based platform with enhanced viewing options and a modernized user interface.  ",
-    "impact": "2. This update significantly improves the documentation experience, offering flexibility for future AI integration and a more user-friendly navigation and reading environment."
+    "impact": "2. This update significantly improves the documentation experience, offering flexibility for future AI integration and a more user-friendly navigation and reading environment.",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/bab7e2aa-6224-4c13-9af5-47dca5bef07b?transform=true"
   },
   {
     "date": "Fri, 20 Mar 2026 00:00:00 GMT",
@@ -77,7 +80,8 @@
     "title": "The Downloads page has been migrated to React",
     "link": "https://developers.sitecore.com//changelog/content-hub/20032026/the-downloads-page-has-been-migrated-to-react",
     "summary": "1. The Downloads page has been updated to React for improved reliability and maintainability, with Targets and Status columns now displayed as tags.  ",
-    "impact": "2. This migration enhances user experience and simplifies future updates, ensuring better performance and easier management of download content."
+    "impact": "2. This migration enhances user experience and simplifies future updates, ensuring better performance and easier management of download content.",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/6f40cd70-02d4-4fce-94a6-192b8bd2c6a7?transform=true"
   },
   {
     "date": "Fri, 20 Mar 2026 00:00:00 GMT",

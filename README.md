@@ -34,6 +34,8 @@ Repo → Settings → Pages
 Your app will be live at:
 https://<username>.github.io/sitecore-changelog-reels/
 
+To run in local run "live-server"
+
 ## Automation Details
 
 - Changelog updates run every 12 hours via GitHub Actions

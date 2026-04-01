@@ -93,6 +93,7 @@ Description: ${item.contentSnippet}
     product: item.categories?.[0] || "SitecoreAI",
     title: item.title,
     link: item.link,
+    enclosure: item.enclosure?.url || null,
     summary: lines[0],
     impact: lines[1]
   });
