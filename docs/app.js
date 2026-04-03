@@ -11,12 +11,14 @@ const state = {
   currentItem:  null,
   currentIndex: 0,
   activeFilter: 'all',
+  searchQuery:  '',
 };
 
-let changelog     = [];
-let bookmarks     = JSON.parse(localStorage.getItem('sc-bookmarks') || '{}');
-let toastTimer    = null;
-let hintDismissed = false;
+let changelog      = [];
+let bookmarks      = JSON.parse(localStorage.getItem('sc-bookmarks') || '{}');
+let toastTimer     = null;
+let hintDismissed  = false;
+let searchDebounce = null;
 
 // ── Theme ─────────────────────────────────────
 const THEME_KEY = 'sc-theme';
@@ -180,6 +182,47 @@ function handleOpen(item) {
 }
 
 // ─────────────────────────────────────────────
+//  Full-Text Search  (Fuse.js — free, MIT)
+// ─────────────────────────────────────────────
+function initFuse() {
+  if (typeof Fuse === 'undefined') return;
+  window.fuse = new Fuse(changelog, {
+    keys: ['title'],
+    threshold: 0.3,
+    ignoreLocation: true,
+    minMatchCharLength: 2,
+  });
+}
+
+function handleSearch(query) {
+  clearTimeout(searchDebounce);
+  searchDebounce = setTimeout(() => {
+    state.searchQuery = query.trim();
+    // Sync the other input if it exists
+    const mobileInput  = $('search-input');
+    const desktopInput = $('sb-search-input');
+    if (mobileInput  && document.activeElement !== mobileInput)  mobileInput.value  = query;
+    if (desktopInput && document.activeElement !== desktopInput) desktopInput.value = query;
+    // Show / hide clear buttons
+    $('search-clear')?.toggleAttribute('hidden', !state.searchQuery);
+    $('sb-search-clear')?.toggleAttribute('hidden', !state.searchQuery);
+    render(changelog);
+  }, 250);
+}
+
+function clearSearch() {
+  state.searchQuery = '';
+  clearTimeout(searchDebounce);
+  const mobileInput  = $('search-input');
+  const desktopInput = $('sb-search-input');
+  if (mobileInput)  mobileInput.value  = '';
+  if (desktopInput) desktopInput.value = '';
+  $('search-clear')?.setAttribute('hidden', '');
+  $('sb-search-clear')?.setAttribute('hidden', '');
+  render(changelog);
+}
+
+// ─────────────────────────────────────────────
 //  SVG icons (shared between FABs and card actions)
 // ─────────────────────────────────────────────
 const SVG = {
@@ -325,15 +368,23 @@ function render(data) {
   observer.disconnect();
   feedEl.innerHTML = '';
 
-  const items = state.activeFilter === 'all'
-    ? data
-    : data.filter(item => getProduct(item.link).slug === state.activeFilter);
+  // Search takes priority; product filter narrows the result further
+  let items = (state.searchQuery && window.fuse)
+    ? window.fuse.search(state.searchQuery).map(r => r.item)
+    : data;
+
+  if (state.activeFilter !== 'all') {
+    items = items.filter(item => getProduct(item.link).slug === state.activeFilter);
+  }
 
   if (!items.length) {
+    const emptyMsg = state.searchQuery
+      ? `No results for "<strong>${state.searchQuery}</strong>"`
+      : 'No updates found for this filter.';
     feedEl.innerHTML = `
       <div class="empty-state">
         <p class="empty-title">No results</p>
-        <p>No updates found for this filter.</p>
+        <p>${emptyMsg}</p>
       </div>`;
     hideSkeleton();
     feedEl.hidden = false;
@@ -434,6 +485,94 @@ function activateFilter(slug) {
 themeToggleBtn.addEventListener('click', toggleTheme);
 
 // ─────────────────────────────────────────────
+//  Search events — mobile toggle + both inputs
+// ─────────────────────────────────────────────
+$('search-toggle')?.addEventListener('click', () => {
+  const isOpen = document.body.classList.toggle('search-open');
+  if (isOpen) {
+    $('search-input')?.focus();
+  } else {
+    clearSearch();
+  }
+});
+
+$('search-input')?.addEventListener('input', e => handleSearch(e.target.value));
+$('search-clear')?.addEventListener('click', () => {
+  clearSearch();
+  $('search-input')?.focus();
+});
+
+$('sb-search-input')?.addEventListener('input', e => handleSearch(e.target.value));
+$('sb-search-clear')?.addEventListener('click', () => {
+  clearSearch();
+  $('sb-search-input')?.focus();
+});
+
+// Dismiss search bar on Escape
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && document.body.classList.contains('search-open')) {
+    document.body.classList.remove('search-open');
+    clearSearch();
+  }
+});
+
+// ─────────────────────────────────────────────
+//  PWA Install prompt
+// ─────────────────────────────────────────────
+let deferredInstallPrompt = null;
+
+// Detect if the user is ALREADY running the installed PWA
+// (display-mode: standalone = Android/desktop, navigator.standalone = iOS Safari)
+function isStandalone() {
+  return window.matchMedia('(display-mode: standalone)').matches
+    || window.navigator.standalone === true;
+}
+
+// Hide both install surfaces if already installed
+function hideInstallButtons() {
+  $('install-section')?.setAttribute('hidden', '');
+  $('install-fab')?.setAttribute('hidden', '');
+}
+
+// Show both install surfaces
+function showInstallButtons() {
+  $('install-section')?.removeAttribute('hidden');
+  $('install-fab')?.removeAttribute('hidden');
+}
+
+// Shared install trigger (used by both desktop btn + mobile FAB)
+async function triggerInstall() {
+  if (!deferredInstallPrompt) return;
+  deferredInstallPrompt.prompt();
+  const { outcome } = await deferredInstallPrompt.userChoice;
+  if (outcome === 'accepted') {
+    hideInstallButtons();
+    deferredInstallPrompt = null;
+  }
+}
+
+// If already installed → never show install buttons, full stop
+if (isStandalone()) {
+  hideInstallButtons();
+} else {
+  // Browser fires this when the app is installable
+  window.addEventListener('beforeinstallprompt', e => {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+    showInstallButtons();
+  });
+}
+
+$('install-btn')?.addEventListener('click', triggerInstall);
+$('install-fab')?.addEventListener('click', triggerInstall);
+
+window.addEventListener('appinstalled', () => {
+  hideInstallButtons();
+  deferredInstallPrompt = null;
+  toast('App installed! 🎉');
+});
+
+// ─────────────────────────────────────────────
 //  Mobile floating button events
 // ─────────────────────────────────────────────
 bookmarkBtn.addEventListener('click', () => {
@@ -492,6 +631,7 @@ async function init() {
     const res = await fetch(FEED_URL);
     if (!res.ok) throw new Error(res.status);
     changelog = await res.json();
+    initFuse();
     buildFilterPills(changelog);
     render(changelog);
   } catch (err) {
