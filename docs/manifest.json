@@ -1,0 +1,28 @@
+{
+  "name": "Sitecore Changelog Reels",
+  "short_name": "SC Reels",
+  "description": "Turn Doom Scrolling Into Value — Sitecore product updates in a swipeable feed with AI summaries.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#5C5CE0",
+  "background_color": "#0D0D0D",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["productivity", "news"],
+  "screenshots": []
+}
