@@ -1,5 +1,32 @@
 [
   {
+    "date": "Fri, 03 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for April 3, 2026",
+    "link": "https://developers.sitecore.com//changelog/content-hub/03042026/resolved-issues-in-content-hub-for-april-3%2c-2026",
+    "enclosure": null,
+    "summary": "1. The April 3, 2026 update for Sitecore Content Hub resolves several validation errors and improves serialization and duplicate detection functionalities.  ",
+    "impact": "2. These fixes enhance user experience by ensuring accurate data handling and permissions, streamlining entity management and visualization settings."
+  },
+  {
+    "date": "Fri, 03 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "All import jobs now automatically include a backup package",
+    "link": "https://developers.sitecore.com//changelog/content-hub/03042026/all-import-jobs-now-automatically-include-a-backup-package",
+    "enclosure": null,
+    "summary": "1. All import jobs in Sitecore now automatically generate a backup package for consistent recovery options.  ",
+    "impact": "2. This enhancement ensures better data safety and simplifies recovery processes by eliminating dependency on version discrepancies between source and target environments."
+  },
+  {
+    "date": "Fri, 03 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "AI-assisted field-level text generation",
+    "link": "https://developers.sitecore.com//changelog/content-hub/03042026/ai-assisted-field-level-text-generation",
+    "enclosure": null,
+    "summary": "1. Sitecore introduces AI-assisted generation of alt text for images to enhance accessibility and SEO.  ",
+    "impact": "2. This feature improves user experience and search visibility, making content more inclusive and discoverable."
+  },
+  {
     "date": "Wed, 01 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Improvements and resolved issues in the Page builder",
