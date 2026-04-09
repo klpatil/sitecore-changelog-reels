@@ -1,5 +1,14 @@
 [
   {
+    "date": "Thu, 09 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Share your Marketplace app ideas and upvote your favorites",
+    "link": "https://developers.sitecore.com//changelog/marketplace/09042026/share-your-marketplace-app-ideas-and-upvote-your-favorites",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/31247c2c-c1e7-4837-8209-e533f28d5523?transform=true",
+    "summary": "**Summary:** Sitecore's Marketplace enables community members to propose and upvote app ideas, allowing teams to influence future developments.  ",
+    "impact": "**Why it matters:** This initiative fosters collaboration and ensures that the most desired solutions are prioritized, enhancing the overall Sitecore ecosystem."
+  },
+  {
     "date": "Fri, 03 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Resolved issues in Content Hub for April 3, 2026",
