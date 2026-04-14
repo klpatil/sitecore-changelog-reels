@@ -1,5 +1,32 @@
 [
   {
+    "date": "Tue, 14 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improvements and resolved issues in the Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/14042026/improvements-and-resolved-issues-in-the-page-builder",
+    "enclosure": null,
+    "summary": "1. The latest Page Builder update enhances personalization flexibility, fixes component visibility issues, and improves usability features for authors.",
+    "impact": "2. These enhancements reduce configuration complexity for developers and streamline the authoring process, promoting a more efficient content management experience."
+  },
+  {
+    "date": "Tue, 14 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Content mode for faster content creation and search in Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/14042026/content-mode-for-faster-content-creation-and-search-in-page-builder",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/123b8217-c62b-4b8d-bded-4aa6b26f5a5e?transform=true",
+    "summary": "**Summary:** Page builder now features a Content mode for a streamlined, full-screen experience that enhances content creation, searching, and editing efficiency. ",
+    "impact": "**Why it matters:** This update allows authors to work more quickly and effectively with large content structures, reducing the need for navigation and enabling faster content management."
+  },
+  {
+    "date": "Thu, 09 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Share your Marketplace app ideas and upvote your favorites",
+    "link": "https://developers.sitecore.com/changelog/marketplace/09042026/share-your-marketplace-app-ideas-and-upvote-your-favorites",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/31247c2c-c1e7-4837-8209-e533f28d5523?transform=true",
+    "summary": "1. Sitecore's Marketplace now allows community members to submit app ideas and upvote their favorites, helping to prioritize development.  ",
+    "impact": "2. This initiative promotes community engagement and empowers users to influence the direction of Sitecore product offerings."
+  },
+  {
     "date": "Thu, 09 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Share your Marketplace app ideas and upvote your favorites",
@@ -7,6 +34,33 @@
     "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/31247c2c-c1e7-4837-8209-e533f28d5523?transform=true",
     "summary": "**Summary:** Sitecore's Marketplace enables community members to propose and upvote app ideas, allowing teams to influence future developments.  ",
     "impact": "**Why it matters:** This initiative fosters collaboration and ensures that the most desired solutions are prioritized, enhancing the overall Sitecore ecosystem."
+  },
+  {
+    "date": "Fri, 03 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for April 3, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/03042026/resolved-issues-in-content-hub-for-april-3%2c-2026",
+    "enclosure": null,
+    "summary": "1. The Sitecore update resolved several issues in Content Hub, including validation errors, incorrect display of option lists, and serialization inconsistencies, ensuring smoother entity management and user experience.  ",
+    "impact": "2. These fixes enhance data integrity and usability, making it easier for users to manage and interact with their content without unintended changes or errors."
+  },
+  {
+    "date": "Fri, 03 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "All import jobs now automatically include a backup package",
+    "link": "https://developers.sitecore.com/changelog/content-hub/03042026/all-import-jobs-now-automatically-include-a-backup-package",
+    "enclosure": null,
+    "summary": "**Summary:** All import jobs in Sitecore now automatically generate a backup package to ensure consistent recovery options.  ",
+    "impact": "**Why it matters:** This enhancement simplifies the recovery process for imports, enhancing data integrity and reducing risks during content transfers."
+  },
+  {
+    "date": "Fri, 03 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "AI-assisted field-level text generation",
+    "link": "https://developers.sitecore.com/changelog/content-hub/03042026/ai-assisted-field-level-text-generation",
+    "enclosure": null,
+    "summary": "1. Sitecore introduces AI-assisted generation of alt text for images, enhancing accessibility and SEO features.  ",
+    "impact": "2. This update streamlines content creation for users, ensuring better compliance with accessibility standards and improved search engine visibility."
   },
   {
     "date": "Fri, 03 Apr 2026 00:00:00 GMT",
@@ -39,10 +93,46 @@
     "date": "Wed, 01 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Improvements and resolved issues in the Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/01042026/improvements-and-resolved-issues-in-the-page-builder",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/5e226c0e-a398-4391-9043-f58ccc790242?transform=true",
+    "summary": "1. The latest Page builder update enhances user experience by allowing authors to rename content items directly in the UI, access the SitecoreAI changelog, and edit items in Link lists, while also improving performance and addressing existing issues.  ",
+    "impact": "2. These improvements streamline content management for authors and enhance efficiency, ultimately supporting better content organization and faster performance in the Page builder."
+  },
+  {
+    "date": "Wed, 01 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improvements and resolved issues in the Page builder",
     "link": "https://developers.sitecore.com//changelog/sitecoreai/01042026/improvements-and-resolved-issues-in-the-page-builder",
     "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/5e226c0e-a398-4391-9043-f58ccc790242?transform=true",
     "summary": "1. The Page builder update enhances user experience with direct content item renaming, a quick link to SitecoreAI changelog, improved editing options, and faster creation from templates, alongside several fixes.  ",
     "impact": "2. These improvements streamline content management for authors, enhance usability, and boost performance, ultimately leading to a more efficient workflow within Sitecore."
+  },
+  {
+    "date": "Tue, 31 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Introducing profiles",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/31032026/introducing-profiles",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/0b3ab37e-4614-4754-b6f8-0ad82377bf66?transform=true",
+    "summary": "1. SitecoreAI has introduced Profiles, allowing users to access and analyze site visitor data directly within the platform.  ",
+    "impact": "2. This feature enhances data-driven personalization by providing detailed insights into visitor behavior and preferences, enabling better customer journey management."
+  },
+  {
+    "date": "Tue, 31 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "JSS 22.12 released with Next.js 16, agent skills, and more",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/31032026/jss-22.12-released-with-next.js-16%2c-agent-skills%2c-and-more",
+    "enclosure": null,
+    "summary": "1. The JSS 22.12 release introduces updates like Next.js 16 and ESLint v9 with flat config support, along with key bug fixes and breaking changes.  ",
+    "impact": "2. This matters as it enhances performance and compatibility for developers using Sitecore JSS, ensuring they have access to the latest features and improvements."
+  },
+  {
+    "date": "Tue, 31 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.6.1483",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/31032026/sitecoreai-base-image-release-1.6.1483",
+    "enclosure": null,
+    "summary": "**Summary:** SitecoreAI base image release 1.6.1483 enhances memory efficiency, improves CMP import performance, and introduces better logging and API features. ",
+    "impact": "**Why it matters:** These updates optimize system performance and troubleshooting, ensuring smoother content management operations and better resource utilization for users."
   },
   {
     "date": "Tue, 31 Mar 2026 00:00:00 GMT",
