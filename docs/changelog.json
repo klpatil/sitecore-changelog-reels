@@ -3,46 +3,10 @@
     "date": "Thu, 09 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Share your Marketplace app ideas and upvote your favorites",
-    "link": "https://developers.sitecore.com/[object Object]",
-    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/31247c2c-c1e7-4837-8209-e533f28d5523?transform=true",
-    "summary": "1. The Sitecore Marketplace now allows community members to propose and upvote app ideas to prioritize development.  ",
-    "impact": "2. This initiative empowers users to influence the product roadmap, fostering innovation and collaboration within the Sitecore ecosystem."
-  },
-  {
-    "date": "Thu, 09 Apr 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
-    "title": "Share your Marketplace app ideas and upvote your favorites",
     "link": "https://developers.sitecore.com//changelog/marketplace/09042026/share-your-marketplace-app-ideas-and-upvote-your-favorites",
     "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/31247c2c-c1e7-4837-8209-e533f28d5523?transform=true",
     "summary": "**Summary:** Sitecore's Marketplace enables community members to propose and upvote app ideas, allowing teams to influence future developments.  ",
     "impact": "**Why it matters:** This initiative fosters collaboration and ensures that the most desired solutions are prioritized, enhancing the overall Sitecore ecosystem."
-  },
-  {
-    "date": "Fri, 03 Apr 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
-    "title": "Resolved issues in Content Hub for April 3, 2026",
-    "link": "https://developers.sitecore.com/[object Object]",
-    "enclosure": null,
-    "summary": "1. Sitecore's April 3, 2026 update resolves several issues in Content Hub, including validation errors, serialization settings, and display of option facets.  ",
-    "impact": "2. These improvements enhance usability and consistency in content management processes, ensuring smoother operation and better user experience."
-  },
-  {
-    "date": "Fri, 03 Apr 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
-    "title": "All import jobs now automatically include a backup package",
-    "link": "https://developers.sitecore.com/[object Object]",
-    "enclosure": null,
-    "summary": "1. All import jobs will now automatically generate a backup package for consistent recovery options.  ",
-    "impact": "2. This update enhances data safety by ensuring backups are readily available, regardless of version differences between Content Hub environments."
-  },
-  {
-    "date": "Fri, 03 Apr 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
-    "title": "AI-assisted field-level text generation",
-    "link": "https://developers.sitecore.com/[object Object]",
-    "enclosure": null,
-    "summary": "1. Sitecore introduces AI-assisted generation of alt text for images, enhancing accessibility and SEO for users.  ",
-    "impact": "2. This feature optimizes content management processes and ensures better compliance with accessibility standards."
   },
   {
     "date": "Fri, 03 Apr 2026 00:00:00 GMT",
@@ -75,46 +39,10 @@
     "date": "Wed, 01 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Improvements and resolved issues in the Page builder",
-    "link": "https://developers.sitecore.com/[object Object]",
-    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/5e226c0e-a398-4391-9043-f58ccc790242?transform=true",
-    "summary": "1. The Page builder update enhances user experience by allowing content item renaming within the UI, adding quick access to SitecoreAI changelog, facilitating direct editing of Link lists, and improving performance for large branch template creations. ",
-    "impact": "2. These improvements streamline workflow for authors and enhance productivity by reducing the need to switch between different tools, ultimately leading to a more efficient content management process."
-  },
-  {
-    "date": "Wed, 01 Apr 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
-    "title": "Improvements and resolved issues in the Page builder",
     "link": "https://developers.sitecore.com//changelog/sitecoreai/01042026/improvements-and-resolved-issues-in-the-page-builder",
     "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/5e226c0e-a398-4391-9043-f58ccc790242?transform=true",
     "summary": "1. The Page builder update enhances user experience with direct content item renaming, a quick link to SitecoreAI changelog, improved editing options, and faster creation from templates, alongside several fixes.  ",
     "impact": "2. These improvements streamline content management for authors, enhance usability, and boost performance, ultimately leading to a more efficient workflow within Sitecore."
-  },
-  {
-    "date": "Tue, 31 Mar 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
-    "title": "Introducing profiles",
-    "link": "https://developers.sitecore.com/[object Object]",
-    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/0b3ab37e-4614-4754-b6f8-0ad82377bf66?transform=true",
-    "summary": "1. SitecoreAI has introduced Profiles, allowing users to view and analyze site visitor data directly within the platform, with features like session heatmaps and visitor details.  ",
-    "impact": "2. This update enhances data-driven decision-making for marketers by providing actionable insights into individual customer journeys, improving personalization efforts."
-  },
-  {
-    "date": "Tue, 31 Mar 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
-    "title": "JSS 22.12 released with Next.js 16, agent skills, and more",
-    "link": "https://developers.sitecore.com/[object Object]",
-    "enclosure": null,
-    "summary": "1. JSS 22.12 brings major updates including Next.js 16, ESLint v9, and AI coding assistance, along with breaking changes and key bug fixes.  ",
-    "impact": "2. This update enhances developer experience and functionality, ensuring compatibility with the latest frameworks and improving overall app performance."
-  },
-  {
-    "date": "Tue, 31 Mar 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
-    "title": "SitecoreAI base image release 1.6.1483",
-    "link": "https://developers.sitecore.com/[object Object]",
-    "enclosure": null,
-    "summary": "**Summary:** SitecoreAI base image release 1.6.1483 enhances memory efficiency, import performance, and logging, while addressing various bugs for improved stability and functionality.",
-    "impact": "**Why it matters:** These updates optimize resource use and system performance, leading to smoother operations and easier troubleshooting for developers and content managers."
   },
   {
     "date": "Tue, 31 Mar 2026 00:00:00 GMT",
@@ -144,11 +72,83 @@
   {
     "date": "Mon, 30 Mar 2026 00:00:00 GMT",
     "product": "SitecoreAI",
-    "title": "Marketer MCP tool name updates",
+    "title": "More customizable agents, spaces, and content workflows",
     "link": "https://developers.sitecore.com/[object Object]",
     "enclosure": null,
-    "summary": "1. Sitecore has updated the names of several Marketer MCP tools to adhere to a 60-character limit, causing existing references to be invalidated.  ",
-    "impact": "2. This change ensures improved visibility and functionality across MCP environments, preventing errors and integration failures related to tool name length."
+    "summary": "**Summary:** The March release of Agentic Studio enhances content workflows by allowing more customizable agents and streamlined management of items and processes. ",
+    "impact": "**Why it matters:** This update increases efficiency and flexibility in content generation and management, enabling users to tailor workflows and utilize agents in more complex, organized ways."
+  },
+  {
+    "date": "Mon, 30 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "More customizable agents, spaces, and content workflows",
+    "link": "https://developers.sitecore.com/[object Object]",
+    "enclosure": null,
+    "summary": "**Summary:** The March release of Agentic Studio enhances content workflows by allowing more customizable agents and streamlined management of items and processes. ",
+    "impact": "**Why it matters:** This update increases efficiency and flexibility in content generation and management, enabling users to tailor workflows and utilize agents in more complex, organized ways."
+  },
+  {
+    "date": "Mon, 30 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "More customizable agents, spaces, and content workflows",
+    "link": "https://developers.sitecore.com/[object Object]",
+    "enclosure": null,
+    "summary": "**Summary:** The March release of Agentic Studio enhances content workflows by allowing more customizable agents and streamlined management of items and processes. ",
+    "impact": "**Why it matters:** This update increases efficiency and flexibility in content generation and management, enabling users to tailor workflows and utilize agents in more complex, organized ways."
+  },
+  {
+    "date": "Mon, 30 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "More customizable agents, spaces, and content workflows",
+    "link": "https://developers.sitecore.com/[object Object]",
+    "enclosure": null,
+    "summary": "**Summary:** The March release of Agentic Studio enhances content workflows by allowing more customizable agents and streamlined management of items and processes. ",
+    "impact": "**Why it matters:** This update increases efficiency and flexibility in content generation and management, enabling users to tailor workflows and utilize agents in more complex, organized ways."
+  },
+  {
+    "date": "Mon, 30 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "More customizable agents, spaces, and content workflows",
+    "link": "https://developers.sitecore.com/[object Object]",
+    "enclosure": null,
+    "summary": "**Summary:** The March release of Agentic Studio enhances content workflows by allowing more customizable agents and streamlined management of items and processes. ",
+    "impact": "**Why it matters:** This update increases efficiency and flexibility in content generation and management, enabling users to tailor workflows and utilize agents in more complex, organized ways."
+  },
+  {
+    "date": "Mon, 30 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "More customizable agents, spaces, and content workflows",
+    "link": "https://developers.sitecore.com/[object Object]",
+    "enclosure": null,
+    "summary": "**Summary:** The March release of Agentic Studio enhances content workflows by allowing more customizable agents and streamlined management of items and processes. ",
+    "impact": "**Why it matters:** This update increases efficiency and flexibility in content generation and management, enabling users to tailor workflows and utilize agents in more complex, organized ways."
+  },
+  {
+    "date": "Mon, 30 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "More customizable agents, spaces, and content workflows",
+    "link": "https://developers.sitecore.com/[object Object]",
+    "enclosure": null,
+    "summary": "**Summary:** The March release of Agentic Studio enhances content workflows by allowing more customizable agents and streamlined management of items and processes. ",
+    "impact": "**Why it matters:** This update increases efficiency and flexibility in content generation and management, enabling users to tailor workflows and utilize agents in more complex, organized ways."
+  },
+  {
+    "date": "Mon, 30 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "More customizable agents, spaces, and content workflows",
+    "link": "https://developers.sitecore.com/[object Object]",
+    "enclosure": null,
+    "summary": "**Summary:** The March release of Agentic Studio enhances content workflows by allowing more customizable agents and streamlined management of items and processes. ",
+    "impact": "**Why it matters:** This update increases efficiency and flexibility in content generation and management, enabling users to tailor workflows and utilize agents in more complex, organized ways."
+  },
+  {
+    "date": "Mon, 30 Mar 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "More customizable agents, spaces, and content workflows",
+    "link": "https://developers.sitecore.com/[object Object]",
+    "enclosure": null,
+    "summary": "**Summary:** The March release of Agentic Studio enhances content workflows by allowing more customizable agents and streamlined management of items and processes. ",
+    "impact": "**Why it matters:** This update increases efficiency and flexibility in content generation and management, enabling users to tailor workflows and utilize agents in more complex, organized ways."
   },
   {
     "date": "Mon, 30 Mar 2026 00:00:00 GMT",
