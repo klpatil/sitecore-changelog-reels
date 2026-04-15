@@ -18,6 +18,15 @@
     "impact": "**Why it matters:** This update allows authors to work more quickly and effectively with large content structures, reducing the need for navigation and enabling faster content management."
   },
   {
+    "date": "Tue, 14 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.7.5",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/14042026/sitecoreai-base-image-release-1.7.5",
+    "enclosure": null,
+    "summary": "1. SitecoreAI base image release 1.7.5 enhances CMP entity synchronization, reduces memory usage, improves logging, and tracks Solr behavior, alongside several bug fixes and an upgrade to Sitecore PowerShell extensions.  ",
+    "impact": "2. These updates enhance performance, reliability, and resource management in SitecoreAI, while the PowerShell upgrade necessitates script validation to maintain compatibility, impacting existing functionalities."
+  },
+  {
     "date": "Thu, 09 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Share your Marketplace app ideas and upvote your favorites",
