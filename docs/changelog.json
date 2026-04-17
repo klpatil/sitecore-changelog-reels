@@ -1,5 +1,14 @@
 [
   {
+    "date": "Thu, 16 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "A new glossary section in brand kits enables custom translation in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/16042026/a-new-glossary-section-in-brand-kits-enables-custom-translation-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/bae394f5-a65c-4a70-9a8f-b7ebbccc4ea7?transform=true",
+    "summary": "1. SitecoreAI introduces a new glossary section in brand kits for custom translation, allowing users to define approved translations and preserve specific brand terminology during localization.  ",
+    "impact": "2. This update enhances brand consistency and control across translations, ensuring accurate messaging and preserving crucial brand elements in various languages."
+  },
+  {
     "date": "Tue, 14 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Improvements and resolved issues in the Page builder",
