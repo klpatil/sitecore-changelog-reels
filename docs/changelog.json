@@ -1,5 +1,14 @@
 [
   {
+    "date": "Tue, 21 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improvements and resolved issues in Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/21042026/improvements-and-resolved-issues-in-page-builder",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/23284af3-de24-4e01-93d5-dcf3145ffb62?transform=true",
+    "summary": "1. Page builder updates enhance efficiency with direct access to child items and a new Details section for easier information retrieval, while fixing issues related to alt text and version management.  ",
+    "impact": "2. These improvements streamline the editing workflow, allowing authors to work more seamlessly and maintain context during content creation."
+  },
+  {
     "date": "Fri, 17 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Resolved issues in Content Hub for April 17, 2026",
