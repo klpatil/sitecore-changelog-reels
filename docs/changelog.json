@@ -1,5 +1,23 @@
 [
   {
+    "date": "Wed, 22 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Introducing the Inspect mode in Design Studio",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/22042026/introducing-the-inspect-mode-in-design-studio",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/20924701-5556-4bc1-9f34-932e262c5c68?transform=true",
+    "summary": "1. Sitecore has launched an Inspect mode in Design Studio, enabling marketers and content authors to preview and interact with component variants without disrupting their workflow. ",
+    "impact": "2. This improvement streamlines the inspection process, enhances usability, and separates creation from testing, ultimately increasing efficiency for content management tasks."
+  },
+  {
+    "date": "Wed, 22 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improvements and resolved issues in Design Studio",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/22042026/improvements-and-resolved-issues-in-design-studio",
+    "enclosure": null,
+    "summary": "1. Sitecore's Design Studio update streamlines component management by automatically generating default variants and enhancing the components overview and preview URLs.  ",
+    "impact": "2. These improvements increase efficiency in component setup and management, while ongoing accessibility enhancements boost compliance and user experience."
+  },
+  {
     "date": "Tue, 21 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Improvements and resolved issues in Page builder",
