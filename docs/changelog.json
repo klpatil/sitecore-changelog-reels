@@ -2,6 +2,15 @@
   {
     "date": "Wed, 22 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "OrderCloud portal improvements",
+    "link": "https://developers.sitecore.com/changelog/ordercloud/22042026/ordercloud-portal-improvements",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/1f4c6504-e155-4b62-993a-ee9965e985ab?transform=true",
+    "summary": "1. The OrderCloud portal now features multi-tab support in the API Console, allowing user context to be shared across tabs while keeping impersonation tab-specific, along with custom role group naming.  ",
+    "impact": "2. These enhancements improve user experience and flexibility for developers, making it easier to manage and navigate the API Console."
+  },
+  {
+    "date": "Wed, 22 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "Introducing the Inspect mode in Design Studio",
     "link": "https://developers.sitecore.com/changelog/sitecoreai/22042026/introducing-the-inspect-mode-in-design-studio",
     "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/20924701-5556-4bc1-9f34-932e262c5c68?transform=true",
