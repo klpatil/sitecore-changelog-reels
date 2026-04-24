@@ -1,5 +1,14 @@
 [
   {
+    "date": "Fri, 24 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Advanced ranking rules and settings in Search experiences",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/24042026/advanced-ranking-rules-and-settings-in-search-experiences",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/89a1c5c2-8ff1-42d9-b3f7-a4cf41863b74?transform=true",
+    "summary": "1. SitecoreAI introduces advanced ranking controls, including boost, bury, and pin rules, along with semantic reranking and fuzzy search functionalities.  ",
+    "impact": "2. These enhancements enhance search result accuracy and relevance, allowing organizations to optimize user experiences on their websites."
+  },
+  {
     "date": "Wed, 22 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "OrderCloud portal improvements",
