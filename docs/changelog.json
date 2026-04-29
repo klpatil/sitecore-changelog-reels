@@ -1,5 +1,41 @@
 [
   {
+    "date": "Tue, 28 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "The Profiles page now includes live monitoring and an interactive map",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/28042026/the-profiles-page-now-includes-live-monitoring-and-an-interactive-map",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/2cde4742-3a36-4b74-87a1-9408400a25e8?transform=true",
+    "summary": "**Summary:** The SitecoreAI Profiles page has been updated to include live monitoring features and an interactive map, enhancing the user experience with real-time visitor activity insights. ",
+    "impact": "**Why it matters:** This update enables organizations to better analyze and understand audience behavior through live data and geographical insights, ultimately improving engagement strategies and decision-making."
+  },
+  {
+    "date": "Tue, 28 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Release of SitecoreAI Pathway 1.3 for site migrations",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/28042026/release-of-sitecoreai-pathway-1.3-for-site-migrations",
+    "enclosure": null,
+    "summary": "1. SitecoreAI Pathway 1.3 introduces a beta feature for migrating public HTML sites, enhanced structure file exports, improved mapping, and increased reliability.",
+    "impact": "2. This update streamlines the migration process for non-Sitecore sites, providing richer data exports and more robust mapping, which is crucial for seamless website transitions."
+  },
+  {
+    "date": "Tue, 28 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improvement in Content Hub for April 28, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/28042026/improvement-in-content-hub-for-april-28%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's April 28, 2026 update enhances graph throughput efficiency in Content Hub.  ",
+    "impact": "2. This improvement boosts performance, enabling faster data processing and better user experiences."
+  },
+  {
+    "date": "Tue, 28 Apr 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.7.38",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/28042026/sitecoreai-base-image-release-1.7.38",
+    "enclosure": null,
+    "summary": "1. The SitecoreAI base image release 1.7.38 enhances performance by enabling parallel processing of CMP entities and introduces several critical fixes and security improvements.  ",
+    "impact": "2. These updates streamline content synchronization, improve user experience during publishing and previewing, and ensure better handling of multilingual content, which is vital for effective content management."
+  },
+  {
     "date": "Fri, 24 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Advanced ranking rules and settings in Search experiences",
