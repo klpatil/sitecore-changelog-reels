@@ -1,5 +1,14 @@
 [
   {
+    "date": "Fri, 01 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Content SDK 2.1 released with lightweight visit tracking, bot detection, and more",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/01052026/content-sdk-2.1-released-with-lightweight-visit-tracking%2c-bot-detection%2c-and-more",
+    "enclosure": null,
+    "summary": "1. Content SDK 2.1 introduces enhancements like lightweight visit tracking, bot detection, and improved Next.js support, along with key bug fixes for better stability and security.",
+    "impact": "2. These updates enhance analytics accuracy and overall performance, ensuring safer and more reliable content management in production environments."
+  },
+  {
     "date": "Wed, 29 Apr 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Regex capture groups in claims mapping",
