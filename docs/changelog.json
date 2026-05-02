@@ -2,6 +2,24 @@
   {
     "date": "Fri, 01 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "Confirmation dialog when importing a package",
+    "link": "https://developers.sitecore.com/changelog/content-hub/01052026/confirmation-dialog-when-importing-a-package",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/c96e05c5-3f6c-4813-9110-2a78bad08044?transform=true",
+    "summary": "1. Sitecore now includes a confirmation dialog for the Accept Changes button during package imports to enhance user protection.  ",
+    "impact": "2. This improvement minimizes the risk of unintentional changes during dry runs, ensuring more accurate content management."
+  },
+  {
+    "date": "Fri, 01 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for May 1, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/01052026/resolved-issues-in-content-hub-for-may-1%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's May 1, 2026 update resolves several key issues in Content Hub, enhancing schema imports/exports, Scripting SDK self-relation accuracy, and overall resource loading logic.  ",
+    "impact": "2. These fixes ensure smoother functionality and improved usability, preventing errors during imports and enhancing the user experience in managing project blocks and public links."
+  },
+  {
+    "date": "Fri, 01 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "Content SDK 2.1 released with lightweight visit tracking, bot detection, and more",
     "link": "https://developers.sitecore.com/changelog/sitecoreai/01052026/content-sdk-2.1-released-with-lightweight-visit-tracking%2c-bot-detection%2c-and-more",
     "enclosure": null,
