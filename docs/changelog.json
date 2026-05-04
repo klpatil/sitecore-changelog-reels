@@ -1,5 +1,14 @@
 [
   {
+    "date": "Mon, 04 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Grace period for deleted public Marketplace apps",
+    "link": "https://developers.sitecore.com/changelog/marketplace/04052026/grace-period-for-deleted-public-marketplace-apps",
+    "enclosure": null,
+    "summary": "1. Sitecore introduces a 30-day grace period for public Marketplace apps after deletion, allowing existing installations to remain accessible during that time.  ",
+    "impact": "2. This update is important as it ensures continuity for users who have already installed the app, providing creators with a smooth transition and the opportunity to manage customer subscriptions effectively."
+  },
+  {
     "date": "Fri, 01 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Confirmation dialog when importing a package",
