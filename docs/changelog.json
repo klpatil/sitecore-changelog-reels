@@ -1,5 +1,14 @@
 [
   {
+    "date": "Tue, 05 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Content SDK 1.6 released with important bug fixes",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/05052026/content-sdk-1.6-released-with-important-bug-fixes",
+    "enclosure": null,
+    "summary": "1. Sitecore's Content SDK 1.6 release includes crucial bug fixes, enhancing Next.js integrations and strengthening security and reliability.  ",
+    "impact": "2. This update is significant as it addresses preview security vulnerabilities and resolves issues affecting static page generation, ensuring authorized access and proper content management during development."
+  },
+  {
     "date": "Mon, 04 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Grace period for deleted public Marketplace apps",
