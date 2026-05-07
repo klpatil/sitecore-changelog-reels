@@ -1,5 +1,14 @@
 [
   {
+    "date": "Wed, 06 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub for May 6",
+    "link": "https://developers.sitecore.com/changelog/content-hub/06052026/resolved-issue-in-content-hub-for-may-6",
+    "enclosure": null,
+    "summary": "1. Sitecore resolved an issue in Content Hub by reverting a change that caused duplicate key errors during package import.",
+    "impact": "2. This fix is important as it restores functionality and ensures a smoother user experience in content management processes."
+  },
+  {
     "date": "Tue, 05 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Content SDK 1.6 released with important bug fixes",
