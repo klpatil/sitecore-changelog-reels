@@ -1,5 +1,14 @@
 [
   {
+    "date": "Thu, 07 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improvements to delta crawling",
+    "link": "https://developers.sitecore.com/changelog/search/07052026/improvements-to-delta-crawling",
+    "enclosure": null,
+    "summary": "**Summary:** Delta crawling now efficiently removes indexed documents for deleted URLs and supports incremental updates.  ",
+    "impact": "**Why it matters:** These enhancements ensure search results reflect current content, improving user experience and content relevance."
+  },
+  {
     "date": "Wed, 06 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Resolved issue in Content Hub for May 6",
