@@ -1,5 +1,41 @@
 [
   {
+    "date": "Tue, 12 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improvements and resolved issues in Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/12052026/improvements-and-resolved-issues-in-page-builder",
+    "enclosure": null,
+    "summary": "1. Sitecore's update enhances the Page Builder by improving template previews, in-app navigation, language configuration links, and fixes for A/B/n testing statuses and placeholder handling.  ",
+    "impact": "2. These changes streamline content management for authors, enabling better usability and accuracy in editing and translation processes."
+  },
+  {
+    "date": "Tue, 12 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.7.55",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/12052026/sitecoreai-base-image-release-1.7.55",
+    "enclosure": null,
+    "summary": "1. The SitecoreAI base image release 1.7.55 addresses several critical issues, including improvements to site translation processing and enhanced query handling in the Page builder. ",
+    "impact": "2. These fixes enhance content management efficiency, ensure data accuracy during publishing, and bolster security, ultimately improving the overall user experience."
+  },
+  {
+    "date": "Tue, 12 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Item-level AI translation in Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/12052026/item-level-ai-translation-in-page-builder",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/b43a8b91-f3c6-4184-bcb1-c7c2238b88b4?transform=true",
+    "summary": "1. Sitecore AI now enables item-level translation in Page Builder, allowing content authors to translate individual items directly within Content mode.  ",
+    "impact": "2. This enhancement provides greater control for authors, supports incremental localization, and facilitates quicker updates while maintaining site structure."
+  },
+  {
+    "date": "Tue, 12 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Translation centralized in SitecoreAI site dashboard",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/12052026/translation-centralized-in-sitecoreai-site-dashboard",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/649cf2b6-234a-4d39-8837-b84b70bf9c70?transform=true",
+    "summary": "1. Sitecore has centralized all translation capabilities in a new Localization tab within the site dashboard, allowing easier configuration of languages and brand kits, as well as monitoring translation progress.  ",
+    "impact": "2. This update streamlines the translation process, enhancing user experience by consolidating settings and controls in one accessible location, ultimately improving localization efficiency."
+  },
+  {
     "date": "Thu, 07 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Improvements to delta crawling",
