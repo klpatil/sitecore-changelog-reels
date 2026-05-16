@@ -1,5 +1,41 @@
 [
   {
+    "date": "Fri, 15 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New upgrade guide - JSS 22.0 → Content SDK 2.1",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/15052026/new-upgrade-guide---jss-22.0-%e2%86%92-content-sdk-2.1",
+    "enclosure": null,
+    "summary": "1. A new upgrade guide has been released to facilitate the direct migration from JSS 22.0 to Content SDK 2.1, simplifying the update process.  ",
+    "impact": "2. This matters because it allows users to quickly access the latest features without the hassle of intermediate upgrades, enhancing their overall experience with Sitecore products."
+  },
+  {
+    "date": "Fri, 15 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Parallel and sequential approvals",
+    "link": "https://developers.sitecore.com/changelog/content-hub/15052026/parallel-and-sequential-approvals",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/a2867bf3-437e-433e-8188-a5fb2b230b46?transform=true",
+    "summary": "1. Sitecore now supports parallel and sequential approvals with multiple reviewers, enhancing state flow configuration.  ",
+    "impact": "2. This feature allows for more efficient review processes, accommodating both step-by-step and simultaneous evaluations, ultimately streamlining content approval workflows."
+  },
+  {
+    "date": "Fri, 15 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for May 15, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/15052026/resolved-issues-in-content-hub-for-may-15%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's update for May 15, 2026, resolves issues related to schema export/import, ensuring accurate preservation of entity definitions, state flow configurations, RenderMode values, and DateTime properties.  ",
+    "impact": "2. This matters because it enhances the reliability and consistency of content migration across environments, improving overall user experience and workflow in Content Hub."
+  },
+  {
+    "date": "Fri, 15 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Custom MCP connectors, faster workflows, and a more polished chat",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/15052026/custom-mcp-connectors%2c-faster-workflows%2c-and-a-more-polished-chat",
+    "enclosure": null,
+    "summary": "**Summary:** The April–May release of Agentic studio introduces custom MCP connectors, enhanced workflow efficiency, and an improved chat interface, enabling faster performance and increased tool integration. ",
+    "impact": "**Why it matters:** These updates enhance usability and extensibility, allowing users to streamline their workflows and integrate various tools seamlessly, thus improving overall productivity and interaction quality in Sitecore environments."
+  },
+  {
     "date": "Tue, 12 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Improvements and resolved issues in Page builder",
