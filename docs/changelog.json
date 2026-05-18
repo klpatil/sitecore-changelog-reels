@@ -1,5 +1,32 @@
 [
   {
+    "date": "Mon, 18 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": " Experiments now supported in Marketer MCP",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/18052026/-experiments-now-supported-in-marketer-mcp",
+    "enclosure": null,
+    "summary": "1. The Marketer MCP now supports component-level A/B/n tests with new tools for efficient experiment management using natural language prompts.  ",
+    "impact": "2. This enhancement automates experimentation workflows, allowing marketers to optimize traffic allocation and test configurations more effectively."
+  },
+  {
+    "date": "Mon, 18 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": " Agent API v2.0 release and endpoint updates",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/18052026/-agent-api-v2.0-release-and-endpoint-updates",
+    "enclosure": null,
+    "summary": "**Summary:** The release of Agent API v2.0 introduces new endpoints for experiments, personalization, and briefs while deprecating v1.0 endpoints and changing the brief generation path.",
+    "impact": "**Why it matters:** This update enhances functionality for A/B tests and personalization, ensuring smoother integrations and maintaining consistency in endpoint structure, which is crucial for developers."
+  },
+  {
+    "date": "Mon, 18 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Marketer MCP updates for personalization and briefs",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/18052026/marketer-mcp-updates-for-personalization-and-briefs",
+    "enclosure": null,
+    "summary": "1. The Marketer MCP now features enhanced tools for creating personalized page variants and managing briefs, streamlining audience targeting and brief revisions in SitecoreAI.  ",
+    "impact": "2. These updates empower marketers to automate personalization and improve workflow efficiency, ultimately leading to more targeted and effective marketing strategies."
+  },
+  {
     "date": "Fri, 15 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "New upgrade guide - JSS 22.0 → Content SDK 2.1",
