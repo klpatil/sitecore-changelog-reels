@@ -1,5 +1,14 @@
 [
   {
+    "date": "Wed, 20 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Marketplace apps now support file downloads",
+    "link": "https://developers.sitecore.com/changelog/marketplace/20052026/marketplace-apps-now-support-file-downloads",
+    "enclosure": null,
+    "summary": "1. Sitecore Marketplace apps now enable file download permissions, allowing users to export files like analytics data.  ",
+    "impact": "2. This feature enhances user functionality by facilitating the download of important data, ensuring app utility and flexibility."
+  },
+  {
     "date": "Tue, 19 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Resolved issue in Content Hub for May 19, 2026",
