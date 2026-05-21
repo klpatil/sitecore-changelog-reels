@@ -1,5 +1,14 @@
 [
   {
+    "date": "Thu, 21 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improvements and resolved issues in Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/21052026/improvements-and-resolved-issues-in-page-builder",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/b1c6441c-d5d0-4ddc-b866-6a7344663406?transform=true",
+    "summary": "1. The Page builder update enhances usability by adding features for easier page comparison and improved form visibility, while also addressing key issues related to data sourcing and item creation.  ",
+    "impact": "2. These improvements streamline the editing process for Sitecore users, making it more intuitive and reducing potential errors in content management."
+  },
+  {
     "date": "Wed, 20 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Marketplace apps now support file downloads",
@@ -7,6 +16,15 @@
     "enclosure": null,
     "summary": "1. Sitecore Marketplace apps now enable file download permissions, allowing users to export files like analytics data.  ",
     "impact": "2. This feature enhances user functionality by facilitating the download of important data, ensuring app utility and flexibility."
+  },
+  {
+    "date": "Wed, 20 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Access Agentic Studio directly in Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/20052026/access-agentic-studio-directly-in-page-builder",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/9ede466c-b969-4347-b96d-ff7e298ee3db?transform=true",
+    "summary": "1. Sitecore now allows direct access to Agentic Studio chat and agents from the Page builder toolbar for streamlined workflow.  ",
+    "impact": "2. This enhancement enables users to efficiently utilize AI tools while working on specific pages, improving productivity and contextual support."
   },
   {
     "date": "Tue, 19 May 2026 00:00:00 GMT",
