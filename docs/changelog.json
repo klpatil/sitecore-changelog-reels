@@ -1,5 +1,14 @@
 [
   {
+    "date": "Tue, 26 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.7.94",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/26052026/sitecoreai-base-image-release-1.7.94",
+    "enclosure": null,
+    "summary": "1. The SitecoreAI base image release 1.7.94 addresses several issues in the Content Editor, enhances security, and improves caching and URL string handling.  ",
+    "impact": "2. These updates are crucial for ensuring smoother functionality, preventing errors in content management, and bolstering overall application security.  "
+  },
+  {
     "date": "Thu, 21 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Improvements and resolved issues in Page builder",
