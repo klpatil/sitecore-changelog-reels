@@ -1,5 +1,14 @@
 [
   {
+    "date": "Thu, 28 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Deliver targeted experiences with component personalization",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/28052026/deliver-targeted-experiences-with-component-personalization",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/ea55f4e3-37e3-4da8-aa2d-f18e01ecbefa?transform=true",
+    "summary": "1. Sitecore introduces component personalization in the AI Page Builder, allowing for targeted experiences at the component level without whole-page personalization.  ",
+    "impact": "2. This feature enhances flexibility for marketers by enabling them to tailor specific page elements to different visitor profiles, improving engagement and effectiveness of campaigns.  "
+  },
+  {
     "date": "Tue, 26 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "SitecoreAI base image release 1.7.94",
