@@ -1,5 +1,14 @@
 [
   {
+    "date": "Fri, 29 May 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for May 29, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/29052026/resolved-issues-in-content-hub-for-may-29%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's update on May 29, 2026, resolves multiple issues including video task parameters, REST API content syncing, integer property filters, brand kit loading, and state flow notifications.  ",
+    "impact": "2. These fixes enhance function reliability, improve user experience in content editing, and ensure accurate data interactions within the platform."
+  },
+  {
     "date": "Thu, 28 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Deliver targeted experiences with component personalization",
