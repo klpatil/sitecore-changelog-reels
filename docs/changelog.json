@@ -1,5 +1,14 @@
 [
   {
+    "date": "Tue, 02 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Experience the next generation of asset management",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/02062026/experience-the-next-generation-of-asset-management",
+    "enclosure": null,
+    "summary": "1. Sitecore's new Media page enhances asset management with AI-driven features for effortless media discovery and streamlined workflows.  ",
+    "impact": "2. This update matters because it improves efficiency, accessibility, and user experience in managing digital assets, positioning SitecoreAI as a powerful tool for modern content strategies."
+  },
+  {
     "date": "Fri, 29 May 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Resolved issues in Content Hub for May 29, 2026",
