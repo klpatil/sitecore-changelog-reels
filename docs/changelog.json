@@ -1,5 +1,14 @@
 [
   {
+    "date": "Wed, 03 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improvements to delta crawling",
+    "link": "https://developers.sitecore.com/changelog/search/03062026/improvements-to-delta-crawling",
+    "enclosure": null,
+    "summary": "1. Sitecore has enhanced delta crawling by enabling the removal of indexed documents for deleted URLs and supporting incremental updates.  ",
+    "impact": "2. These improvements help ensure search results remain accurate and up-to-date by preventing outdated content from being displayed."
+  },
+  {
     "date": "Tue, 02 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Experience the next generation of asset management",
