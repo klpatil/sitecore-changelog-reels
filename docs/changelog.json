@@ -1,12 +1,21 @@
 [
   {
-    "date": "Tue, 09 Jun 2026 00:00:00 GMT",
+    "date": "Wed, 10 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
-    "title": "SitecoreAI base image release 1.7.118",
-    "link": "https://developers.sitecore.com/changelog/sitecoreai/09062026/sitecoreai-base-image-release-1.7.118",
+    "title": "Effective January 1, 2027, Experience Editor will be officially deprecated and Page builder will be the supported editing experience in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/10062026/effective-january-1%2c-2027%2c-experience-editor-will-be-officially-deprecated-and-page-builder-will-be-the-supported-editing-experience-in-sitecoreai",
     "enclosure": null,
-    "summary": "1. Summary: Sitecore AI base image 1.7.118 includes improved serialization handling and various bug fixes, including issues with the Multiroot Treelist field and media item transfers.  ",
-    "impact": "2. Why it matters: These updates enhance functionality and reliability, ensuring smoother performance and better user experience within the Sitecore environment."
+    "summary": "1. Effective January 1, 2027, Sitecore will officially deprecate Experience Editor, shifting support entirely to Page builder, which now includes enhanced features and functionality.  ",
+    "impact": "2. This transition to Page builder allows for a more modern, intuitive editing experience, combining all previously needed capabilities and providing greater flexibility, faster development, and improved content management."
+  },
+  {
+    "date": "Wed, 10 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Effective October 1, 2026, Explorer will be officially deprecated and Page builder Content mode will be the supported experience in SitecoreAI.\n\n",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/10062026/effective-october-1%2c-2026%2c-explorer-will-be-officially-deprecated-and-page-builder-content-mode-will-be-the-supported-experience-in-sitecoreai.%0a%0a",
+    "enclosure": null,
+    "summary": "1. Summary: Explorer will be deprecated as of October 1, 2026, with the Page Builder's Content mode becoming the primary tool for content creation and management in SitecoreAI.  ",
+    "impact": "2. Why it matters: This shift enhances user experience by streamlining content workflows, promoting faster authoring, and simplifying navigation, ultimately improving efficiency for content authors."
   },
   {
     "date": "Tue, 09 Jun 2026 00:00:00 GMT",
@@ -16,6 +25,15 @@
     "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/8d2b3cf6-a5fd-45a1-be99-19c79b0028df?transform=true",
     "summary": "1. Sitecore is introducing contextual publishing insights that provide clear visibility into content publishing states across various levels, with status indicators for live, scheduled, draft, and more.  ",
     "impact": "2. This update enhances transparency and accuracy for editors, improving their confidence in content management and the publishing process."
+  },
+  {
+    "date": "Tue, 09 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.7.118",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/09062026/sitecoreai-base-image-release-1.7.118",
+    "enclosure": null,
+    "summary": "1. Summary: Sitecore AI base image 1.7.118 includes improved serialization handling and various bug fixes, including issues with the Multiroot Treelist field and media item transfers.  ",
+    "impact": "2. Why it matters: These updates enhance functionality and reliability, ensuring smoother performance and better user experience within the Sitecore environment."
   },
   {
     "date": "Tue, 09 Jun 2026 00:00:00 GMT",
