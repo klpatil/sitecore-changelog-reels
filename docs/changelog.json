@@ -1,5 +1,14 @@
 [
   {
+    "date": "Thu, 11 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Site settings are now available as a dedicated tab in the Sites dashboard",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/11062026/site-settings-are-now-available-as-a-dedicated-tab-in-the-sites-dashboard",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/a5d13d5d-82a3-439d-80e8-94a9ed44ab75?transform=true",
+    "summary": "1. Site settings are now conveniently accessible as a dedicated tab in the Sites dashboard, enhancing overall navigation and management.  ",
+    "impact": "2. This update improves efficiency by simplifying access to site settings, promoting a more cohesive user experience."
+  },
+  {
     "date": "Wed, 10 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Question and Answer Groups",
