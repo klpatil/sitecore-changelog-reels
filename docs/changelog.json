@@ -2,6 +2,15 @@
   {
     "date": "Wed, 10 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "Question and Answer Groups",
+    "link": "https://developers.sitecore.com/changelog/search/10062026/question-and-answer-groups",
+    "enclosure": null,
+    "summary": "1. Sitecore now allows users to scope Question and Answer content to specific sites or sources through Question and Answer Groups, enhancing content relevancy.  ",
+    "impact": "2. This feature provides greater control over Q&A construction and improves search relevance, making it easier to manage content according to specific user needs."
+  },
+  {
+    "date": "Wed, 10 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "Effective January 1, 2027, Experience Editor will be officially deprecated and Page builder will be the supported editing experience in SitecoreAI",
     "link": "https://developers.sitecore.com/changelog/sitecoreai/10062026/effective-january-1%2c-2027%2c-experience-editor-will-be-officially-deprecated-and-page-builder-will-be-the-supported-editing-experience-in-sitecoreai",
     "enclosure": null,
