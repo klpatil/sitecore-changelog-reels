@@ -1,5 +1,41 @@
 [
   {
+    "date": "Fri, 12 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Package integrity validation on import",
+    "link": "https://developers.sitecore.com/changelog/content-hub/12062026/package-integrity-validation-on-import",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/d3cb484e-fa6e-4dcf-be9f-3907971e1c73?transform=true",
+    "summary": "1. Sitecore has introduced package integrity validation during imports by adding a checksum to detect external modifications to exported packages.  ",
+    "impact": "2. This enhancement helps maintain data consistency and schema stability by warning users of unauthorized changes, ensuring safer content management practices."
+  },
+  {
+    "date": "Fri, 12 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "HTML identifiers for portal components",
+    "link": "https://developers.sitecore.com/changelog/content-hub/12062026/html-identifiers-for-portal-components",
+    "enclosure": null,
+    "summary": "1. Sitecore now wraps all portal components in a div with a data-testid attribute for better targeting and customization.  ",
+    "impact": "2. This update enhances UI customization and automated testing by providing consistent HTML identifiers for developers."
+  },
+  {
+    "date": "Fri, 12 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New dashboard to analyze an asset’s public links",
+    "link": "https://developers.sitecore.com/changelog/content-hub/12062026/new-dashboard-to-analyze-an-asset%e2%80%99s-public-links",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/79272cc0-2494-49b4-831c-937fef689f8f?transform=true",
+    "summary": "1. Sitecore has introduced a new analytics dashboard that allows users to track the performance of an asset’s public links with interactive charts and filters.  ",
+    "impact": "2. This update enhances user insights, enabling effective optimization of assets based on performance data and audience engagement metrics."
+  },
+  {
+    "date": "Fri, 12 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for June 12, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/12062026/resolved-issues-in-content-hub-for-june-12%2c-2026",
+    "enclosure": null,
+    "summary": "1. The Sitecore update on June 12, 2026, resolves multiple issues related to content management, including improved asset viewing, group policies in exports, and better error handling in taxonomy management and state flows.  ",
+    "impact": "2. These fixes enhance the overall user experience, ensuring smoother operations in Content Hub and maintaining data integrity during imports and exports."
+  },
+  {
     "date": "Thu, 11 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Site settings are now available as a dedicated tab in the Sites dashboard",
