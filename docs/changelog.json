@@ -1,5 +1,14 @@
 [
   {
+    "date": "Mon, 15 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Marketer MCP and Agent API enhancements for personalization and experiments in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/15062026/marketer-mcp-and-agent-api-enhancements-for-personalization-and-experiments-in-sitecoreai",
+    "enclosure": null,
+    "summary": "1. SitecoreAI now fully supports personalization and A/B/n testing through the Marketer MCP and Agent API, ensuring seamless integration in the UI.  ",
+    "impact": "2. This enhancement allows users to effectively create and manage testing workflows, improving the overall user experience and reliability of personalizations within SitecoreAI."
+  },
+  {
     "date": "Fri, 12 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Package integrity validation on import",
