@@ -1,5 +1,23 @@
 [
   {
+    "date": "Thu, 18 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Brief types for consistent, reusable marketing brief templates",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/18062026/brief-types-for-consistent%2c-reusable-marketing-brief-templates",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/954978db-2977-4ae4-b61e-ddc04cb555da?transform=true",
+    "summary": "1. SitecoreAI now allows the creation of multiple reusable marketing brief types, enabling customized templates that streamline the brief completion process with relevant fields for various campaigns.  ",
+    "impact": "2. This enhancement improves efficiency for marketers by ensuring they only see pertinent information, reducing clutter, and allowing admins to tailor brief structures to specific campaign needs."
+  },
+  {
+    "date": "Thu, 18 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Page builder improvements and resolved issues",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/18062026/page-builder-improvements-and-resolved-issues",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/2a2ba8eb-3cfb-4ead-9e7e-a0a97809bd39?transform=true",
+    "summary": "1. The latest Page Builder update enhances user experience with clearer field validation, improved link dialogs, and various bug fixes related to language restrictions and item translation statuses.  ",
+    "impact": "2. These improvements streamline the content creation process, making it easier for authors to manage components and links while ensuring data integrity and usability."
+  },
+  {
     "date": "Mon, 15 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Marketer MCP and Agent API enhancements for personalization and experiments in SitecoreAI",
