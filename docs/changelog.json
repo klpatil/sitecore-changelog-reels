@@ -1,5 +1,14 @@
 [
   {
+    "date": "Fri, 19 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Audience targeting for A/B/n tests",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/19062026/audience-targeting-for-a-b-n-tests",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/6c8d4a16-94cf-4bc8-a12f-48a0c0fdab4a?transform=true",
+    "summary": "1. Sitecore now allows users to target specific audiences for A/B/n tests through a new condition builder feature.  ",
+    "impact": "2. This enhancement enables more precise testing by ensuring only relevant visitors participate, improving the accuracy of results and targeting effectiveness."
+  },
+  {
     "date": "Thu, 18 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Brief types for consistent, reusable marketing brief templates",
