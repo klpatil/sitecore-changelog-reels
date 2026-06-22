@@ -1,5 +1,14 @@
 [
   {
+    "date": "Mon, 22 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Audience builder now available in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/22062026/audience-builder-now-available-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/54881a78-3ad1-4cc6-9784-66dc9afdbc0a?transform=true",
+    "summary": "1. SitecoreAI introduces an Audience Builder feature to create and manage reusable audience profiles using customizable rules based on profile data.  ",
+    "impact": "2. This enhancement streamlines audience segmentation, reduces redundancy in audience rule creation, and allows for size estimation, empowering marketers to target specific customer groups more effectively."
+  },
+  {
     "date": "Fri, 19 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Audience targeting for A/B/n tests",
