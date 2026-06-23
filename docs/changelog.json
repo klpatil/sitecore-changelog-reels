@@ -1,5 +1,14 @@
 [
   {
+    "date": "Tue, 23 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.7.149",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/23062026/sitecoreai-base-image-release-1.7.149",
+    "enclosure": null,
+    "summary": "1. The SitecoreAI base image release 1.7.149 addresses several issues, including improved null safety in the DAM Connector and enhanced media item dependency handling.  ",
+    "impact": "2. This update is crucial as it enhances stability, reduces errors during processing, and ensures correct media references in publishing, thereby improving overall user experience."
+  },
+  {
     "date": "Mon, 22 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Audience builder now available in SitecoreAI",
