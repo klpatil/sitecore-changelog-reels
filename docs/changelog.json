@@ -1,5 +1,50 @@
 [
   {
+    "date": "Fri, 26 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for June 26, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/26062026/resolved-issues-in-content-hub-for-june-26%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's June 26, 2026 update resolves multiple issues in Content Hub, enhancing functionality and performance across searches, notifications, and user interfaces.  ",
+    "impact": "2. These improvements ensure a smoother user experience, increased compatibility, and more reliable operations for developers and content managers using the platform."
+  },
+  {
+    "date": "Fri, 26 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improved media processing prioritization",
+    "link": "https://developers.sitecore.com/changelog/content-hub/26062026/improved-media-processing-prioritization",
+    "enclosure": null,
+    "summary": "1. Sitecore has enhanced media processing prioritization for more efficient handling of important assets and improved background processing.  ",
+    "impact": "2. This update significantly improves user experience when managing high-volume uploads and complex media transformations in Content Hub."
+  },
+  {
+    "date": "Fri, 26 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "In-app and email notifications can now be sent asynchronously",
+    "link": "https://developers.sitecore.com/changelog/content-hub/26062026/in-app-and-email-notifications-can-now-be-sent-asynchronously",
+    "enclosure": null,
+    "summary": "1. Sitecore now allows asynchronous sending of in-app and email notifications, improving performance for large recipient lists via background workers.  ",
+    "impact": "2. This enhancement ensures more efficient and timely delivery of notifications, optimizing user experience and system performance."
+  },
+  {
+    "date": "Fri, 26 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Subresource Integrity (SRI) protection for JavaScript files",
+    "link": "https://developers.sitecore.com/changelog/content-hub/26062026/subresource-integrity-(sri)-protection-for-javascript-files",
+    "enclosure": null,
+    "summary": "1. Sitecore has implemented Subresource Integrity (SRI) protection for all externally loaded JavaScript files to safeguard against tampering.  ",
+    "impact": "2. This enhancement improves security by ensuring that the JavaScript files being loaded have not been altered, protecting the integrity of the application."
+  },
+  {
+    "date": "Fri, 26 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Full page editing now generally available",
+    "link": "https://developers.sitecore.com/changelog/content-hub/26062026/full-page-editing-now-generally-available",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/9ca539d5-385e-453b-b84a-70d19c14a001?transform=true",
+    "summary": "**Summary:** Full Page Editing has been officially released, enabling comprehensive edits of all metadata on details pages with one click. ",
+    "impact": "**Why it matters:** This feature enhances workflow efficiency by allowing users to quickly manage pages with global Save and Cancel options, simplifying the editing process."
+  },
+  {
     "date": "Tue, 23 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "SitecoreAI base image release 1.7.149",
