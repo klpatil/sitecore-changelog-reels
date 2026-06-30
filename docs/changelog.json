@@ -1,5 +1,14 @@
 [
   {
+    "date": "Tue, 30 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improvements and resolved issues in Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/30062026/improvements-and-resolved-issues-in-page-builder",
+    "enclosure": null,
+    "summary": "1. The Page builder update improves performance, enhances the design panel, and clarifies content mode, while fixing key issues related to image fields and workflow notifications.  ",
+    "impact": "2. These enhancements streamline the authoring experience, making page editing faster and more intuitive, which boosts overall productivity."
+  },
+  {
     "date": "Fri, 26 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Resolved issues in Content Hub for June 26, 2026",
