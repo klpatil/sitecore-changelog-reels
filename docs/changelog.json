@@ -2,6 +2,15 @@
   {
     "date": "Tue, 30 Jun 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "Content SDK 2.2 released with on-demand static revalidation and other improvements",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/30062026/content-sdk-2.2-released-with-on-demand-static-revalidation-and-other-improvements",
+    "enclosure": null,
+    "summary": "1. Content SDK 2.2 introduces on-demand static revalidation, draft component workflows, and enhancements for a better developer experience.  ",
+    "impact": "2. This update streamlines content updates and component iterations, reducing deployment overhead and improving development efficiency."
+  },
+  {
+    "date": "Tue, 30 Jun 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "Improvements and resolved issues in Page builder",
     "link": "https://developers.sitecore.com/changelog/sitecoreai/30062026/improvements-and-resolved-issues-in-page-builder",
     "enclosure": null,
