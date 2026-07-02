@@ -1,5 +1,14 @@
 [
   {
+    "date": "Thu, 02 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Release of SitecoreAI Pathway 1.4",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/02072026/release-of-sitecoreai-pathway-1.4",
+    "enclosure": null,
+    "summary": "1. The SitecoreAI Pathway 1.4 release introduces enhancements such as improved image migration, automated export structure item creation, and detailed per-group template mapping status for more efficient content migration.  ",
+    "impact": "2. These updates enhance user experience by streamlining migration processes, increasing accuracy, and providing better control and visibility, making it easier for organizations to manage their content across multiple languages and sources."
+  },
+  {
     "date": "Wed, 01 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Content Transfer API and Item Transfer API now available",
