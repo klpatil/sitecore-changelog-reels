@@ -1,5 +1,14 @@
 [
   {
+    "date": "Fri, 03 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Stay in control of AI-proposed changes in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/03072026/stay-in-control-of-ai-proposed-changes-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/c517091b-bd23-424a-b97d-5eb12bb1924b?transform=true",
+    "summary": "1. SitecoreAI now enables users to review and approve proposed AI-generated changes in the Chat interface before saving them.  ",
+    "impact": "2. This update enhances user control and accuracy, allowing for verification and selective acceptance of AI suggestions."
+  },
+  {
     "date": "Thu, 02 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Release of SitecoreAI Pathway 1.4",
