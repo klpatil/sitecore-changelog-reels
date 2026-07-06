@@ -1,5 +1,14 @@
 [
   {
+    "date": "Mon, 06 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Marketer MCP and Agent API updates improve personalization, testing, and site data support",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/06072026/marketer-mcp-and-agent-api-updates-improve-personalization%2c-testing%2c-and-site-data-support",
+    "enclosure": null,
+    "summary": "1. Sitecore's update enhances Marketer MCP tools and Agent API with new features for personalized targeting, A/B/n testing, and improved data retrieval for components.  ",
+    "impact": "2. This matters because it allows marketers to better manage page variants and personalize user experiences, ultimately optimizing site performance and user engagement."
+  },
+  {
     "date": "Fri, 03 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Stay in control of AI-proposed changes in SitecoreAI",
