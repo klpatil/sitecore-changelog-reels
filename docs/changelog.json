@@ -1,5 +1,14 @@
 [
   {
+    "date": "Tue, 07 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.8.24",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/07072026/sitecoreai-base-image-release-1.8.24",
+    "enclosure": null,
+    "summary": "1. The SitecoreAI base image release 1.8.24 enhances translation job efficiency, improves blob storage performance, and introduces security enhancements while addressing various bugs. ",
+    "impact": "2. These updates optimize system performance and reliability, crucial for maintaining an effective content management experience and preparing for the upcoming transition to modern deployment methods."
+  },
+  {
     "date": "Mon, 06 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Marketer MCP and Agent API updates improve personalization, testing, and site data support",
