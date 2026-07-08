@@ -1,5 +1,14 @@
 [
   {
+    "date": "Wed, 08 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue for Design Studio",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/08072026/resolved-issue-for-design-studio",
+    "enclosure": null,
+    "summary": "1. Sitecore resolved a design issue where component previews were failing due to a misconfigured Rendering Host, ensuring consistent display for correctly configured sites.  ",
+    "impact": "2. This fix enhances the reliability of the Design Studio by allowing continuous access to component previews, improving the user experience for developers."
+  },
+  {
     "date": "Tue, 07 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "SitecoreAI base image release 1.8.24",
