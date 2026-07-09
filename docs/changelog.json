@@ -1,5 +1,50 @@
 [
   {
+    "date": "Thu, 09 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Publish only the languages you need in Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/09072026/publish-only-the-languages-you-need-in-page-builder",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/9f72f26f-3c07-425e-a741-0367c1e26f34?transform=true",
+    "summary": "1. Page builder now allows editors to selectively publish specific language versions, enhancing control over multilingual workflows.  ",
+    "impact": "2. This improvement reduces unnecessary publishing activities and streamlines operations for organizations managing multiple language variants."
+  },
+  {
+    "date": "Thu, 09 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Conditional Show and Hide for text and images in SitecoreAI Forms",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/09072026/conditional-show-and-hide-for-text-and-images-in-sitecoreai-forms",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/c76a3b16-91f6-4bee-868b-a53d42958d12?transform=true",
+    "summary": "1. SitecoreAI Forms now allows conditional logic to show or hide Text and Image items alongside form fields.  ",
+    "impact": "2. This enhancement improves the personalization and clarity of forms by displaying relevant content based on user interactions."
+  },
+  {
+    "date": "Thu, 09 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Build flexible, customizable pages in Page builder with page branches",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/09072026/build-flexible%2c-customizable-pages-in-page-builder-with-page-branches",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/b3cdf5f7-e5b5-4fed-ba02-33981914a061?transform=true",
+    "summary": "1. Sitecore introduces page branches in Page Builder, allowing teams to create customizable and structured pages with preconfigured components and local data sources.  ",
+    "impact": "2. This update enhances efficiency and flexibility, enabling consistent layouts while empowering content authors to tailor pages for specific campaigns or audiences."
+  },
+  {
+    "date": "Thu, 09 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Take control of media releases with embargo dates",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/09072026/take-control-of-media-releases-with-embargo-dates",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/df44099a-3354-4ee9-afd8-6b44ba836d5b?transform=true",
+    "summary": "**Summary:** Sitecore now allows users to set embargo dates for media assets in Page Builder, enabling scheduled availability and automated publishing.  ",
+    "impact": "**Why it matters:** This feature enhances content management efficiency, allowing teams to coordinate the release of critical assets seamlessly and confidently."
+  },
+  {
+    "date": "Thu, 09 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Page builder improvements and resolved issues",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/09072026/page-builder-improvements-and-resolved-issues",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/6170708a-1eba-4ba3-8d0f-e59e2264385a?transform=true",
+    "summary": "1. The latest Sitecore Page Builder update enhances usability with fully editable Lookup fields and direct accessibility to referenced items, while resolving issues related to language selection and media asset identification.  ",
+    "impact": "2. These improvements streamline the authoring process, reduce context-switching, and enhance the overall efficiency and reliability of content management in Sitecore."
+  },
+  {
     "date": "Wed, 08 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Resolved issue for Design Studio",
