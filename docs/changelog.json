@@ -1,5 +1,32 @@
 [
   {
+    "date": "Fri, 10 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Migrate content between SitecoreAI environments using APIs",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/10072026/migrate-content-between-sitecoreai-environments-using-apis",
+    "enclosure": null,
+    "summary": "1. Sitecore has introduced APIs for easier content migration between SitecoreAI environments, featuring a comparison of migration workflows and detailed step-by-step guides.  ",
+    "impact": "2. This update streamlines the migration process, enhancing efficiency and usability for developers transitioning to modern API-based approaches."
+  },
+  {
+    "date": "Fri, 10 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Site search sources in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/10072026/site-search-sources-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/bbfd0a41-289e-48d9-9911-e3dc688dc8ec?transform=true",
+    "summary": "1. SitecoreAI introduces support for site search sources, allowing users to create search experiences using indexed content from both structured content and external websites.  ",
+    "impact": "2. This feature enhances search capabilities by enabling customizable indexing of website content, improving user experience and content discoverability."
+  },
+  {
+    "date": "Thu, 09 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Take control of media releases with embargo dates",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/09072026/take-control-of-media-releases-with-embargo-dates",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/df44099a-3354-4ee9-afd8-6b44ba836d5b?transform=true",
+    "summary": "**Summary:** Sitecore now allows users to set embargo dates for media assets in Page Builder, enabling scheduled availability and automated publishing.  ",
+    "impact": "**Why it matters:** This feature enhances content management efficiency, allowing teams to coordinate the release of critical assets seamlessly and confidently."
+  },
+  {
     "date": "Thu, 09 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Publish only the languages you need in Page builder",
@@ -25,15 +52,6 @@
     "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/b3cdf5f7-e5b5-4fed-ba02-33981914a061?transform=true",
     "summary": "1. Sitecore introduces page branches in Page Builder, allowing teams to create customizable and structured pages with preconfigured components and local data sources.  ",
     "impact": "2. This update enhances efficiency and flexibility, enabling consistent layouts while empowering content authors to tailor pages for specific campaigns or audiences."
-  },
-  {
-    "date": "Thu, 09 Jul 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
-    "title": "Take control of media releases with embargo dates",
-    "link": "https://developers.sitecore.com/changelog/sitecoreai/09072026/take-control-of-media-releases-with-embargo-dates",
-    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/df44099a-3354-4ee9-afd8-6b44ba836d5b?transform=true",
-    "summary": "**Summary:** Sitecore now allows users to set embargo dates for media assets in Page Builder, enabling scheduled availability and automated publishing.  ",
-    "impact": "**Why it matters:** This feature enhances content management efficiency, allowing teams to coordinate the release of critical assets seamlessly and confidently."
   },
   {
     "date": "Thu, 09 Jul 2026 00:00:00 GMT",
