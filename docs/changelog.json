@@ -11,6 +11,15 @@
   {
     "date": "Fri, 10 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for July 10, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/10072026/resolved-issues-in-content-hub-for-july-10%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's July 10, 2026, update resolved several issues in Content Hub, including improved search results, fixed functionality for drag-selecting assets, and enhancements to the table view experience.  ",
+    "impact": "2. These changes enhance user experience by ensuring more reliable performance in content management and streamlined asset handling, contributing to overall efficiency in workflows."
+  },
+  {
+    "date": "Fri, 10 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "Site search sources in SitecoreAI",
     "link": "https://developers.sitecore.com/changelog/sitecoreai/10072026/site-search-sources-in-sitecoreai",
     "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/bbfd0a41-289e-48d9-9911-e3dc688dc8ec?transform=true",
