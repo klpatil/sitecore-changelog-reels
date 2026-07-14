@@ -1,5 +1,50 @@
 [
   {
+    "date": "Tue, 14 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "View your audience and insights data in Microsoft Fabric",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/14072026/view-your-audience-and-insights-data-in-microsoft-fabric",
+    "enclosure": null,
+    "summary": "1. Sitecore has introduced a new data lake export service that integrates audience and insights data directly into Microsoft Fabric using zero copy functionality.  ",
+    "impact": "2. This update simplifies data access for teams by eliminating the need for complex export pipelines, enabling easier analysis with native Fabric tools like Power BI."
+  },
+  {
+    "date": "Tue, 14 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Plan your site launch with confidence using Go-live Planning",
+    "link": "https://developers.sitecore.com/changelog/cloud-portal/14072026/plan-your-site-launch-with-confidence-using-go-live-planning",
+    "enclosure": null,
+    "summary": "1. Sitecore now allows users to set a planned go-live date in the Cloud Portal, enhancing support during site launches.  ",
+    "impact": "2. This feature improves support readiness and prioritizes cases for quicker resolution, ensuring a smoother deployment experience."
+  },
+  {
+    "date": "Tue, 14 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New custom context IDs for more secure and flexible integrations",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/14072026/new-custom-context-ids-for-more-secure-and-flexible-integrations",
+    "enclosure": null,
+    "summary": "**Summary:** Sitecore introduces new custom context IDs for enhanced control over application resource access in the Sitecore Cloud Portal.  ",
+    "impact": "**Why it matters:** This update promotes stronger security and flexibility, allowing developers to limit access to only necessary resources and improve application architecture."
+  },
+  {
+    "date": "Tue, 14 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Now you can refresh audience schedules in Audience builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/14072026/now-you-can-refresh-audience-schedules-in-audience-builder",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/c3ce647a-f5d6-4d5c-bee8-b06a276df1bc?transform=true",
+    "summary": "1. Sitecore now allows users to set individual refresh schedules for audiences in the Audience Builder, with options ranging from 6 to 24 hours.  ",
+    "impact": "2. This enhancement ensures audience data stays current, improving the effectiveness of campaigns and personalized marketing efforts."
+  },
+  {
+    "date": "Tue, 14 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub for July 14, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/14072026/resolved-issue-in-content-hub-for-july-14%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore has resolved an issue in Content Hub that blocked the loading of virtual file graph nodes from a snapshot.  ",
+    "impact": "2. This fix enhances the functionality and reliability of content management, ensuring smoother access to crucial data."
+  },
+  {
     "date": "Fri, 10 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Migrate content between SitecoreAI environments using APIs",
