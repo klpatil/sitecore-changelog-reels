@@ -2,6 +2,15 @@
   {
     "date": "Tue, 14 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "Profile import now available in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/14072026/profile-import-now-available-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/d9f1e66f-6987-44ac-8b4c-7ccf43029706?transform=true",
+    "summary": "1. SitecoreAI now supports profile import via an API-first, bulk ingestion feature, allowing customers to add or update profiles using JSON Lines (JSONL) files.  ",
+    "impact": "2. This enhancement simplifies data migrations and integrations, ensuring efficient onboarding and synchronization of large profile datasets from external systems."
+  },
+  {
+    "date": "Tue, 14 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "View your audience and insights data in Microsoft Fabric",
     "link": "https://developers.sitecore.com/changelog/sitecoreai/14072026/view-your-audience-and-insights-data-in-microsoft-fabric",
     "enclosure": null,
