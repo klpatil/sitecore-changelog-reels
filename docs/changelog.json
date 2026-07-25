@@ -1,5 +1,23 @@
 [
   {
+    "date": "Fri, 24 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub for July 24, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/24072026/resolved-issue-in-content-hub-for-july-24%2c-2026",
+    "enclosure": null,
+    "summary": "1. Content Hub 10.75 update resolves a performance issue that could cause slower processing.  ",
+    "impact": "2. This enhancement improves system efficiency, ensuring faster content management for users."
+  },
+  {
+    "date": "Fri, 24 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for July 24, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/24072026/resolved-issues-in-content-hub-for-july-24%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's update on July 24, 2026, resolved multiple technical issues, including search ID functionality, validation consistency across relations, and AI content generation settings.  ",
+    "impact": "2. These improvements enhance user experience by ensuring robust functionality, error correction, and better support for different languages, ultimately promoting efficient content management."
+  },
+  {
     "date": "Tue, 21 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "SitecoreAI base image release 1.8.44",
