@@ -2,6 +2,15 @@
   {
     "date": "Fri, 24 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for July 24, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/24072026/resolved-issues-in-content-hub-for-july-24%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's update on July 24, 2026, resolved multiple technical issues, including search ID functionality, validation consistency across relations, and AI content generation settings.  ",
+    "impact": "2. These improvements enhance user experience by ensuring robust functionality, error correction, and better support for different languages, ultimately promoting efficient content management."
+  },
+  {
+    "date": "Fri, 24 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "Resolved issue in Content Hub for July 24, 2026",
     "link": "https://developers.sitecore.com/changelog/content-hub/24072026/resolved-issue-in-content-hub-for-july-24%2c-2026",
     "enclosure": null,
@@ -9,13 +18,22 @@
     "impact": "2. This enhancement improves system efficiency, ensuring faster content management for users."
   },
   {
-    "date": "Fri, 24 Jul 2026 00:00:00 GMT",
+    "date": "Thu, 23 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
-    "title": "Resolved issues in Content Hub for July 24, 2026",
-    "link": "https://developers.sitecore.com/changelog/content-hub/24072026/resolved-issues-in-content-hub-for-july-24%2c-2026",
+    "title": "Page builder improvements and resolved issues",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/23072026/page-builder-improvements-and-resolved-issues",
     "enclosure": null,
-    "summary": "1. Sitecore's update on July 24, 2026, resolved multiple technical issues, including search ID functionality, validation consistency across relations, and AI content generation settings.  ",
-    "impact": "2. These improvements enhance user experience by ensuring robust functionality, error correction, and better support for different languages, ultimately promoting efficient content management."
+    "summary": "1. The latest Sitecore Page Builder update enhances project navigation, adds local development support, and resolves various performance and interface issues.  ",
+    "impact": "2. These improvements streamline the user experience, optimize performance, and ensure a more reliable editing environment, particularly for large content structures."
+  },
+  {
+    "date": "Thu, 23 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Take control of exactly when your media goes live with on-demand media availability in Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/23072026/take-control-of-exactly-when-your-media-goes-live-with-on-demand-media-availability-in-page-builder",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/db6d4a60-ed87-41d3-9f9e-46fc20bbafd0?transform=true",
+    "summary": "1. Sitecore introduces on-demand media availability in Page Builder, allowing teams to schedule media assets for release with a single click without prior visibility.  ",
+    "impact": "2. This feature enhances launch readiness by providing marketers control over media timing, reducing last-minute updates and risks on launch day."
   },
   {
     "date": "Tue, 21 Jul 2026 00:00:00 GMT",
