@@ -1,5 +1,14 @@
 [
   {
+    "date": "Mon, 27 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub 10.76 for July 27, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/27072026/resolved-issue-in-content-hub-10.76-for-july-27%2c-2026",
+    "enclosure": null,
+    "summary": "1. Content Hub 10.76 update resolves an issue that caused slower processing.  ",
+    "impact": "2. This fix enhances performance, improving user experience and efficiency in content management."
+  },
+  {
     "date": "Fri, 24 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Resolved issues in Content Hub for July 24, 2026",
