@@ -1,5 +1,14 @@
 [
   {
+    "date": "Tue, 28 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Add custom headers to Forms webhooks",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/28072026/add-custom-headers-to-forms-webhooks",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/6001f47e-8ab7-4a63-a1ba-a2ef2aefbbe2?transform=true",
+    "summary": "**Summary:** Sitecore now allows the addition of custom headers to Forms webhooks, enhancing flexibility in configuring requests to external systems.",
+    "impact": "**Why it matters:** This update enables better integration with a wider range of APIs, allowing users to meet specific requirements while maintaining a consistent configuration experience."
+  },
+  {
     "date": "Mon, 27 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Resolved issue in Content Hub 10.76 for July 27, 2026",
