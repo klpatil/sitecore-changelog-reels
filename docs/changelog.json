@@ -9,6 +9,15 @@
     "impact": "**Why it matters:** This update enables better integration with a wider range of APIs, allowing users to meet specific requirements while maintaining a consistent configuration experience."
   },
   {
+    "date": "Tue, 28 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Page builder improvements and resolved issues",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/28072026/page-builder-improvements-and-resolved-issues",
+    "enclosure": null,
+    "summary": "1. The Sitecore update enhances Page builder with keyboard navigation in Droplink fields and consistent messaging for AI-generated content.  ",
+    "impact": "2. These improvements streamline item selection for authors and ensure transparency in AI authoring, which supports better governance and compliance."
+  },
+  {
     "date": "Mon, 27 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Resolved issue in Content Hub 10.76 for July 27, 2026",
