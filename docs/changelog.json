@@ -1,5 +1,23 @@
 [
   {
+    "date": "Thu, 30 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Simplified Marketer MCP setup for Copilot Studio, Postman, and Codex app",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/30072026/simplified-marketer-mcp-setup-for-copilot-studio%2c-postman%2c-and-codex-app",
+    "enclosure": null,
+    "summary": "1. Sitecore has streamlined the setup process for the Marketer MCP server in Microsoft Copilot Studio, Postman, and the Codex app by removing the previous OAuth workaround and adopting a standard setup flow.  ",
+    "impact": "2. This enhancement simplifies user experience and improves integration, allowing for more efficient interaction with SitecoreAI across platforms."
+  },
+  {
+    "date": "Tue, 28 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub for July 28, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/28072026/resolved-issue-in-content-hub-for-july-28%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore addressed an authentication issue in Content Hub affecting specific scenarios.  ",
+    "impact": "2. This fix enhances security and user access, ensuring a smoother experience in the platform."
+  },
+  {
     "date": "Tue, 28 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Add custom headers to Forms webhooks",
@@ -16,6 +34,15 @@
     "enclosure": null,
     "summary": "1. The Sitecore update enhances Page builder with keyboard navigation in Droplink fields and consistent messaging for AI-generated content.  ",
     "impact": "2. These improvements streamline item selection for authors and ensure transparency in AI authoring, which supports better governance and compliance."
+  },
+  {
+    "date": "Mon, 27 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub for July 27, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/27072026/resolved-issue-in-content-hub-for-july-27%2c-2026",
+    "enclosure": null,
+    "summary": "1. A performance issue in Content Hub was resolved on July 27, 2026, improving processing speed.  ",
+    "impact": "2. This improvement enhances overall efficiency, ensuring a smoother user experience for content management."
   },
   {
     "date": "Mon, 27 Jul 2026 00:00:00 GMT",
