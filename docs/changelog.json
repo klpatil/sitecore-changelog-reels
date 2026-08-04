@@ -2,6 +2,15 @@
   {
     "date": "Thu, 30 Jul 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "OrderCloud portal, now mobile-friendly",
+    "link": "https://developers.sitecore.com/changelog/ordercloud/30072026/ordercloud-portal%2c-now-mobile-friendly",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/a65877d8-a770-46bd-a111-90858ac76a1b?transform=true",
+    "summary": "1. The OrderCloud portal is now mobile-friendly, allowing users to manage marketplaces and access the full API Console experience on their phones.  ",
+    "impact": "2. This enhancement improves user convenience and support efficiency by enabling on-the-go troubleshooting and API management."
+  },
+  {
+    "date": "Thu, 30 Jul 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "Simplified Marketer MCP setup for Copilot Studio, Postman, and Codex app",
     "link": "https://developers.sitecore.com/changelog/sitecoreai/30072026/simplified-marketer-mcp-setup-for-copilot-studio%2c-postman%2c-and-codex-app",
     "enclosure": null,
