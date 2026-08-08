@@ -1,5 +1,32 @@
 [
   {
+    "date": "Fri, 07 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Clear all filters functionality added to external component",
+    "link": "https://developers.sitecore.com/changelog/content-hub/07082026/clear-all-filters-functionality-added-to-external-component",
+    "enclosure": null,
+    "summary": "1. Sitecore has introduced a \"Clear all filters\" feature in its external component, allowing users to reset all filters, including Visual Studio (VS) filters.  ",
+    "impact": "2. This enhancement improves user experience by simplifying the process of managing filter settings, making it easier to reset and adjust views as needed."
+  },
+  {
+    "date": "Fri, 07 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "External Data Feed is now generally available",
+    "link": "https://developers.sitecore.com/changelog/content-hub/07082026/external-data-feed-is-now-generally-available",
+    "enclosure": null,
+    "summary": "1. Sitecore's External Data Feed is now generally available, enabling real-time streaming of Content Hub entity changes as structured JSON events.  ",
+    "impact": "2. This enhancement facilitates advanced analytics and cross-system reporting, allowing immediate access to data insights without the need for manual exports or delays."
+  },
+  {
+    "date": "Fri, 07 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for August 7, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/07082026/resolved-issues-in-content-hub-for-august-7%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's Content Hub update on August 7, 2026, resolves multiple issues including proper annotation deletion, preventing duplicate roles, and fixing various API and UI bugs.  ",
+    "impact": "2. These fixes enhance system reliability, improve user experience, and streamline content management processes."
+  },
+  {
     "date": "Tue, 04 Aug 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "SitecoreAI base image release 1.8.83",
