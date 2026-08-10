@@ -1,5 +1,14 @@
 [
   {
+    "date": "Mon, 10 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub for August 10, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/10082026/resolved-issue-in-content-hub-for-august-10%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore resolved an issue in Content Hub on August 10, 2026, that prevented specific scripts from compiling.  ",
+    "impact": "2. This fix enhances the functionality and usability of Content Hub, ensuring smoother content management operations."
+  },
+  {
     "date": "Fri, 07 Aug 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Clear all filters functionality added to external component",
