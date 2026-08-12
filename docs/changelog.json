@@ -1,5 +1,23 @@
 [
   {
+    "date": "Wed, 12 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Manage briefs in SitecoreAI from the Campaigns Briefs tab",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/12082026/manage-briefs-in-sitecoreai-from-the-campaigns-briefs-tab",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/80f282a5-a361-44db-a377-c26ce984b246?transform=true",
+    "summary": "1. The Campaigns Briefs tab in SitecoreAI now allows users to manage briefs more efficiently by adding, creating, and unlinking briefs directly within the campaign overview page.  ",
+    "impact": "2. This enhancement simplifies brief management, streamlining workflow and saving time for users managing campaign-related briefs."
+  },
+  {
+    "date": "Wed, 12 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Plan and manage campaigns with the new campaign calendar",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/12082026/plan-and-manage-campaigns-with-the-new-campaign-calendar",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/ea5f454e-439d-412c-b5df-8fde63f594a4?transform=true",
+    "summary": "1. Sitecore introduces a new campaign calendar in the SitecoreAI Strategy app, offering visual management of campaign timelines and overlapping schedules.  ",
+    "impact": "2. This update streamlines campaign planning and adjustments, enhancing user efficiency and clarity when managing multiple campaigns."
+  },
+  {
     "date": "Mon, 10 Aug 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Resolved issue in Content Hub for August 10, 2026",
