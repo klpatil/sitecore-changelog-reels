@@ -11,6 +11,15 @@
   {
     "date": "Wed, 12 Aug 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "Action required: SitecoreAI LTSC2019 base image deprecation\n",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/12082026/action-required%3a-sitecoreai-ltsc2019-base-image-deprecation%0a",
+    "enclosure": null,
+    "summary": "1. Sitecore is deprecating support for LTSC2019-based container images, encouraging users to migrate to LTSC2022 or LTSC2025 for ongoing security and updates.  ",
+    "impact": "2. This matters because continuing to use unsupported images may expose customers to security vulnerabilities and lack maintenance after September 2026.  "
+  },
+  {
+    "date": "Wed, 12 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "Plan and manage campaigns with the new campaign calendar",
     "link": "https://developers.sitecore.com/changelog/sitecoreai/12082026/plan-and-manage-campaigns-with-the-new-campaign-calendar",
     "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/ea5f454e-439d-412c-b5df-8fde63f594a4?transform=true",
