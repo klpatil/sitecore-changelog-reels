@@ -1,5 +1,59 @@
 [
   {
+    "date": "Tue, 18 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Preview scheduled page versions with Calendar Preview",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/18082026/preview-scheduled-page-versions-with-calendar-preview",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/d550ff6c-aae8-4109-82c2-388bc6d9502f?transform=true",
+    "summary": "1. The new Calendar Preview feature in Sitecore's Page Builder allows users to preview scheduled page updates and view past states in a unified timeline.  ",
+    "impact": "2. This enhancement improves content management by enabling better validation of releases and reducing the risk of overlapping updates before going live."
+  },
+  {
+    "date": "Tue, 18 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Compare versions in Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/18082026/compare-versions-in-page-builder",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/62992fd9-a267-4a9f-bba1-24fed394db9a?transform=true",
+    "summary": "1. Sitecore introduces a version comparison feature in Page builder, allowing users to easily see changes between two content item versions.  ",
+    "impact": "2. This enhancement facilitates effective review and validation of updates, ensuring confident publishing and bridging capabilities from Content Editor to the modern editing experience."
+  },
+  {
+    "date": "Tue, 18 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Keep workflow states when translating content",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/18082026/keep-workflow-states-when-translating-content",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/03eaea6c-3baf-471a-b067-cdc03a5d61c4?transform=true",
+    "summary": "1. Sitecore now allows users to choose whether translated content inherits the workflow state of the source item, facilitating better workflow management.  ",
+    "impact": "2. This feature enhances governance by enabling teams to ensure proper review processes for translated content, improving control over publication readiness."
+  },
+  {
+    "date": "Tue, 18 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Unpublish only the languages you need in Page builder",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/18082026/unpublish-only-the-languages-you-need-in-page-builder",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/e78a34d2-d4f3-4272-a944-d8f0b2630f5f?transform=true",
+    "summary": "1. Sitecore's Page Builder now allows users to unpublish selected language versions of a page, rather than all at once.  ",
+    "impact": "2. This feature enhances content management by enabling more precise control over regional content and independent retirement of translations."
+  },
+  {
+    "date": "Tue, 18 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Page builder improvements and resolved issues",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/18082026/page-builder-improvements-and-resolved-issues",
+    "enclosure": null,
+    "summary": "1. The latest Page builder update enhances efficiency by allowing direct editing of Lookup Name Value List fields and resolves several UI issues, including missing labels and canvas refresh problems.  ",
+    "impact": "2. These improvements streamline content updates for authors and ensure a more reliable and user-friendly editing experience."
+  },
+  {
+    "date": "Tue, 18 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.8.105",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/18082026/sitecoreai-base-image-release-1.8.105",
+    "enclosure": null,
+    "summary": "1. SitecoreAI base image release 1.8.105 introduces improved incremental publishing settings, new HTTP status codes for enhanced error handling, and resolves multiple content transfer and rendering issues.  ",
+    "impact": "2. These updates streamline publishing processes and improve system reliability, enhancing user experience and operational efficiency."
+  },
+  {
     "date": "Wed, 12 Aug 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Manage briefs in SitecoreAI from the Campaigns Briefs tab",
