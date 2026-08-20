@@ -1,5 +1,14 @@
 [
   {
+    "date": "Wed, 19 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Content SDK 2.3 released with new search capabilities",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/19082026/content-sdk-2.3-released-with-new-search-capabilities",
+    "enclosure": null,
+    "summary": "1. Sitecore's Content SDK 2.3 introduces advanced search capabilities, including multi-locale support and faceted search, along with improvements in routing control and performance.  ",
+    "impact": "2. These updates enhance developers' control over search functionalities and improve user experience, enabling more sophisticated and efficient search features."
+  },
+  {
     "date": "Tue, 18 Aug 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Preview scheduled page versions with Calendar Preview",
