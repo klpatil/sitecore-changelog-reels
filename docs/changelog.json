@@ -1,5 +1,23 @@
 [
   {
+    "date": "Fri, 21 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Action needed: API key authorization will become mandatory for Sitecore Search and Events APIs (US and APSE2) ",
+    "link": "https://developers.sitecore.com/changelog/search/21082026/action-needed%3a-api-key-authorization-will-become-mandatory-for-sitecore-search-and-events-apis-(us-and-apse2)-",
+    "enclosure": null,
+    "summary": "1. Starting October 15, 2026, API key authorization will be mandatory for requests to the Sitecore Search and Events APIs in the US and APSE2 regions.  ",
+    "impact": "2. This change ensures improved security and compliance, requiring users to update their API integrations to avoid request rejections."
+  },
+  {
+    "date": "Fri, 21 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for August 21, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/21082026/resolved-issues-in-content-hub-for-august-21%2c-2026",
+    "enclosure": null,
+    "summary": "1. The Sitecore update on August 21, 2026, resolves various issues in Content Hub, including improvements in schema imports, state flow validations, search functionalities, and performance optimizations. ",
+    "impact": "2. These fixes enhance system stability and usability, ensuring smoother content management processes and better performance for users."
+  },
+  {
     "date": "Wed, 19 Aug 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Content SDK 2.3 released with new search capabilities",
