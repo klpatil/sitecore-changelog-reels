@@ -1,5 +1,14 @@
 [
   {
+    "date": "Mon, 31 Aug 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Create brand context for AI agents using your brand website or SitecoreAI site",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/31082026/create-brand-context-for-ai-agents-using-your-brand-website-or-sitecoreai-site",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/afa3f2dd-ea41-43fc-be58-e32cfa5fa711?transform=true",
+    "summary": "1. SitecoreAI now offers a feature allowing organizations to create brand context for AI agents by using their brand website or existing SitecoreAI site, streamlining the generation of brand-aligned content.  ",
+    "impact": "2. This enhancement enables businesses to save time, maintain brand consistency, and adapt their AI interactions more effectively across different contexts, ultimately improving user experience."
+  },
+  {
     "date": "Fri, 21 Aug 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Action needed: API key authorization will become mandatory for Sitecore Search and Events APIs (US and APSE2) ",
