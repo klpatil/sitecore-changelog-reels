@@ -1,5 +1,14 @@
 [
   {
+    "date": "Tue, 01 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.8.135",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/01092026/sitecoreai-base-image-release-1.8.135",
+    "enclosure": null,
+    "summary": "1. SitecoreAI base image release 1.8.135 introduces improved language fallback detection, enhanced media editing, and resolved caching issues in the Page builder and Content Editor.  ",
+    "impact": "2. These updates enhance content accuracy during publishing, support more complex language scenarios, and improve overall security and user experience in Sitecore."
+  },
+  {
     "date": "Mon, 31 Aug 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Create brand context for AI agents using your brand website or SitecoreAI site",
