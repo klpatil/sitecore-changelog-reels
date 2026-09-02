@@ -1,5 +1,14 @@
 [
   {
+    "date": "Wed, 02 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Effective September 22nd, 2026, Explorer will be officially deprecated and Page builder Content mode will be the supported experience in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/02092026/effective-september-22nd%2c-2026%2c-explorer-will-be-officially-deprecated-and-page-builder-content-mode-will-be-the-supported-experience-in-sitecoreai",
+    "enclosure": null,
+    "summary": "**Summary:** Explorer will be deprecated on September 22, 2026, with Page Builder's Content mode becoming the primary platform for content creation and management in SitecoreAI.  ",
+    "impact": "**Why it matters:** The transition to Content mode will enhance user experience through improved efficiency, faster workflows, and simplified navigation, making everyday content tasks easier for authors."
+  },
+  {
     "date": "Tue, 01 Sep 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Act on your brand's AI visibility changes with SitecoreAI Signals",
