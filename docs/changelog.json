@@ -2,6 +2,15 @@
   {
     "date": "Tue, 01 Sep 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "Act on your brand's AI visibility changes with SitecoreAI Signals",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/01092026/act-on-your-brand's-ai-visibility-changes-with-sitecoreai-signals",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/51eef726-10b4-47bc-aab4-198617aed2b6?transform=true",
+    "summary": "1. SitecoreAI Signals, available through early access, provides actionable insights by continuously monitoring changes in how AI tools discover and cite your brand.  ",
+    "impact": "2. This feature enables brands to stay proactive about their AI visibility, allowing for timely content adjustments and improved competitive positioning in AI search results."
+  },
+  {
+    "date": "Tue, 01 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "SitecoreAI base image release 1.8.135",
     "link": "https://developers.sitecore.com/changelog/sitecoreai/01092026/sitecoreai-base-image-release-1.8.135",
     "enclosure": null,
