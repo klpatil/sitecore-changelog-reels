@@ -1,5 +1,50 @@
 [
   {
+    "date": "Fri, 04 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "AI-assisted content generation extended to all entity types",
+    "link": "https://developers.sitecore.com/changelog/content-hub/04092026/ai-assisted-content-generation-extended-to-all-entity-types",
+    "enclosure": null,
+    "summary": "1. Sitecore has expanded AI-assisted content generation to all entity types, allowing users to customize AI support for any data model field.  ",
+    "impact": "2. This flexibility enhances content creation efficiency by enabling tailored AI assistance for diverse content needs, improving workflows across various applications."
+  },
+  {
+    "date": "Fri, 04 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for September 4, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/04092026/resolved-issues-in-content-hub-for-september-4%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's Content Hub update on September 4, 2026, resolves retrieval issues, improves performance, fixes visual rendering, and enhances sidebar usability.  ",
+    "impact": "2. These fixes enhance user experience, streamline functionality, and ensure better visual consistency, ultimately improving the efficiency of content management."
+  },
+  {
+    "date": "Fri, 04 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "AI translation improvements and resolved issue",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/04092026/ai-translation-improvements-and-resolved-issue",
+    "enclosure": null,
+    "summary": "1. SitecoreAI now integrates guidance from both the Glossary and Localization, and Do's and Don'ts sections for improved translation accuracy, while also fixing an issue with term application during AI page translations.  ",
+    "impact": "2. This enhancement ensures that translated content aligns more closely with brand guidelines, improving consistency and professionalism in multilingual communications."
+  },
+  {
+    "date": "Fri, 04 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "AI-assisted image alt text generation",
+    "link": "https://developers.sitecore.com/changelog/content-hub/04092026/ai-assisted-image-alt-text-generation",
+    "enclosure": null,
+    "summary": "1. Sitecore has enhanced its AI-assisted content generation to automatically create optimized alt text for images based on their context.  ",
+    "impact": "2. This improvement ensures better accessibility and SEO for digital assets, streamlining content creation for users."
+  },
+  {
+    "date": "Thu, 03 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Page builder improvements and resolved issues",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/03092026/page-builder-improvements-and-resolved-issues",
+    "enclosure": null,
+    "summary": "1. The latest Page builder update enhances media management with support for MP3/MP4 files and improved image uploading to child folders, while also fixing issues related to site tree loading and navigation errors.  ",
+    "impact": "2. These improvements streamline content creation and organization for authors, enhancing overall user experience and efficiency in managing media assets."
+  },
+  {
     "date": "Wed, 02 Sep 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Effective September 22nd, 2026, Explorer will be officially deprecated and Page builder Content mode will be the supported experience in SitecoreAI",
