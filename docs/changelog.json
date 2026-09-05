@@ -36,6 +36,15 @@
     "impact": "2. This improvement ensures better accessibility and SEO for digital assets, streamlining content creation for users."
   },
   {
+    "date": "Fri, 04 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Ground AI tools in your brand truth with SitecoreAI DAM and Scrunch Knowledge Studio",
+    "link": "https://developers.sitecore.com/changelog/content-hub/04092026/ground-ai-tools-in-your-brand-truth-with-sitecoreai-dam-and-scrunch-knowledge-studio",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/306c8721-9e7b-41ce-b97b-bbdbdef20404?transform=true",
+    "summary": "1. Sitecore introduces early access to the AI-powered Knowledge Studio, enhancing SitecoreAI DAM by enabling teams to convert trusted brand content into AI-ready knowledge documents. ",
+    "impact": "2. This integration ensures that AI tools access reliable and up-to-date brand information, improving the accuracy of AI-generated content and maintaining brand integrity."
+  },
+  {
     "date": "Thu, 03 Sep 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Page builder improvements and resolved issues",
