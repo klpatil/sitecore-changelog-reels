@@ -1,5 +1,14 @@
 [
   {
+    "date": "Tue, 15 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.9.20",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/15092026/sitecoreai-base-image-release-1.9.20",
+    "enclosure": null,
+    "summary": "1. SitecoreAI base image 1.9.20 introduces enhanced conflict resolution for item/version restorations from the Recycle Bin, allowing users to specify how to handle such conflicts in the UI.  ",
+    "impact": "2. This update improves usability and flexibility for content management, ensuring that conflicts are managed effectively and securely during restoration processes."
+  },
+  {
     "date": "Thu, 10 Sep 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Page builder resolved issues",
