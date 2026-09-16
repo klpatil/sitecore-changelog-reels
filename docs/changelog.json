@@ -1,5 +1,23 @@
 [
   {
+    "date": "Wed, 16 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Discover and act on AEO opportunities across your site and pages",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/16092026/discover-and-act-on-aeo-opportunities-across-your-site-and-pages",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/722a0161-be02-40a8-b73b-7758b239d123?transform=true",
+    "summary": "1. SitecoreAI introduces early access to Answer Engine Optimization (AEO) capabilities, allowing organizations with a Scrunch subscription to identify content improvement opportunities across their site and individual pages. ",
+    "impact": "2. This feature is significant as it enables teams to enhance their content visibility in AI experiences and streamline content optimization processes, ultimately driving better performance and user engagement."
+  },
+  {
+    "date": "Wed, 16 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Optimize content with AI powered by Scrunch (Early Access)",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/16092026/optimize-content-with-ai-powered-by-scrunch-(early-access)",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/983a5e97-9ecd-409d-b56c-7d9e9f071464?transform=true",
+    "summary": "1. Sitecore introduces an AI-powered content optimization feature in Page Builder, enabling users to access recommendations and improvements in real-time.  ",
+    "impact": "2. This enhancement facilitates better content discoverability and quality, streamlining the authoring process while ensuring that changes are effectively managed within existing workflows."
+  },
+  {
     "date": "Tue, 15 Sep 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "SitecoreAI base image release 1.9.20",
