@@ -1,5 +1,32 @@
 [
   {
+    "date": "Thu, 17 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Retrieve the rendered HTML of a page using the Marketplace SDK",
+    "link": "https://developers.sitecore.com/changelog/marketplace/17092026/retrieve-the-rendered-html-of-a-page-using-the-marketplace-sdk",
+    "enclosure": null,
+    "summary": "1. **Summary:** The new getPageHTML() method in the Marketplace SDK allows apps to retrieve the rendered HTML of the current page in SitecoreAI's Page builder.  ",
+    "impact": "2. **Why it matters:** This standardizes access to clean page output, enhancing app functionality while eliminating unreliable workarounds for automation and content integration."
+  },
+  {
+    "date": "Thu, 17 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Page builder resolved issues",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/17092026/page-builder-resolved-issues",
+    "enclosure": null,
+    "summary": "1. The latest Page Builder update resolves several issues, enhancing user experience by ensuring continuity and improved functionality during item creation and editing.  ",
+    "impact": "2. These improvements reduce the risk of errors and streamline the content management process, allowing authors to focus on their work without unnecessary navigation interruptions."
+  },
+  {
+    "date": "Thu, 17 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Conditional page routing and page visibility are now available in Forms",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/17092026/conditional-page-routing-and-page-visibility-are-now-available-in-forms",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/45a097bd-3a9a-454f-8bee-d16008f46223?transform=true",
+    "summary": "1. Sitecore Forms now includes page-level conditional logic, allowing forms to dynamically hide pages and route users based on their responses.  ",
+    "impact": "2. This enhancement personalizes user experiences, reduces extraneous steps, and improves form completion rates, making it easier to create versatile forms without developer assistance."
+  },
+  {
     "date": "Wed, 16 Sep 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Discover and act on AEO opportunities across your site and pages",
