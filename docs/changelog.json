@@ -1,5 +1,14 @@
 [
   {
+    "date": "Fri, 18 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for September 18, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/18092026/resolved-issues-in-content-hub-for-september-18%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's September 2026 update for Content Hub resolves multiple issues related to package imports, error handling, and configuration management.",
+    "impact": "2. These improvements enhance user experience by ensuring clearer error messages, smoother imports, and better control over configurations, ultimately streamlining Content Hub operations."
+  },
+  {
     "date": "Thu, 17 Sep 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Retrieve the rendered HTML of a page using the Marketplace SDK",
