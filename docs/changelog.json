@@ -2,6 +2,24 @@
   {
     "date": "Tue, 22 Sep 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "Design Studio resolved issue",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/22092026/design-studio-resolved-issue",
+    "enclosure": null,
+    "summary": "1. The latest Design Studio update fixes an issue that prevented component variants from displaying correctly on sites using shared components.",
+    "impact": "2. This fix enhances functionality by ensuring that shared component variants are accurately resolved, improving the experience for users accessing these components across multiple sites."
+  },
+  {
+    "date": "Tue, 22 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Explorer has been officially deprecated and Page builder Content mode is now the supported experience in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/22092026/explorer-has-been-officially-deprecated-and-page-builder-content-mode-is-now-the-supported-experience-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/419974ed-3faf-48b1-980d-ba86453475ff?transform=true",
+    "summary": "1. SitecoreAI has deprecated the Explorer app, transitioning to the enhanced Content mode in Page builder for content creation and management.  ",
+    "impact": "2. This shift streamlines workflows, improving authoring efficiency and user experience for managing content within SitecoreAI."
+  },
+  {
+    "date": "Tue, 22 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "Explorer has been officially deprecated and Page builder Content mode is now the supported experience in SitecoreAI\n\n",
     "link": "https://developers.sitecore.com/changelog/sitecoreai/22092026/explorer-has-been-officially-deprecated-and-page-builder-content-mode-is-now-the-supported-experience-in-sitecoreai%0a%0a",
     "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/419974ed-3faf-48b1-980d-ba86453475ff?transform=true",
