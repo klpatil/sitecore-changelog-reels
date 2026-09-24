@@ -1,5 +1,14 @@
 [
   {
+    "date": "Thu, 24 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub for September 24, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/24092026/resolved-issue-in-content-hub-for-september-24%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore fixed an import/export issue in Content Hub by reverting a change that caused unchanged items to be skipped during import.  ",
+    "impact": "2. This resolution ensures a smoother and more accurate content management process, preserving integrity during data transfers."
+  },
+  {
     "date": "Tue, 22 Sep 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Design Studio resolved issue",
