@@ -1,5 +1,23 @@
 [
   {
+    "date": "Fri, 25 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Index external content with push sources",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/25092026/index-external-content-with-push-sources",
+    "enclosure": null,
+    "summary": "1. SitecoreAI now includes support for push sources, allowing direct indexing of external content that can't be crawled or managed via the Content editor.  ",
+    "impact": "2. This enhancement enables greater control over indexed content, improves synchronization with external data sources, and facilitates API-driven indexing workflows."
+  },
+  {
+    "date": "Fri, 25 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New SitecoreAI APIs now available: Components, Content Types, and Content Items",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/25092026/new-sitecoreai-apis-now-available%3a-components%2c-content-types%2c-and-content-items",
+    "enclosure": null,
+    "summary": "1. SitecoreAI has introduced three new REST APIs—Components, Content Types, and Content Items—empowering developers to automate and manage component definitions and content management tasks programmatically.  ",
+    "impact": "2. This update enhances development efficiency by providing robust tools for structured content management and integration, streamlining workflows in SitecoreAI."
+  },
+  {
     "date": "Thu, 24 Sep 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Resolved issue in Content Hub for September 24, 2026",
@@ -7,6 +25,15 @@
     "enclosure": null,
     "summary": "1. Sitecore fixed an import/export issue in Content Hub by reverting a change that caused unchanged items to be skipped during import.  ",
     "impact": "2. This resolution ensures a smoother and more accurate content management process, preserving integrity during data transfers."
+  },
+  {
+    "date": "Thu, 24 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Submit documents directly to search indexes with the Ingestion Service API",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/24092026/submit-documents-directly-to-search-indexes-with-the-ingestion-service-api",
+    "enclosure": null,
+    "summary": "1. Sitecore introduces the Ingestion Service API, allowing direct submission of documents to search indexes for smoother content management.  ",
+    "impact": "2. This enhancement enables real-time synchronization of external content, improving search experience and control over indexed documents."
   },
   {
     "date": "Tue, 22 Sep 2026 00:00:00 GMT",
