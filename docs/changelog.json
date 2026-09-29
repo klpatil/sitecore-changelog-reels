@@ -1,5 +1,32 @@
 [
   {
+    "date": "Tue, 29 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Changes to JSON serialization in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/29092026/changes-to-json-serialization-in-sitecoreai",
+    "enclosure": null,
+    "summary": "1. SitecoreAI is updating its JSON serialization by changing the configuration to TypeNameHandling.None, which removes .NET type metadata and alters deserialization behavior for PipelineArgs.CustomData. ",
+    "impact": "2. This change may lead to compatibility issues in custom implementations relying on complex object serialization, requiring users to review their code and implement strongly typed models to avoid potential data loss or casting errors."
+  },
+  {
+    "date": "Tue, 29 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.10.13",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/29092026/sitecoreai-base-image-release-1.10.13",
+    "enclosure": null,
+    "summary": "1. SitecoreAI base image release 1.10.13 resolves several bugs, enhances case insensitivity in Droplist fields, and upgrades Telerik components for improved quality and support. ",
+    "impact": "2. This update is crucial as it addresses critical issues impacting user experience and performance, while introducing a breaking change in JSON serialization that requires customer awareness and potential adjustments in custom implementations."
+  },
+  {
+    "date": "Tue, 29 Sep 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Telerik version upgrade",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/29092026/telerik-version-upgrade",
+    "enclosure": null,
+    "summary": "**Summary:** SitecoreAI upgraded the Telerik components in its Base Image to version 2026.3.812 for enhanced quality and support.  ",
+    "impact": "**Why it matters:** This update ensures improved maintainability and long-term support while requiring minimal action from most customers, though custom solutions may need review."
+  },
+  {
     "date": "Fri, 25 Sep 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Index external content with push sources",
