@@ -1,5 +1,95 @@
 [
   {
+    "date": "Fri, 02 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New Audience builder AI assistant and rule limit controls in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/02102026/new-audience-builder-ai-assistant-and-rule-limit-controls-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/13ebcfd5-d08b-4e48-aad5-09574c801bf5?transform=true",
+    "summary": "1. Sitecore introduces an AI assistant for audience building and enhanced rule limit controls for event and session audience rules, allowing for easier audience creation from natural language and refined rule management.  ",
+    "impact": "2. This update empowers marketers with greater flexibility and precision in targeting audiences, ultimately improving campaign effectiveness."
+  },
+  {
+    "date": "Fri, 02 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "AI Discovery insights now available in brand context",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/02102026/ai-discovery-insights-now-available-in-brand-context",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/09993e17-d7ec-4ea6-9029-9a8f783076ae?transform=true",
+    "summary": "1. SitecoreAI now integrates AI Discovery insights from Scrunch into Brand context, enabling organizations to enhance their brand data with AI-generated insights.  ",
+    "impact": "2. This update empowers agents in Agentic studio with richer context for informed content creation and strategic decision-making, ultimately improving brand performance."
+  },
+  {
+    "date": "Fri, 02 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "AI discoverability features are now generally available",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/02102026/ai-discoverability-features-are-now-generally-available",
+    "enclosure": null,
+    "summary": "1. Sitecore has made AI discoverability features generally available, enhancing onboarding and user experience for organizations with a Scrunch subscription.  ",
+    "impact": "2. This update allows users to leverage signals, AEO opportunities, and Knowledge Studio, improving content visibility for AI tools, ultimately enhancing the quality of generated answers."
+  },
+  {
+    "date": "Fri, 02 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Infrastructure network improvements for greater resilience and performance",
+    "link": "https://developers.sitecore.com/changelog/content-hub/02102026/infrastructure-network-improvements-for-greater-resilience-and-performance",
+    "enclosure": null,
+    "summary": "1. Sitecore has upgraded the Content Hub's database network infrastructure to enhance connectivity and overall performance, particularly benefiting resource-intensive operations.  ",
+    "impact": "2. These improvements can lead to significant reductions in processing times, with critical tasks like graph rebuilds being completed up to 50% faster, thereby increasing efficiency and user satisfaction."
+  },
+  {
+    "date": "Fri, 02 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improved URL handling for open tabs",
+    "link": "https://developers.sitecore.com/changelog/content-hub/02102026/improved-url-handling-for-open-tabs",
+    "enclosure": null,
+    "summary": "1. Sitecore has enhanced URL handling to ensure that links preserve the currently open tab when moved between environments.  ",
+    "impact": "2. This improvement streamlines environment transitions and enhances consistency in user navigation across different stages of development."
+  },
+  {
+    "date": "Fri, 02 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Setting added to collapse and expand the rich-text editor toolbar",
+    "link": "https://developers.sitecore.com/changelog/content-hub/02102026/setting-added-to-collapse-and-expand-the-rich-text-editor-toolbar",
+    "enclosure": null,
+    "summary": "1. Sitecore has introduced a new setting that allows users to collapse and expand the rich-text editor toolbar for a simplified editing experience.  ",
+    "impact": "2. This enhancement improves user interface customization, making it easier for content editors to manage their workspace and focus on content creation."
+  },
+  {
+    "date": "Fri, 02 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Setting added to PortalConfiguration to protect against unsafe content in a comment field",
+    "link": "https://developers.sitecore.com/changelog/content-hub/02102026/setting-added-to-portalconfiguration-to-protect-against-unsafe-content-in-a-comment-field",
+    "enclosure": null,
+    "summary": "1. Sitecore has introduced a new setting in PortalConfiguration to enhance security for comment fields by allowing for strict HTML sanitization.  ",
+    "impact": "2. This update is crucial for protecting against HTML injection and unauthorized data exfiltration, ensuring a secure environment while still allowing essential comment formatting."
+  },
+  {
+    "date": "Fri, 02 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Guarded transition operations added to the Selection component",
+    "link": "https://developers.sitecore.com/changelog/content-hub/02102026/guarded-transition-operations-added-to-the-selection-component",
+    "enclosure": null,
+    "summary": "1. The Selection component now features guarded state flow transitions, allowing mass actions on multiple entities with proper permissions.  ",
+    "impact": "2. This enhancement improves workflow management and consistency across operations, streamlining user interactions with the system."
+  },
+  {
+    "date": "Fri, 02 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues in Content Hub for October 2, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/02102026/resolved-issues-in-content-hub-for-october-2%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's October 2, 2026 update fixed a search component issue with facet orientation and restricted asset sharing based on user permissions.  ",
+    "impact": "2. These resolutions enhance user experience and security by ensuring search functionality works correctly and preventing unauthorized file sharing."
+  },
+  {
+    "date": "Fri, 02 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Extend customer profiles using profile schema extensions",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/02102026/extend-customer-profiles-using-profile-schema-extensions",
+    "enclosure": null,
+    "summary": "1. Sitecore now allows the extension of customer profiles with custom attributes and flexible data structures, enhancing audience personalization.  ",
+    "impact": "2. This update empowers businesses to tailor customer profiles to their specific needs, leading to more effective audience targeting and personalized experiences."
+  },
+  {
     "date": "Thu, 01 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Delete profiles using the Profile Import API",
