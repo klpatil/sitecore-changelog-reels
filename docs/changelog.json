@@ -29,6 +29,15 @@
   {
     "date": "Fri, 02 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "Setting added to PortalConfiguration to protect against unsafe content in a comment field",
+    "link": "https://developers.sitecore.com/changelog/content-hub/02102026/setting-added-to-portalconfiguration-to-protect-against-unsafe-content-in-a-comment-field",
+    "enclosure": null,
+    "summary": "1. Sitecore has introduced a new setting in PortalConfiguration to enhance security for comment fields by allowing for strict HTML sanitization.  ",
+    "impact": "2. This update is crucial for protecting against HTML injection and unauthorized data exfiltration, ensuring a secure environment while still allowing essential comment formatting."
+  },
+  {
+    "date": "Fri, 02 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "Infrastructure network improvements for greater resilience and performance",
     "link": "https://developers.sitecore.com/changelog/content-hub/02102026/infrastructure-network-improvements-for-greater-resilience-and-performance",
     "enclosure": null,
@@ -52,15 +61,6 @@
     "enclosure": null,
     "summary": "1. Sitecore has introduced a new setting that allows users to collapse and expand the rich-text editor toolbar for a simplified editing experience.  ",
     "impact": "2. This enhancement improves user interface customization, making it easier for content editors to manage their workspace and focus on content creation."
-  },
-  {
-    "date": "Fri, 02 Oct 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
-    "title": "Setting added to PortalConfiguration to protect against unsafe content in a comment field",
-    "link": "https://developers.sitecore.com/changelog/content-hub/02102026/setting-added-to-portalconfiguration-to-protect-against-unsafe-content-in-a-comment-field",
-    "enclosure": null,
-    "summary": "1. Sitecore has introduced a new setting in PortalConfiguration to enhance security for comment fields by allowing for strict HTML sanitization.  ",
-    "impact": "2. This update is crucial for protecting against HTML injection and unauthorized data exfiltration, ensuring a secure environment while still allowing essential comment formatting."
   },
   {
     "date": "Fri, 02 Oct 2026 00:00:00 GMT",
