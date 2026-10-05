@@ -1,5 +1,14 @@
 [
   {
+    "date": "Mon, 05 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Personalization insights dashboard in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/05102026/personalization-insights-dashboard-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/72658984-ad12-40f1-bc20-f88a4348cf25?transform=true",
+    "summary": "1. SitecoreAI introduces a Personalization insights dashboard that centralizes analytics for monitoring personalization health across sites.  ",
+    "impact": "2. This feature streamlines the identification of delivery issues and underperforming experiences, enhancing overall personalization effectiveness."
+  },
+  {
     "date": "Fri, 02 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "New Audience builder AI assistant and rule limit controls in SitecoreAI",
