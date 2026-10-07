@@ -1,5 +1,32 @@
 [
   {
+    "date": "Wed, 07 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Build SitecoreAI front-ends with different languages and frameworks",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/07102026/build-sitecoreai-front-ends-with-different-languages-and-frameworks",
+    "enclosure": null,
+    "summary": "1. Summary: Sitecore has released documentation for developing front-ends with SitecoreAI using various languages and frameworks, enabling direct integration with Sitecore APIs.",
+    "impact": "2. Why it matters: This empowers developers to create customized applications that cater to specific project needs while enhancing content management capabilities and supporting future personalization and analytics features."
+  },
+  {
+    "date": "Wed, 07 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Introducing default apps in the Sitecore Marketplace",
+    "link": "https://developers.sitecore.com/changelog/marketplace/07102026/introducing-default-apps-in-the-sitecore-marketplace",
+    "enclosure": null,
+    "summary": "1. Sitecore is launching default apps in the Marketplace, offering ready-to-use applications developed by Sitecore to enhance functionality.  ",
+    "impact": "2. This initiative allows organizations to easily access, install, and manage essential applications, filling common feature gaps and improving overall efficiency in Sitecore usage."
+  },
+  {
+    "date": "Wed, 07 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Updated: Action needed: API key authorization will become mandatory for Sitecore Search and Events APIs (US and APSE2) ",
+    "link": "https://developers.sitecore.com/changelog/search/07102026/updated%3a-action-needed%3a-api-key-authorization-will-become-mandatory-for-sitecore-search-and-events-apis-(us-and-apse2)-",
+    "enclosure": null,
+    "summary": "1. From December 15, 2026, valid API key authorization will be mandatory for accessing Sitecore Search and Events APIs in the US and APSE2 regions.  ",
+    "impact": "2. This change ensures enhanced security and requires users to update their API integrations to avoid service disruptions."
+  },
+  {
     "date": "Mon, 05 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Personalization insights dashboard in SitecoreAI",
