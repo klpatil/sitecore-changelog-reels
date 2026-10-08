@@ -1,5 +1,32 @@
 [
   {
+    "date": "Thu, 08 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Optimization and navigation updates in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/08102026/optimization-and-navigation-updates-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/b9f04832-f599-40e2-93af-b649e36815d4?transform=true",
+    "summary": "**Summary:** SitecoreAI introduced updates to its navigation and optimization features, enhancing user experience through streamlined access to tools and improved interface responsiveness.  ",
+    "impact": "**Why it matters:** These changes simplify navigation within the app, making it easier for users to manage optimization activities and enhancing overall usability across different devices."
+  },
+  {
+    "date": "Thu, 08 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New headless and triggered personalization capabilities in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/08102026/new-headless-and-triggered-personalization-capabilities-in-sitecoreai",
+    "enclosure": null,
+    "summary": "1. Sitecore AI introduces headless and triggered personalization features, allowing users to create personalized experiences and A/B/n tests for non-Sitecore managed applications, alongside monitoring dashboards for performance tracking.  ",
+    "impact": "2. This update enhances flexibility and automation in delivering personalized content across various platforms, improving customer engagement and streamlining marketing efforts."
+  },
+  {
+    "date": "Thu, 08 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Create smarter components faster with Design Studio",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/08102026/create-smarter-components-faster-with-design-studio",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/10f79cad-87e3-4e29-895c-480a6044e83b?transform=true",
+    "summary": "1. Sitecore's Design Studio update enhances component creation with AI and structured modeling, allowing teams to rapidly develop scalable and consistent components.  ",
+    "impact": "2. This improvement streamlines the design process, fostering collaboration and efficiency while reducing development time and ensuring adherence to standards."
+  },
+  {
     "date": "Wed, 07 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Build SitecoreAI front-ends with different languages and frameworks",
