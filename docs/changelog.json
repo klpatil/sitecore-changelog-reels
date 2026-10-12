@@ -1,5 +1,14 @@
 [
   {
+    "date": "Mon, 12 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improved content management and page layout control in Marketer MCP and Agent API",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/12102026/improved-content-management-and-page-layout-control-in-marketer-mcp-and-agent-api",
+    "enclosure": null,
+    "summary": "1. Sitecore's recent update enhances content management in the Marketer MCP and Agent API, allowing users to easily place, rearrange, and manage components with additional safeguards for A/B tests.  ",
+    "impact": "2. This improvement streamlines page layout control and content deletion processes, ensuring users can make informed decisions without risking the integrity of their marketing experiments."
+  },
+  {
     "date": "Thu, 08 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Optimization and navigation updates in SitecoreAI",
