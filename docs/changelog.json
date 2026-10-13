@@ -1,5 +1,23 @@
 [
   {
+    "date": "Tue, 13 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.11.4",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/13102026/sitecoreai-base-image-release-1.11.4",
+    "enclosure": null,
+    "summary": "1. The SitecoreAI base image release 1.11.4 resolves critical bugs affecting content transfer, incremental publishing, and dictionary management.  ",
+    "impact": "2. This update enhances system performance and reliability, ensuring smoother content operations and preventing unintended data loss."
+  },
+  {
+    "date": "Tue, 13 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Create More like this experiences in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/13102026/create-more-like-this-experiences-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/a24089d9-e3bc-49a9-9b95-825f05ba6e13?transform=true",
+    "summary": "1. SitecoreAI now features Recommenders, allowing automatic display of related content based on the current page, enhancing user experience without requiring searches.  ",
+    "impact": "2. This update is significant as it improves content discovery, potentially increasing engagement and conversions by showcasing relevant products and articles effortlessly."
+  },
+  {
     "date": "Mon, 12 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Improved content management and page layout control in Marketer MCP and Agent API",
