@@ -1,5 +1,14 @@
 [
   {
+    "date": "Wed, 14 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Upgrade to SitecoreAI's built-in GraphQL IDE",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/14102026/upgrade-to-sitecoreai's-built-in-graphql-ide",
+    "enclosure": null,
+    "summary": "1. SitecoreAI has upgraded its built-in GraphQL IDE, enhancing it with a modern interface, dedicated schema view, and streamlined editor for improved user experience.  ",
+    "impact": "2. This upgrade is significant as it facilitates easier query testing and data navigation, ultimately boosting productivity for developers working within the SitecoreAI environment."
+  },
+  {
     "date": "Tue, 13 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "SitecoreAI base image release 1.11.4",
@@ -70,6 +79,15 @@
     "enclosure": null,
     "summary": "1. Sitecore is launching default apps in the Marketplace, offering ready-to-use applications developed by Sitecore to enhance functionality.  ",
     "impact": "2. This initiative allows organizations to easily access, install, and manage essential applications, filling common feature gaps and improving overall efficiency in Sitecore usage."
+  },
+  {
+    "date": "Wed, 07 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issue in Content Hub for October 7, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/07102026/resolved-issue-in-content-hub-for-october-7%2c-2026",
+    "enclosure": null,
+    "summary": "1. Sitecore's update addressed an issue with excessive connections to data storage in Content Hub.  ",
+    "impact": "2. This fix enhances performance and stability, improving overall user experience."
   },
   {
     "date": "Wed, 07 Oct 2026 00:00:00 GMT",
