@@ -1,5 +1,14 @@
 [
   {
+    "date": "Wed, 21 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Flexible task management and enhanced campaign planning in Strategy",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/21102026/flexible-task-management-and-enhanced-campaign-planning-in-strategy",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/564c339d-bddb-4e75-a97d-8a0276a94074?transform=true",
+    "summary": "1. SitecoreAI has introduced flexible task management and enhanced campaign planning features in Strategy, enabling teams to create, organize, and track tasks independently while associating them with campaigns as needed.  ",
+    "impact": "2. This update enhances collaboration and efficiency, providing teams with tools to streamline workflow and prepare for future AI-powered tasks, ultimately improving overall campaign success and organization."
+  },
+  {
     "date": "Tue, 20 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Page builder improvement and resolved issues",
