@@ -1,5 +1,14 @@
 [
   {
+    "date": "Thu, 22 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI strengthens deployment reliability and scalability",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/22102026/sitecoreai-strengthens-deployment-reliability-and-scalability",
+    "enclosure": null,
+    "summary": "1. SitecoreAI has upgraded its deployment pipeline to enhance reliability and performance, ensuring smoother, more consistent deployment outcomes.  ",
+    "impact": "2. This matters because it boosts operational stability and instills greater confidence in deployment processes for customers, improving the overall user experience."
+  },
+  {
     "date": "Wed, 21 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Flexible task management and enhanced campaign planning in Strategy",
@@ -20,6 +29,15 @@
   {
     "date": "Fri, 16 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "New Content Hub User-Agent: ContentHub/10.x request header",
+    "link": "https://developers.sitecore.com/changelog/content-hub/16102026/new-content-hub-user-agent%3a-contenthub-10.x-request-header",
+    "enclosure": null,
+    "summary": "1. Sitecore introduced a dedicated user-agent header, ContentHub/10.x, for identifying Content Hub requests when fetching files, enhancing traffic recognition.  ",
+    "impact": "2. This update is crucial for ensuring legitimate Content Hub traffic is not mistakenly blocked by firewalls, improving accessibility to publicly available files."
+  },
+  {
+    "date": "Fri, 16 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "Resolved issues in Content Hub for October 16, 2026",
     "link": "https://developers.sitecore.com/changelog/content-hub/16102026/resolved-issues-in-content-hub-for-october-16%2c-2026",
     "enclosure": null,
@@ -34,15 +52,6 @@
     "enclosure": null,
     "summary": "1. Sitecore introduces a new decision rule for parallel reviews, allowing workflows where unanimous approval is required, but a single rejection can advance tasks.  ",
     "impact": "2. This enhancement streamlines feedback processing, improving team efficiency in managing review stages."
-  },
-  {
-    "date": "Fri, 16 Oct 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
-    "title": "New Content Hub User-Agent: ContentHub/10.x request header",
-    "link": "https://developers.sitecore.com/changelog/content-hub/16102026/new-content-hub-user-agent%3a-contenthub-10.x-request-header",
-    "enclosure": null,
-    "summary": "1. Sitecore introduced a dedicated user-agent header, ContentHub/10.x, for identifying Content Hub requests when fetching files, enhancing traffic recognition.  ",
-    "impact": "2. This update is crucial for ensuring legitimate Content Hub traffic is not mistakenly blocked by firewalls, improving accessibility to publicly available files."
   },
   {
     "date": "Wed, 14 Oct 2026 00:00:00 GMT",
