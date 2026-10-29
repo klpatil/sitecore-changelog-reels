@@ -1,5 +1,14 @@
 [
   {
+    "date": "Thu, 29 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Content SDK for Angular 1.1 and Next.js 2.5 released with JSON-LD support and other improvements",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/29102026/content-sdk-for-angular-1.1-and-next.js-2.5-released-with-json-ld-support-and-other-improvements",
+    "enclosure": null,
+    "summary": "**Summary:** The release of Content SDK for Angular 1.1 and Next.js 2.5 introduces JSON-LD support and enhancements like page metadata and Open Graph tags, improving search engine comprehension of site content.",
+    "impact": "**Why it matters:** These updates facilitate better SEO performance and structured data integration, making it easier for developers to manage site content and metadata without extensive custom coding."
+  },
+  {
     "date": "Tue, 27 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "SitecoreAI base image release 1.12.2",
