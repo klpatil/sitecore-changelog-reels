@@ -1,5 +1,23 @@
 [
   {
+    "date": "Fri, 30 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improved Scripting SDK Entity Copying",
+    "link": "https://developers.sitecore.com/changelog/content-hub/30102026/improved-scripting-sdk-entity-copying",
+    "enclosure": null,
+    "summary": "1. Sitecore's updated Scripting SDK allows for more flexible entity copying by prioritizing direct settings and introducing options for overwriting relations.  ",
+    "impact": "2. This enhancement streamlines block creation from templates, simplifying the process and eliminating the need for the outdated copy.block command."
+  },
+  {
+    "date": "Fri, 30 Oct 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues for October 30, 2026",
+    "link": "https://developers.sitecore.com/changelog/content-hub/30102026/resolved-issues-for-october-30%2c-2026",
+    "enclosure": null,
+    "summary": "**Summary:** The Sitecore update resolves multiple issues including package import handling, Quick Edit modal context, and field value display discrepancies, enhancing system stability and usability. ",
+    "impact": "**Why it matters:** These fixes improve content generation accuracy and user experience, ensuring smoother operations and more reliable configuration in Sitecore environments."
+  },
+  {
     "date": "Thu, 29 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Content SDK for Angular 1.1 and Next.js 2.5 released with JSON-LD support and other improvements",
