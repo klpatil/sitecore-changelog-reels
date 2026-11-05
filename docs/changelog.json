@@ -1,5 +1,41 @@
 [
   {
+    "date": "Thu, 05 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Analytics for public Marketplace apps",
+    "link": "https://developers.sitecore.com/changelog/marketplace/05112026/analytics-for-public-marketplace-apps",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/dd430c25-750b-4ac1-9228-fce7a410f940?transform=true",
+    "summary": "1. Sitecore introduces analytics for public Marketplace apps, allowing organizations to track app discovery, usage, and uninstall trends through new metrics and dashboards in the Cloud Portal App studio. ",
+    "impact": "2. This feature is significant as it enables developers to enhance app performance and user engagement by making data-driven decisions based on actual usage metrics."
+  },
+  {
+    "date": "Thu, 05 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Track Marketplace app ideas from request to published app",
+    "link": "https://developers.sitecore.com/changelog/marketplace/05112026/track-marketplace-app-ideas-from-request-to-published-app",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/09f0faaa-c497-4fa6-942b-02161fe0424d?transform=true",
+    "summary": "1. The Sitecore Marketplace now allows users to track community app ideas from request to publication and highlights apps based on these ideas.  ",
+    "impact": "2. This feature enhances transparency and fosters collaboration, enabling developers to gain visibility for their apps while empowering users to engage with the app development process."
+  },
+  {
+    "date": "Thu, 05 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Configure request timeouts and save app URL state with the Marketplace SDK",
+    "link": "https://developers.sitecore.com/changelog/marketplace/05112026/configure-request-timeouts-and-save-app-url-state-with-the-marketplace-sdk",
+    "enclosure": null,
+    "summary": "1. Version 0.5 of the Marketplace SDK allows configurable request timeouts and enables the saving of app URL state.  ",
+    "impact": "2. This enhancement improves user experience by accommodating slower operations and allowing users to maintain their settings when revisiting pages."
+  },
+  {
+    "date": "Thu, 05 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Support for larger glossaries in brand kit Glossary and Localization",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/05112026/support-for-larger-glossaries-in-brand-kit-glossary-and-localization",
+    "enclosure": null,
+    "summary": "1. Sitecore has fixed an issue, enabling users to add and save larger glossaries in the brand kit's Glossary and Localization section.  ",
+    "impact": "2. This update enhances usability and allows for more comprehensive brand management by accommodating more terms and locales."
+  },
+  {
     "date": "Fri, 30 Oct 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Improved Scripting SDK Entity Copying",
