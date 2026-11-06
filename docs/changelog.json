@@ -1,5 +1,14 @@
 [
   {
+    "date": "Fri, 06 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improved AI visibility signals in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/06112026/improved-ai-visibility-signals-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/ca31a1b6-8a15-4139-b2de-5b0557b1d0fd?transform=true",
+    "summary": "1. SitecoreAI enhances AI visibility signals with improved filtering, coverage, and insights for organizations with a Scrunch subscription.  ",
+    "impact": "2. This update allows brands to more effectively analyze their AI presence and performance in comparison to competitors, driving better strategic decisions."
+  },
+  {
     "date": "Thu, 05 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Analytics for public Marketplace apps",
