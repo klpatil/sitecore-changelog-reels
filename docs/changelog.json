@@ -1,5 +1,14 @@
 [
   {
+    "date": "Mon, 09 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Sitecore changelog is moving to the documentation site",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/09112026/sitecore-changelog-is-moving-to-the-documentation-site",
+    "enclosure": null,
+    "summary": "1. The Sitecore changelog will be relocated to the documentation site on November 13, 2026, providing a unified resource for updates alongside user and developer documentation.  ",
+    "impact": "2. This change enhances accessibility for all Sitecore users—marketers, content authors, and developers—by consolidating information and improving navigation, ensuring everyone stays informed about product updates."
+  },
+  {
     "date": "Fri, 06 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Improved AI visibility signals in SitecoreAI",
