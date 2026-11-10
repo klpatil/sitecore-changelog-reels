@@ -1,5 +1,14 @@
 [
   {
+    "date": "Tue, 10 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New endpoints for managing content item versions with the Content Items API",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/10112026/new-endpoints-for-managing-content-item-versions-with-the-content-items-api",
+    "enclosure": null,
+    "summary": "1. Summary: Sitecore introduces new endpoints in the Content Items API for managing content item versions, allowing for programmatic creation, deletion, and retrieval of versions.  ",
+    "impact": "2. Why it matters: These enhancements enable more streamlined integrations and automation in content management, improving efficiency and control over content lifecycle processes."
+  },
+  {
     "date": "Mon, 09 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Sitecore changelog is moving to the documentation site",
