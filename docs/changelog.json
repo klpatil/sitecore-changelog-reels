@@ -1,5 +1,14 @@
 [
   {
+    "date": "Wed, 11 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New document indexing capabilities for site sources in SitecoreAI",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/11112026/new-document-indexing-capabilities-for-site-sources-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/ec289920-60b1-49b6-aa81-dcf5af6bc977?transform=true",
+    "summary": "1. SitecoreAI introduces enhanced document indexing through anchor indexing, allowing linked documents on crawled webpages to be indexed as searchable items with customizable rules.  ",
+    "impact": "2. This update improves document discoverability and metadata mapping, making content management more efficient for users."
+  },
+  {
     "date": "Tue, 10 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "New endpoints for managing content item versions with the Content Items API",
