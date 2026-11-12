@@ -1,5 +1,14 @@
 [
   {
+    "date": "Thu, 12 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Explore AI discoverability with a free Scrunch trial",
+    "link": "https://developers.sitecore.com/changelog/sitecoreai/12112026/explore-ai-discoverability-with-a-free-scrunch-trial",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/e168d96f-5caf-4473-8337-1c1d30a08e19?transform=true",
+    "summary": "**Summary:** SitecoreAI organizations can now access a free trial of Scrunch, enabling them to explore AI discoverability features without setup.  ",
+    "impact": "**Why it matters:** This trial allows teams to gain insights into AI visibility, identify content improvement opportunities, and implement recommendations to enhance their brand’s presence in AI-generated content."
+  },
+  {
     "date": "Wed, 11 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "New document indexing capabilities for site sources in SitecoreAI",
