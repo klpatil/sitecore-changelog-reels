@@ -1,5 +1,77 @@
 [
   {
+    "date": "Fri, 13 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Sitecore Developer MCP server released in beta",
+    "link": "https://doc.sitecore.com/changelog/sitecoreai/13112026/sitecore-developer-mcp-server-released-in-beta",
+    "enclosure": null,
+    "summary": "1. The Sitecore Developer MCP server is now in beta, enabling integration of AI coding agents with 13 tools for component development and content management.  ",
+    "impact": "2. This update matters because it enhances developer efficiency and collaboration by streamlining workflows and improving access to Sitecore's capabilities."
+  },
+  {
+    "date": "Fri, 13 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Enhanced workflow visibility in parallel and sequential workflows",
+    "link": "https://doc.sitecore.com/changelog/content-hub/13112026/enhanced-workflow-visibility-in-parallel-and-sequential-workflows",
+    "enclosure": null,
+    "summary": "1. Sitecore introduced a new \"Review details\" button for improved visibility and management in workflows with over five states.  ",
+    "impact": "2. This enhancement streamlines the review process by allowing users to preemptively adjust reviewers, ensuring efficient approvals."
+  },
+  {
+    "date": "Fri, 13 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Content provenance and authenticity (C2PA) support",
+    "link": "https://doc.sitecore.com/changelog/content-hub/13112026/content-provenance-and-authenticity-(c2pa)-support",
+    "enclosure": null,
+    "summary": "1. Sitecore has added C2PA functionality for validating the origin and history of digital assets upon upload, allowing users to identify content provenance easily.  ",
+    "impact": "2. This update enhances transparency and trust in the content supply chain by tracking and displaying asset authenticity, which is crucial for maintaining credibility in digital asset management."
+  },
+  {
+    "date": "Fri, 13 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improved error messages for Entity deletion",
+    "link": "https://doc.sitecore.com/changelog/content-hub/13112026/improved-error-messages-for-entity-deletion",
+    "enclosure": null,
+    "summary": "1. Sitecore has enhanced error messages for deleting entity definitions, clarifying which user groups' policies prevent the action.  ",
+    "impact": "2. This improvement simplifies troubleshooting and helps users manage dependencies more effectively."
+  },
+  {
+    "date": "Fri, 13 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Public link expiration time can now be set along with the date",
+    "link": "https://doc.sitecore.com/changelog/content-hub/13112026/public-link-expiration-time-can-now-be-set-along-with-the-date",
+    "enclosure": null,
+    "summary": "1. Sitecore now allows users to set specific expiration times for public links in Content Hub, in addition to dates.  ",
+    "impact": "2. This enhancement provides greater control over content access, enabling more precise management of link availability."
+  },
+  {
+    "date": "Fri, 13 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues for November 13, 2026",
+    "link": "https://doc.sitecore.com/changelog/content-hub/13112026/resolved-issues-for-november-13%2c-2026",
+    "enclosure": null,
+    "summary": "1. Summary: The update addresses several critical issues, including import failures, logging improvements, and errors related to entity management and user group assignments. ",
+    "impact": "2. Why it matters: These fixes enhance the stability and functionality of Sitecore, ensuring smoother operations and better user experience while managing entity definitions and their associated settings."
+  },
+  {
+    "date": "Fri, 13 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New Detect duplicate operation for Selection components",
+    "link": "https://doc.sitecore.com/changelog/content-hub/13112026/new-detect-duplicate-operation-for-selection-components",
+    "enclosure": null,
+    "summary": "1. Sitecore introduces a \"Detect duplicate\" operation for Selection components to enhance asset organization by identifying redundant files on demand.  ",
+    "impact": "2. This feature helps maintain a clutter-free asset library and ensures content consistency, especially useful after updating detection settings."
+  },
+  {
+    "date": "Thu, 12 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Explore AI discoverability with a free Scrunch trial",
+    "link": "https://doc.sitecore.com/changelog/sitecoreai/12112026/explore-ai-discoverability-with-a-free-scrunch-trial",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/e168d96f-5caf-4473-8337-1c1d30a08e19?transform=true",
+    "summary": "1. SitecoreAI now offers eligible organizations a free trial of Scrunch, allowing them to explore AI discoverability features without manual setup.  ",
+    "impact": "2. This is significant because it enables teams to enhance their content's visibility to AI tools and identify optimization opportunities, positioning their brand more competitively online."
+  },
+  {
     "date": "Thu, 12 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Explore AI discoverability with a free Scrunch trial",
@@ -12,10 +84,28 @@
     "date": "Wed, 11 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "New document indexing capabilities for site sources in SitecoreAI",
+    "link": "https://doc.sitecore.com/changelog/sitecoreai/11112026/new-document-indexing-capabilities-for-site-sources-in-sitecoreai",
+    "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/ec289920-60b1-49b6-aa81-dcf5af6bc977?transform=true",
+    "summary": "1. SitecoreAI introduces enhanced document indexing capabilities, allowing site sources to index linked documents from crawled webpages as searchable items. ",
+    "impact": "2. This update improves document discoverability and indexing flexibility, enabling better search functionality and metadata mapping for improved content management."
+  },
+  {
+    "date": "Wed, 11 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New document indexing capabilities for site sources in SitecoreAI",
     "link": "https://developers.sitecore.com/changelog/sitecoreai/11112026/new-document-indexing-capabilities-for-site-sources-in-sitecoreai",
     "enclosure": "https://media.sitecorecloud.io/api/media/v2/delivery/460225bb-ee52-473a-0712-08de2910c970/ec289920-60b1-49b6-aa81-dcf5af6bc977?transform=true",
     "summary": "1. SitecoreAI introduces enhanced document indexing through anchor indexing, allowing linked documents on crawled webpages to be indexed as searchable items with customizable rules.  ",
     "impact": "2. This update improves document discoverability and metadata mapping, making content management more efficient for users."
+  },
+  {
+    "date": "Tue, 10 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New endpoints for managing content item versions with the Content Items API",
+    "link": "https://doc.sitecore.com/changelog/sitecoreai/10112026/new-endpoints-for-managing-content-item-versions-with-the-content-items-api",
+    "enclosure": null,
+    "summary": "1. Sitecore now offers new API endpoints for programmatically managing content item versions, allowing users to create, delete, and list versions.  ",
+    "impact": "2. This functionality enhances content management efficiency by enabling automated workflows and integrations, reducing the need for manual version control.  "
   },
   {
     "date": "Tue, 10 Nov 2026 00:00:00 GMT",
