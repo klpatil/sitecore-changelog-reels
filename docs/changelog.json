@@ -1,5 +1,23 @@
 [
   {
+    "date": "Mon, 16 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New OrderCloud role OrderEditAfterSubmit",
+    "link": "https://doc.sitecore.com/changelog/ordercloud/16112026/new-ordercloud-role-ordereditaftersubmit",
+    "enclosure": null,
+    "summary": "1. Sitecore introduced the new OrderEditAfterSubmit role to restrict order modifications post-submission, requiring buyers to have this role to edit their own orders.  ",
+    "impact": "2. This enhancement improves security by preventing unauthorized changes to submitted orders, thereby safeguarding against potential malicious activities."
+  },
+  {
+    "date": "Mon, 16 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image release 1.12.21",
+    "link": "https://doc.sitecore.com/changelog/sitecoreai/16112026/sitecoreai-base-image-release-1.12.21",
+    "enclosure": null,
+    "summary": "1. The SitecoreAI base image 1.12.21 release improves rendering host performance and addresses several key issues, enhancing overall reliability and security.  ",
+    "impact": "2. These updates ensure smoother editing and publishing experiences, while fixing critical bugs and enhancing system security, making it vital for efficient content management workflows."
+  },
+  {
     "date": "Fri, 13 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Sitecore Developer MCP server released in beta",
