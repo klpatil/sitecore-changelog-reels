@@ -1,5 +1,23 @@
 [
   {
+    "date": "Tue, 17 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Early Access DAM APIs for SitecoreAI DAM and Content Hub",
+    "link": "https://doc.sitecore.com/changelog/sitecoreai/17112026/early-access-dam-apis-for-sitecoreai-dam-and-content-hub",
+    "enclosure": null,
+    "summary": "1. Sitecore has introduced Early Access to the DAM Assets API and DAM Context API for SitecoreAI DAM and Content Hub, allowing developers to search and retrieve digital assets efficiently.  ",
+    "impact": "2. This update enables enhanced asset management capabilities, facilitating better user experiences and insights while still in development, with the potential for further improvements based on user feedback."
+  },
+  {
+    "date": "Tue, 17 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Page builder improvement and resolved issues",
+    "link": "https://doc.sitecore.com/changelog/sitecoreai/17112026/page-builder-improvement-and-resolved-issues",
+    "enclosure": null,
+    "summary": "**Summary:** The Sitecore Page Builder update introduces improved typography options for rich text editing and resolves issues with placeholders and user permissions on content visibility.  ",
+    "impact": "**Why it matters:** These enhancements provide users with greater design flexibility and ensure that content access is securely managed according to user permissions."
+  },
+  {
     "date": "Mon, 16 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "New OrderCloud role OrderEditAfterSubmit",
