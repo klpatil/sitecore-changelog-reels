@@ -1,5 +1,23 @@
 [
   {
+    "date": "Thu, 19 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Meet atoms and themes: A new way for marketers to build and style components",
+    "link": "https://doc.sitecore.com/changelog/sitecoreai/19112026/meet-atoms-and-themes%3a-a-new-way-for-marketers-to-build-and-style-components",
+    "enclosure": null,
+    "summary": "1. Summary: Sitecore introduces \"atoms and themes,\" empowering marketers to create and style components independently, enhancing their ability to design experiences without developer reliance. ",
+    "impact": "2. Why it matters: This update fosters greater autonomy for marketers, streamlining the component creation process while ensuring brand consistency through reusable building blocks and design guidelines."
+  },
+  {
+    "date": "Thu, 19 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "\nSitecoreAI base image release 1.12.21 (hotfix)\n",
+    "link": "https://doc.sitecore.com/changelog/sitecoreai/19112026/%0asitecoreai-base-image-release-1.12.21-(hotfix)%0a",
+    "enclosure": null,
+    "summary": "1. SitecoreAI base image 1.12.21 (hotfix) resolves a type mismatch issue in Edge queries by changing the metadata ItemType field from string to long.  ",
+    "impact": "2. This update enhances compatibility with Elasticsearch, improving data handling and search functionality."
+  },
+  {
     "date": "Tue, 17 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Early Access DAM APIs for SitecoreAI DAM and Content Hub",
