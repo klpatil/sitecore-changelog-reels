@@ -1,5 +1,23 @@
 [
   {
+    "date": "Fri, 20 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Removal of the PipelineArgs serialization feature flag",
+    "link": "https://doc.sitecore.com/changelog/sitecoreai/20112026/removal-of-the-pipelineargs-serialization-feature-flag",
+    "enclosure": null,
+    "summary": "1. Sitecore will remove the PipelineArgs.DisableUnsafeSerialization feature flag on December 10, 2026, finalizing the transition to updated JSON serialization.  ",
+    "impact": "2. This change is crucial as it requires users to ensure compatibility with the new serialization before the deadline, as reverting to the old behavior will no longer be possible."
+  },
+  {
+    "date": "Fri, 20 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Pathway 1.5 release updates",
+    "link": "https://doc.sitecore.com/changelog/sitecoreai/20112026/pathway-1.5-release-updates",
+    "enclosure": null,
+    "summary": "1. The Pathway 1.5 release introduces features like partial site extraction, smarter page discovery, and actionable error guidance to improve migration efficiency and user experience.  ",
+    "impact": "2. These updates enhance control over migrations, reduce configuration errors, and ensure workflow resilience, ultimately leading to a faster and more reliable migration process."
+  },
+  {
     "date": "Thu, 19 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Meet atoms and themes: A new way for marketers to build and style components",
