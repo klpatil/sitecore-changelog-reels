@@ -1,5 +1,14 @@
 [
   {
+    "date": "Mon, 23 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "SitecoreAI base image 1.12.21 hotfix – November 23, 2026",
+    "link": "https://doc.sitecore.com/changelog/sitecoreai/23112026/sitecoreai-base-image-1.12.21-hotfix-%e2%80%93-november-23%2c-2026",
+    "enclosure": null,
+    "summary": "**Summary:** The SitecoreAI base image 1.12.21 hotfix introduces new publishing settings for Experience Edge, allowing users to configure additional publishable and forbidden root paths effectively.  ",
+    "impact": "**Why it matters:** This update enhances flexibility in content management and publishing workflows, enabling better control over which items are included or excluded from publishing, thus improving operational efficiency."
+  },
+  {
     "date": "Fri, 20 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "Removal of the PipelineArgs serialization feature flag",
