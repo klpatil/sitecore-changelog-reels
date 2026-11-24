@@ -83,6 +83,15 @@
   {
     "date": "Fri, 13 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
+    "title": "Content provenance and authenticity (C2PA) support",
+    "link": "https://doc.sitecore.com/changelog/content-hub/13112026/content-provenance-and-authenticity-(c2pa)-support",
+    "enclosure": null,
+    "summary": "1. Sitecore has added C2PA functionality for validating the origin and history of digital assets upon upload, allowing users to identify content provenance easily.  ",
+    "impact": "2. This update enhances transparency and trust in the content supply chain by tracking and displaying asset authenticity, which is crucial for maintaining credibility in digital asset management."
+  },
+  {
+    "date": "Fri, 13 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
     "title": "Sitecore Developer MCP server released in beta",
     "link": "https://doc.sitecore.com/changelog/sitecoreai/13112026/sitecore-developer-mcp-server-released-in-beta",
     "enclosure": null,
@@ -97,15 +106,6 @@
     "enclosure": null,
     "summary": "1. Sitecore introduced a new \"Review details\" button for improved visibility and management in workflows with over five states.  ",
     "impact": "2. This enhancement streamlines the review process by allowing users to preemptively adjust reviewers, ensuring efficient approvals."
-  },
-  {
-    "date": "Fri, 13 Nov 2026 00:00:00 GMT",
-    "product": "SitecoreAI",
-    "title": "Content provenance and authenticity (C2PA) support",
-    "link": "https://doc.sitecore.com/changelog/content-hub/13112026/content-provenance-and-authenticity-(c2pa)-support",
-    "enclosure": null,
-    "summary": "1. Sitecore has added C2PA functionality for validating the origin and history of digital assets upon upload, allowing users to identify content provenance easily.  ",
-    "impact": "2. This update enhances transparency and trust in the content supply chain by tracking and displaying asset authenticity, which is crucial for maintaining credibility in digital asset management."
   },
   {
     "date": "Fri, 13 Nov 2026 00:00:00 GMT",
