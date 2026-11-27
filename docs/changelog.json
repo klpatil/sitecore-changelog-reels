@@ -1,5 +1,50 @@
 [
   {
+    "date": "Fri, 27 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Better control over content drafts and comments",
+    "link": "https://doc.sitecore.com/changelog/content-hub/27112026/better-control-over-content-drafts-and-comments",
+    "enclosure": null,
+    "summary": "1. Sitecore's update adds a ContentDraft setting for better management of content drafts and comments in Content Hub.  ",
+    "impact": "2. This enhancement allows for tailored handling of pending changes and feedback, ensuring important edits are not lost and align with workflow processes."
+  },
+  {
+    "date": "Fri, 27 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "New AI usage notices for EU AI act compliance",
+    "link": "https://doc.sitecore.com/changelog/content-hub/27112026/new-ai-usage-notices-for-eu-ai-act-compliance",
+    "enclosure": null,
+    "summary": "1. Sitecore has introduced AI usage overlays for public links to comply with the EU AI Act, enhancing transparency for AI-generated content in various file formats.  ",
+    "impact": "2. This update simplifies regulatory compliance for users, ensuring adherence to EU standards while keeping content management efficient."
+  },
+  {
+    "date": "Fri, 27 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improved gate operation visibility in the Selection component",
+    "link": "https://doc.sitecore.com/changelog/content-hub/27112026/improved-gate-operation-visibility-in-the-selection-component",
+    "enclosure": null,
+    "summary": "1. The Selection component now displays gate transition actions based on user permissions, enhancing clarity by showing only relevant options.  ",
+    "impact": "2. This update reduces confusion and prevents failed Mass Edit jobs, streamlining workflows for authorized users."
+  },
+  {
+    "date": "Fri, 27 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Improved authentication control with XAuth setting",
+    "link": "https://doc.sitecore.com/changelog/content-hub/27112026/improved-authentication-control-with-xauth-setting",
+    "enclosure": null,
+    "summary": "1. Sitecore has introduced a new configuration option for easily enabling or disabling XAuth through authentication settings.  ",
+    "impact": "2. This enhancement provides organizations with greater flexibility and control over their authentication methods, improving security management."
+  },
+  {
+    "date": "Fri, 27 Nov 2026 00:00:00 GMT",
+    "product": "SitecoreAI",
+    "title": "Resolved issues for November 27, 2026",
+    "link": "https://doc.sitecore.com/changelog/content-hub/27112026/resolved-issues-for-november-27%2c-2026",
+    "enclosure": null,
+    "summary": "**Summary:** Sitecore's update addresses multiple issues, including email notifications for DRM approvals, C2PA file recognition, improved edit performance, and navigation across different languages.  ",
+    "impact": "**Why it matters:** These fixes enhance user experience and functionality, ensuring smoother content management processes and better asset handling within the platform."
+  },
+  {
     "date": "Mon, 23 Nov 2026 00:00:00 GMT",
     "product": "SitecoreAI",
     "title": "SitecoreAI base image 1.12.21 hotfix – November 23, 2026",
